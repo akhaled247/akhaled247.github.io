@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Abdullah Khaled",
   footer: context { [#emph[Abdullah Khaled -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Jan 2026] ],
+  top-note: [ #emph[Last updated in Feb 2026] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
   page-top-margin: 0.7in,
@@ -77,8 +77,8 @@
   entries-highlights-space-between-bullet-and-text: 0.5em,
   date: datetime(
     year: 2026,
-    month: 1,
-    day: 26,
+    month: 2,
+    day: 1,
   ),
 )
 
@@ -92,7 +92,6 @@
   [#link("https://akhaled247.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[akhaled247.github.io]]],
   [#link("https://linkedin.com/in/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[akhaled247]]],
   [#link("https://github.com/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[akhaled247]]],
-  [#link("https://youtube.com/@akhaled.247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("youtube")[akhaled.247]]],
 )
 
 

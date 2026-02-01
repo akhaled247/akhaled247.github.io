@@ -13,8 +13,6 @@ cv:
       username: akhaled247
     - network: GitHub
       username: akhaled247
-    - network: YouTube
-      username: akhaled.247
   custom_connections:
   sections:
     education:
@@ -292,7 +290,7 @@ locale:
   #   - November
   #   - December
 settings:
-  current_date: '2026-01-26'
+  current_date: '2026-02-01'
   render_command:
     design:
     locale:
