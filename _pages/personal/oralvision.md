@@ -37,5 +37,5 @@ Captured images are transmitted wirelessly to the machine-learning interface usi
 In testing, OralVision significantly outperformed existing market solutions. Our model achieved an overall accuracy of 87.15%, with a ROC-AUC score of 0.9417 and an F1 score of 0.8655. By comparison, VELscope, a widely used competing technology, has demonstrated accuracy rates near 53% in experimental trials.
 {% include figure popup=true image_path="/assets/images/personal/oralvision/architecture.png" alt="Architecture Overview of OralVision" caption="Architecture Overview of OralVision." width="100%" %}
 {% include videotextbreak %}
-[Website](https://akhaled247.github.io/oral-vision/){: .btn .btn--info .btn--large}
+[Website](https://oral-vision.github.io/){: .btn .btn--info .btn--large}
 [Conrad Challenge Video](https://www.youtube.com/watch?v=MfCu4gWxRUY){: .btn .btn--danger .btn--large}
