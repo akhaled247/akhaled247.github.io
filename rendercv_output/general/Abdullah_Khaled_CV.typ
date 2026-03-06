@@ -30,7 +30,7 @@
   typography-font-family-headline: "Raleway",
   typography-font-family-connections: "Raleway",
   typography-font-family-section-titles: "Raleway",
-  typography-font-size-body: 9.25pt,
+  typography-font-size-body: 9pt,
   typography-font-size-name: 25pt,
   typography-font-size-headline: 9pt,
   typography-font-size-connections: 9pt,
@@ -109,33 +109,16 @@
   main-column-second-row: [
     - Unweighted GPA: 4.0
 
-    - 18 AP courses by graduation (completed and planned)
+    - Rigorous course load including 12 APs before senior year
 
   ],
 )
 
-#education-entry(
-  [
-    #strong[Frisco ISD Career and Technical Education Center], Project Lead The Way  -- Frisco, TX
-
-  ],
-  [
-    Aug 2023 – May 2027
-
-  ],
-  main-column-second-row: [
-    - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
-
-    - PLTW Engineering EPortfolio: akhaled247.github.io\/pltw-engineering
-
-  ],
-)
-
-== Technical Experience
+== Extracurricular Activities
 
 #regular-entry(
   [
-    #strong[Programming Lead, Chief Technical Advisor], ITKAN Robotics (FRC 9128) -- Frisco, TX
+    #strong[Chief Technical Advisor], ITKAN Robotics -- Frisco, TX
 
   ],
   [
@@ -143,40 +126,15 @@
 
   ],
   main-column-second-row: [
-    - Developed components of competition robot software stack integrating localization, path planning, telemetry, and mechanism control in Java
+    - Led team to playoffs at FIRST® In Texas District Championship (89 teams) using AprilTag pose estimation
 
-    - Built publish–subscribe telemetry and motor logging framework for real-time robot diagnostics and performance analysis
+    - Trained students in Java robotics programming concepts ranging from basic motor control to advanced sensor 
 
-    - LLed development of robot state estimation and localization system using sensor fusion of AprilTag vision and swerve-drive odometry, achieving \<2 in positional error
+     integration
 
-    - Implemented finite-state machine control architecture with Dijkstra-based path planning using time-weighted graph
+    - Designed custom Java training website to accompany training curriculum: #link("https://mantik.netlify.app/frc")[Mantik's FRC Curriculum]
 
-    - Used WPILib Java mechanism simulation to optimize telescoping arm geometry and motion constraints
-
-    - Developed self-paced robotics programming curriculum and training website used by 15+ FRC and FTC students (mantik.netlify.app)
-
-    - Advanced team to Texas State Championship playoffs (89 teams)
-
-    - Robot codebase and documentation: akhaled247.github.io\/first\/reefscape
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Programming Mentor], ITKAN Robotics of ICF (FTC 26357, 28931) -- Frisco, TX
-
-  ],
-  [
-    Sept 2024 – Feb 2026
-
-  ],
-  main-column-second-row: [
-    - Implemented Kalman-filtered state estimation combining AprilTag vision and wheel odometry for real-time robot localization and automated turret targeting
-
-    - Mentored all-rookie FTC team through full engineering design cycle from prototyping to competition
-
-    - Mentor refugee students in FLL workshops and lead weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (akhaled247.github.io\/personal\/oarobotics)
+    - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made curriculum: #link("https://akhaled247.github.io/personal/oarobotics/")[OARobotics]
 
   ],
 )
@@ -191,9 +149,9 @@
 
   ],
   main-column-second-row: [
-    - Co-founded Wakeland robotics club, growing membership from 0 to 50+ students in the first year
+    - Founded inaugural Robotics Club scaling from 0 to 50+ members in first year
 
-    - Secured funding and constructed competition-ready robot in under 2 weeks
+    - Secured funding and constructed competition-ready robot in under 2 weeks, qualified for FIRST in Texas FTC UIL State Championship
 
     - Teach CAD software (Onshape) and Java programming through monthly technical workshops
 
@@ -216,66 +174,29 @@
 
     - Analyze student performance data to identify learning gaps and develop personalized plans
 
-    - Evaluate reading material difficulty and adjust instruction to match target comprehension levels
-
-  ],
-)
-
-== Projects
-
-#regular-entry(
-  [
-    #strong[OralVision] -- #strong[The Conrad Challenge]
-
-  ],
-  [
-    Oct 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
-
-    - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
+    - Utilize ChatGPT for reading material level assessment and adjustment
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[WatchFall] -- #strong[Samsung Solve for Tomorrow]
+    #strong[Lead Math and English Instructor], Ma'ruf Project Taleem -- Dallas, TX
 
   ],
   [
-    Sept 2025 – present
+    Sept 2023 – present
 
   ],
   main-column-second-row: [
-    - Designed fall-detection device using Raspberry Pi Pico with on-device TensorFlow Lite inference
+    - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
 
-    - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
+    - Provide mentorship in academic skills, time management, and social integration for students transitioning to American schools
 
-    - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
+    - 300+ volunteer hours to date
 
   ],
 )
-
-== Skills
-
-#strong[Programming:] Python, Java, HTML, CSS, JavaScript
-
-#strong[CAD\/CAM:] Fusion 360, Onshape
-
-#strong[Web Development:] Jekyll
-
-#strong[Computer Vision:] OpenCV, SolvePnP, TensorFlow
-
-#strong[Electronics:] NI Multisim, KiCAD, EasyEDA, Soldering
-
-#strong[Data & Statistical Analysis:] R, Google Sheets
-
-#strong[Productivity Tools:] Google Workspace, Microsoft Office
-
-== Leadership & Activities
 
 #regular-entry(
   [
@@ -313,24 +234,43 @@
   ],
 )
 
+== Independent Projects
+
 #regular-entry(
   [
-    #strong[Lead Math and English Instructor], Ma'ruf Project Taleem -- Dallas, TX
+    #strong[Oral Disease Detector] -- #strong[The Conrad Challenge (Innovator Award, Alternate Finalist)]
 
   ],
   [
-    Sept 2023 – present
+    Oct 2025 – present
 
   ],
   main-column-second-row: [
-    - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
+    - Designed novel oral disease detector using HIPAA-compliant federated learning architecture with TensorFlow Federeated for distributed, low-cost model training without exposing patient data
 
-    - Provide mentorship in academic skills, time management, and social integration for students transitioning to American schools
+    - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
 
   ],
 )
 
-== Honors & Awards
+#regular-entry(
+  [
+    #strong[Senior Fall Monitor Device] -- #strong[Samsung Solve for Tomorrow]
+
+  ],
+  [
+    Sept 2025 – present
+
+  ],
+  main-column-second-row: [
+    - Developed lightweight TensorFlow Lite ML model for real-time motion tracking and fall detection on mobile devices with buzzer alert system
+
+    - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
+
+  ],
+)
+
+== Selected Honors
 
 - (2026) OralVision: Conrad Challenge Innovator Award & Alternate Finalist, Diamond Challenge Semifinalist
 
@@ -341,3 +281,15 @@
 - (2025) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)
 
 - (2025) Collegeboard: AP Scholar with Distinction, National Recognition Program: School Recognition Award
+
+== Skills
+
+#strong[CAD\/CAM:] Fusion 360, Onshape
+
+#strong[Web Development:] Python, Java, HTML, CSS, Javascript, Jekyll
+
+#strong[Vision Processing:] Java, SolvePNP, Python, TensorFlow
+
+#strong[Electrical:] NI Multisim, KiCAD, EasyEDA, Soldering
+
+#strong[Statistical Analysis:] R, Google Sheets, MS Office

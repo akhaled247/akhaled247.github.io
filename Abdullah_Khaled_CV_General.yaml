@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
-# python -m rendercv render --watch "Abdullah_Khaled_CV_Engineering.yaml"
+# python -m rendercv render --watch "Abdullah_Khaled_CV_General.yaml"
 cv:
-  name: Abdullah Khaled 
+  name: Abdullah Khaled
   headline:
   location: Frisco, TX
   email: abdullahkhaled0224@gmail.com
@@ -25,43 +25,29 @@ cv:
         location: Frisco, TX
         highlights:
           - 'Unweighted GPA: 4.0'
-          - 18 AP courses by graduation (completed and planned)
-      - institution: Frisco ISD Career and Technical Education Center
-        area: ''
-        degree: Project Lead The Way
-        date:
-        start_date: 2023-08
-        end_date: 2027-05
-        location: Frisco, TX
-        highlights:
-          - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
-          - 'PLTW Engineering EPortfolio: akhaled247.github.io/pltw-engineering'
-    Technical Experience:
-      - company: ITKAN Robotics (FRC 9128)
-        position: Programming Lead, Chief Technical Advisor
+          - Rigorous course load including 12 APs before senior year
+      # - institution: Frisco ISD Career and Technical Education Center
+      #   area: ''
+      #   degree: Project Lead The Way
+      #   date:
+      #   start_date: 2023-08
+      #   end_date: 2027-05
+      #   location: Frisco, TX
+      #   highlights:
+      #     - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
+      #     - '[PLTW Engineering EPortfolio](https://akhaled247.github.io/pltw-engineering/)'
+    Extracurricular Activities:
+      - company: ITKAN Robotics
+        position: Chief Technical Advisor
         date:
         start_date: 2024-06
         end_date: present
         location: Frisco, TX
         highlights:
-          - Developed components of competition robot software stack integrating localization, path planning, telemetry, and mechanism control in Java
-          - Built publish–subscribe telemetry and motor logging framework for real-time robot diagnostics and performance analysis 
-          - LLed development of robot state estimation and localization system using sensor fusion of AprilTag vision and swerve-drive odometry, achieving <2 in positional error
-          - Implemented finite-state machine control architecture with Dijkstra-based path planning using time-weighted graph
-          - Used WPILib Java mechanism simulation to optimize telescoping arm geometry and motion constraints
-          - Developed self-paced robotics programming curriculum and training website used by 15+ FRC and FTC students (mantik.netlify.app)
-          - Advanced team to Texas State Championship playoffs (89 teams)
-          - "Robot codebase and documentation: akhaled247.github.io/first/reefscape"
-      - company: ITKAN Robotics of ICF (FTC 26357, 28931)
-        position: Programming Mentor
-        date:
-        start_date: 2024-09
-        end_date: 2026-02
-        location: Frisco, TX
-        highlights:
-          - Implemented Kalman-filtered state estimation combining AprilTag vision and wheel odometry for real-time robot localization and automated turret targeting
-          - Mentored all-rookie FTC team through full engineering design cycle from prototyping to competition
-          - Mentor refugee students in FLL workshops and lead weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (akhaled247.github.io/personal/oarobotics)
+          - Led team to playoffs at FIRST® In Texas District Championship (89 teams) using AprilTag pose estimation
+          - "Trained students in Java robotics programming concepts ranging from basic motor control to advanced sensor \n integration"
+          - "Designed custom Java training website to accompany training curriculum: [Mantik's FRC Curriculum](https://mantik.netlify.app/frc)"
+          - "Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made curriculum: [OARobotics](https://akhaled247.github.io/personal/oarobotics/)"
       - company: "Wakeland High School Wolverine Robotics (FTC 33791)"
         position: Co-Founder, President
         date:
@@ -69,8 +55,8 @@ cv:
         end_date: present
         location: Frisco, TX
         highlights:
-          - Co-founded Wakeland robotics club, growing membership from 0 to 50+ students in the first year
-          - Secured funding and constructed competition-ready robot in under 2 weeks
+          - Founded inaugural Robotics Club scaling from 0 to 50+ members in first year
+          - Secured funding and constructed competition-ready robot in under 2 weeks, qualified for FIRST in Texas FTC UIL State Championship
           - Teach CAD software (Onshape) and Java programming through monthly technical workshops
           - Manage club operations including mission development, curriculum design, and budget management
       - company: Gideon Math and Reading Center
@@ -82,41 +68,17 @@ cv:
         highlights:
           - Instruct K-11th grade students in mathematics (Algebra, Geometry), reading, and grammar
           - Analyze student performance data to identify learning gaps and develop personalized plans
-          - Evaluate reading material difficulty and adjust instruction to match target comprehension levels
-    Projects:
-      - name: OralVision
+          - Utilize ChatGPT for reading material level assessment and adjustment
+      - company: Ma'ruf Project Taleem
+        position: Lead Math and English Instructor
         date:
-        start_date: 2025-10
+        start_date: 2023-09
         end_date: present
-        location: The Conrad Challenge
+        location: Dallas, TX
         highlights:
-          - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
-          - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
-      - name: "WatchFall"
-        date:
-        start_date: 2025-09
-        end_date: present
-        location: Samsung Solve for Tomorrow
-        highlights:
-          - Designed fall-detection device using Raspberry Pi Pico with on-device TensorFlow Lite inference
-          - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
-          - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
-    Skills:
-      - label: Programming
-        details: Python, Java, HTML, CSS, JavaScript
-      - label: CAD/CAM
-        details: Fusion 360, Onshape
-      - label: Web Development
-        details: Jekyll
-      - label: Computer Vision
-        details: OpenCV, SolvePnP, TensorFlow
-      - label: Electronics
-        details: NI Multisim, KiCAD, EasyEDA, Soldering
-      - label: Data & Statistical Analysis
-        details: R, Google Sheets
-      - label: Productivity Tools
-        details: Google Workspace, Microsoft Office
-    Leadership & Activities:
+          - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
+          - Provide mentorship in academic skills, time management, and social integration for students transitioning to American schools
+          - 300+ volunteer hours to date
       - company: Math National Honor Society
         position: Vice President
         date:
@@ -136,21 +98,41 @@ cv:
         highlights:
           - Co-founded MSA as Secretary, establishing organizational structure and creating digital promotional media
           - Negotiated with school administration to establish dedicated prayer room, coordinating facility setup and policies
-      - company: Ma'ruf Project Taleem
-        position: Lead Math and English Instructor
+    Independent Projects:
+      - name: Oral Disease Detector
         date:
-        start_date: 2023-09
+        start_date: 2025-10
         end_date: present
-        location: Dallas, TX
+        location: The Conrad Challenge (Innovator Award, Alternate Finalist)
         highlights:
-          - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
-          - Provide mentorship in academic skills, time management, and social integration for students transitioning to American schools
-    Honors & Awards:
+          # - Designed HIPAA-compliant federated learning architecture using TensorFlow Federated for distributed model training without exposing patient data
+          - Designed novel oral disease detector using HIPAA-compliant federated learning architecture with TensorFlow Federeated for distributed, low-cost model training without exposing patient data
+          - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
+      - name: "Senior Fall Monitor Device"
+        date:
+        start_date: 2025-09
+        end_date: present
+        location: Samsung Solve for Tomorrow
+        highlights:
+          - Developed lightweight TensorFlow Lite ML model for real-time motion tracking and fall detection on mobile devices with buzzer alert system
+          - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
+    selected_honors:
       - bullet: "(2026) OralVision: Conrad Challenge Innovator Award & Alternate Finalist, Diamond Challenge Semifinalist"
       - bullet: "(2026) FTC 33791: Event Winner, Control Award Winner (FiT-North Dallas Semi-Regional Championship, 25 teams), Control Award Winner (FiT-North U-League Tournament)"
       - bullet: "(2025) FRC 9128: FIRST® Leadership Award Semifinalist, Event Winner (FIRST® in Texas Victoria, 25 teams); Autonomous Award (FiT Plano, 31 teams); Creativity Award (FiT Amarillo, 36 teams)"
       - bullet: "(2025) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)"
       - bullet: "(2025) Collegeboard: AP Scholar with Distinction, National Recognition Program: School Recognition Award" 
+    skills:
+      - label: CAD/CAM
+        details: Fusion 360, Onshape
+      - label: Web Development
+        details: Python, Java, HTML, CSS, Javascript, Jekyll
+      - label: Vision Processing
+        details: Java, SolvePNP, Python, TensorFlow
+      - label: Electrical
+        details: NI Multisim, KiCAD, EasyEDA, Soldering
+      - label: Statistical Analysis
+        details: R, Google Sheets, MS Office
 
 design:
   theme: engineeringclassic
@@ -180,7 +162,7 @@ design:
   #     connections: XCharter
   #     section_titles: XCharter
     font_size:
-      body: 9.25pt
+      body: 9pt
       name: 25pt
       headline: 9pt
       connections: 9pt
@@ -306,11 +288,11 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.md
-    html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
-    png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
+    typst_path: rendercv_output\general\NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output\general\NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output\general\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\general\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\general\NAME_IN_SNAKE_CASE_CV.png
     dont_generate_markdown: true
     dont_generate_html: false
     dont_generate_typst: false
