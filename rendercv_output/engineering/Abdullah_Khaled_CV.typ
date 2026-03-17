@@ -1,12 +1,14 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.1.0": *
+#import "@preview/rendercv:0.2.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Abdullah Khaled",
+  title: "Abdullah Khaled - CV",
   footer: context { [#emph[Abdullah Khaled -- #str(here().page())\/#str(counter(page).final().first())]] },
   top-note: [ #emph[Last updated in Mar 2026] ],
   locale-catalog-language: "en",
+  text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 0.7in,
   page-bottom-margin: 0.7in,
@@ -67,6 +69,7 @@
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
+  entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.12cm,
   entries-highlights-bullet:  "•" ,
@@ -124,9 +127,11 @@
 
   ],
   main-column-second-row: [
-    - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
+    - Frisco ISD Career and Technical Education Center Project Lead the Way (PLTW) Nationally Distinguished Engineering Program
 
-    - PLTW Engineering EPortfolio: akhaled247.github.io\/pltw-engineering
+    - Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)
+
+    - Engineering Portfolio: akhaled247.github.io\/pltw-engineering
 
   ],
 )
@@ -147,13 +152,13 @@
 
     - Built publish–subscribe telemetry and motor logging framework for real-time robot diagnostics and performance analysis
 
-    - LLed development of robot state estimation and localization system using sensor fusion of AprilTag vision and swerve-drive odometry, achieving \<2 in positional error
+    - Led development of robot state estimation and localization system using sensor fusion of AprilTag vision and swerve-drive odometry, achieving \<2 in positional error
 
     - Implemented finite-state machine control architecture with Dijkstra-based path planning using time-weighted graph
 
     - Used WPILib Java mechanism simulation to optimize telescoping arm geometry and motion constraints
 
-    - Developed self-paced robotics programming curriculum and training website used by 15+ FRC and FTC students (mantik.netlify.app)
+    - Developed self-paced robotics programming curriculum and training website used by 20+ FRC and FTC students and reaching 1000+ impressions worldwide (mantik.netlify.app)
 
     - Advanced team to Texas State Championship playoffs (89 teams)
 
@@ -237,6 +242,10 @@
 
     - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
 
+    - Conrad Challenge Innovator Award and Alternate Finalist; Diamond Challenge Semi-Finalist
+
+    - Patent application in progress with the United States Patent and Trademark Office (USPTO)
+
   ],
 )
 
@@ -261,19 +270,13 @@
 
 == Skills
 
-#strong[Programming:] Python, Java, HTML, CSS, JavaScript
+#strong[Software & Data:] Python, Java, JavaScript, R, Google Sheets
 
-#strong[CAD\/CAM:] Fusion 360, Onshape
+#strong[Robotics, ML & Vision:] TensorFlow, TensorFlow Federated, OpenCV, SolvePnP, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory, Federated Learning
 
-#strong[Web Development:] Jekyll
+#strong[CAD, Electronics & Prototyping:] Fusion 360, Onshape, NI Multisim, KiCAD, EasyEDA, Soldering
 
-#strong[Computer Vision:] OpenCV, SolvePnP, TensorFlow
-
-#strong[Electronics:] NI Multisim, KiCAD, EasyEDA, Soldering
-
-#strong[Data & Statistical Analysis:] R, Google Sheets
-
-#strong[Productivity Tools:] Google Workspace, Microsoft Office
+#strong[Web & Productivity:] HTML, CSS, Jekyll, Google Workspace, Microsoft Office
 
 == Leadership & Activities
 
@@ -291,8 +294,6 @@
 
     - Designed Math Lab Program website using Google Sites and coordinated peer tutoring, attaining over 20\% member participation
 
-    - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers
-
   ],
 )
 
@@ -308,8 +309,6 @@
   main-column-second-row: [
     - Co-founded MSA as Secretary, establishing organizational structure and creating digital promotional media
 
-    - Negotiated with school administration to establish dedicated prayer room, coordinating facility setup and policies
-
   ],
 )
 
@@ -324,8 +323,6 @@
   ],
   main-column-second-row: [
     - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
-
-    - Provide mentorship in academic skills, time management, and social integration for students transitioning to American schools
 
   ],
 )

@@ -1,5 +1,5 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
-# python -m rendercv render --watch "Abdullah_Khaled_CV.yaml"
+# python -m rendercv render --watch "Abdullah_Khaled_CV_Extended.yaml"
 cv:
   name: Abdullah Khaled 
   headline:
@@ -34,22 +34,29 @@ cv:
         end_date: 2027-05
         location: Frisco, TX
         highlights:
-          - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
-          - 'PLTW Engineering EPortfolio: akhaled247.github.io/pltw-engineering'
+          - Frisco ISD Career and Technical Education Center Project Lead the Way (PLTW) Nationally Distinguished Engineering Program
+          - 'Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)'
+          - 'Engineering Portfolio: akhaled247.github.io/pltw-engineering'
     Technical Experience:
       - company: ITKAN Robotics (FRC 9128)
-        position: Programming Lead, Chief Technical Advisor
+        position: Chief Technical Advisor
         date:
-        start_date: 2024-06
+        start_date: 2025-08
         end_date: present
-        location: Frisco, TX
         highlights:
           - Developed components of competition robot software stack integrating localization, path planning, telemetry, and mechanism control in Java
           - Built publish–subscribe telemetry and motor logging framework for real-time robot diagnostics and performance analysis 
           - Led development of robot state estimation and localization system using sensor fusion of AprilTag vision and swerve-drive odometry, achieving <2 in positional error
           - Implemented finite-state machine control architecture with Dijkstra-based path planning using time-weighted graph
           - Used WPILib Java mechanism simulation to optimize telescoping arm geometry and motion constraints
-          - Developed self-paced robotics programming curriculum and training website used by 15+ FRC and FTC students (mantik.netlify.app)
+      - company: ITKAN Robotics (FRC 9128)
+        position: Software Lead
+        date:
+        start_date: 2024-12
+        end_date: 2025-07
+        highlights:
+          - Provided technical leadership on organization of software projects and mentored new programming team members
+          - Developed self-paced robotics programming curriculum and training website used by 20+ FRC and FTC students and reaching 1000+ impressions worldwide (mantik.netlify.app)
           - Advanced team to Texas State Championship playoffs (89 teams)
           - "Robot codebase and documentation: akhaled247.github.io/first/reefscape"
       - company: ITKAN Robotics of ICF (FTC 26357, 28931)
@@ -57,7 +64,6 @@ cv:
         date:
         start_date: 2024-09
         end_date: 2026-02
-        location: Frisco, TX
         highlights:
           - Implemented Kalman-filtered state estimation combining AprilTag vision and wheel odometry for real-time robot localization and automated turret targeting
           - Mentored all-rookie FTC team through full engineering design cycle from prototyping to competition
@@ -67,7 +73,6 @@ cv:
         date:
         start_date: 2024-08
         end_date: present
-        location: Frisco, TX
         highlights:
           - Co-founded Wakeland robotics club, growing membership from 0 to 50+ students in the first year
           - Secured funding and constructed competition-ready robot in under 2 weeks
@@ -78,11 +83,19 @@ cv:
         date:
         start_date: 2024-06
         end_date: present
-        location: Frisco, TX
         highlights:
           - Instruct K-11th grade students in mathematics (Algebra, Geometry), reading, and grammar
           - Analyze student performance data to identify learning gaps and develop personalized plans
           - Evaluate reading material difficulty and adjust instruction to match target comprehension levels
+      - company: Gideon Math and Reading Center
+        position: Math and Reading Teaching Assistant
+        date:
+        start_date: 2022-01
+        end_date: 2024-05
+        highlights:
+          - Graded students’ work from kindergarten to 11th grade, including Algebra and Geometry
+          - Aided students in completing assignments appropriate to their age and skill level
+          - Increased grading efficiency by approximately 50%
     Projects:
       - name: OralVision
         date:
@@ -92,6 +105,8 @@ cv:
         highlights:
           - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
           - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
+          - Conrad Challenge Innovator Award and Alternate Finalist; Diamond Challenge Semi-Finalist
+          - Patent application in progress with the United States Patent and Trademark Office (USPTO)
       - name: "WatchFall"
         date:
         start_date: 2025-09
@@ -102,40 +117,44 @@ cv:
           - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
           - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
     Skills:
-      - label: Programming
-        details: Python, Java, HTML, CSS, JavaScript
-      - label: CAD/CAM
-        details: Fusion 360, Onshape
-      - label: Web Development
-        details: Jekyll
-      - label: Computer Vision
-        details: OpenCV, SolvePnP, TensorFlow
-      - label: Electronics
-        details: NI Multisim, KiCAD, EasyEDA, Soldering
-      - label: Data & Statistical Analysis
-        details: R, Google Sheets
-      - label: Productivity Tools
-        details: Google Workspace, Microsoft Office
+      - label: Software & Data
+        details: Python, Java, JavaScript, R, Google Sheets
+      - label: Robotics, ML & Vision
+        details: TensorFlow, TensorFlow Federated, OpenCV, SolvePnP, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory, Federated Learning
+      - label: CAD, Electronics & Prototyping
+        details: Fusion 360, Onshape, NI Multisim, KiCAD, EasyEDA, Soldering
+      - label: Web & Productivity
+        details: HTML, CSS, Jekyll, Google Workspace, Microsoft Office
     Leadership & Activities:
-      - company: Math National Honor Society
+      - company: Mu Alpha Theta/Math National Honor Society
         position: Vice President
         date:
-        start_date: 2023-09
+        start_date: 2024-08
         end_date: present
-        location: Wakeland High School, Frisco, TX
+        # location: Wakeland High School, Frisco, TX
         highlights:
-          - Led organization as Vice President (2024-25) and Treasurer (2023-24), managing budget for 100+ members
-          - Designed Math Lab Program website using Google Sites and coordinated peer tutoring, attaining over 20% member participation
-          - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers
-      - company: Muslim Student Association
-        position: Secretary, Co-Founder
+          - Lead organization as Vice President, managing budget for 100+ members
+          - Expanded Math Lab Program and coordinated peer tutoring, attaining over 20% member participation
+          - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers to promote STEM
+      - company: Mu Alpha Theta/Math National Honor Society
+        position: Treasurer
+        date:
+        start_date: 2023-08
+        end_date: 2024-07
+        # location: Wakeland High School, Frisco, TX
+        highlights:
+          - Managed organization budget for 100+ members
+          - Designed and implemented Math Lab Program coordinating student-led tutoring in Algebra I courses with teachers
+      - company: Muslim Student Association (MSA)
+        position: Co-Founder and President
         date:
         start_date: 2024-09
         end_date: present
         location: Wakeland High School, Frisco, TX
         highlights:
-          - Co-founded MSA as Secretary, establishing organizational structure and creating digital promotional media
-          - Negotiated with school administration to establish dedicated prayer room, coordinating facility setup and policies
+          - Developed mission statement, recruited teacher sponsor and members, and presented activities to school administration
+          - Negotiated with school administration to establish a dedicated prayer room, coordinating facility setup and policies
+          - Created media for promoting the club and prayer room, including social media posts
       - company: Ma'ruf Project Taleem
         position: Lead Math and English Instructor
         date:
@@ -145,6 +164,33 @@ cv:
         highlights:
           - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
           - Provide mentorship in academic skills, time management, and social integration for students transitioning to American schools
+      - company: Islamic Center of Frisco (ICF)
+        position: Teaching Assistant
+        date:
+        start_date: 2023-09
+        end_date: 2024-05
+        location: Frisco, TX
+        highlights:
+          - Aided elementary students in religious studies and helped keep them on task and engaged
+          - Assisted primary instructor with curriculum implementation
+      - company: Frisco Family Services
+        position: Volunteer
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Sorted and shelved donations for Frisco Family Market supporting underserved local families with financial, medical, and physical needs
+          - Sorted and stocked the Food Pantry serving underserved local families
+      - company: Wolverines Tennis Team
+        position: Junior Varsity (JV) Player
+        date:
+        start_date: 2023-08
+        end_date: 2024-08
+        location: Wakeland High School, Frisco, TX
+        highlights:
+          - Participated in singles and doubles tournaments throughout the academic year
+          - Awarded 2024 Sportsmanship Award
     Honors & Awards:
       - bullet: "(2026) OralVision: Conrad Challenge Innovator Award & Alternate Finalist, Diamond Challenge Semifinalist"
       - bullet: "(2026) FTC 33791: Event Winner, Control Award Winner (FiT-North Dallas Semi-Regional Championship, 25 teams), Control Award Winner (FiT-North U-League Tournament)"
@@ -254,12 +300,12 @@ design:
   #       SUMMARY
   #       HIGHLIGHTS
   #     date_and_location_column: DATE
-  #   experience_entry:
-  #     main_column: |-
-  #       **POSITION**, COMPANY -- LOCATION
-  #       SUMMARY
-  #       HIGHLIGHTS
-  #     date_and_location_column: DATE
+    experience_entry:
+      main_column: |-
+        **POSITION**, COMPANY -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: DATE
   #   publication_entry:
   #     main_column: |-
   #       **TITLE**
@@ -306,11 +352,11 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.md
-    html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
-    png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
+    typst_path: rendercv_output\extended\NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output\extended\NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output\extended\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\extended\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\extended\NAME_IN_SNAKE_CASE_CV.png
     dont_generate_markdown: true
     dont_generate_html: false
     dont_generate_typst: false

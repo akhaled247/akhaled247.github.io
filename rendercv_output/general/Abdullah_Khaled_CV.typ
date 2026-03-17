@@ -1,12 +1,14 @@
 // Import the rendercv function and all the refactored components
-#import "@preview/rendercv:0.1.0": *
+#import "@preview/rendercv:0.2.0": *
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
   name: "Abdullah Khaled",
+  title: "Abdullah Khaled - CV",
   footer: context { [#emph[Abdullah Khaled -- #str(here().page())\/#str(counter(page).final().first())]] },
   top-note: [ #emph[Last updated in Mar 2026] ],
   locale-catalog-language: "en",
+  text-direction: ltr,
   page-size: "us-letter",
   page-top-margin: 0.7in,
   page-bottom-margin: 0.7in,
@@ -67,6 +69,7 @@
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
+  entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.12cm,
   entries-highlights-bullet:  "•" ,
@@ -109,7 +112,26 @@
   main-column-second-row: [
     - Unweighted GPA: 4.0
 
-    - Rigorous course load including 12 APs before senior year
+    - 18 AP courses by graduation (completed and planned)
+
+  ],
+)
+
+#education-entry(
+  [
+    #strong[Frisco ISD Career and Technical Education Center], Project Lead The Way  -- Frisco, TX
+
+  ],
+  [
+    Aug 2023 – May 2027
+
+  ],
+  main-column-second-row: [
+    - Frisco ISD Career and Technical Education Center Project Lead the Way (PLTW) Nationally Distinguished Engineering Program
+
+    - Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)
+
+    - #link("https://akhaled247.github.io/pltw-engineering/")[Engineering Portfolio]
 
   ],
 )
@@ -126,15 +148,13 @@
 
   ],
   main-column-second-row: [
-    - Led team to playoffs at FIRST® In Texas District Championship (89 teams) using AprilTag pose estimation
+    - Mentored FRC and FTC students in Java robotics programming concepts from basic motor control to advanced sensor integration
 
-    - Trained students in Java robotics programming concepts ranging from basic motor control to advanced sensor 
+    - Led team to Texas District Championship playoffs (89 teams) while guiding strategy and robot software improvements
 
-     integration
+    - Developed self-paced robotics programming curriculum and training website used by 20+ FRC and FTC students: #link("https://mantik.netlify.app/frc")[Mantik's FRC Curriculum]
 
-    - Designed custom Java training website to accompany training curriculum: #link("https://mantik.netlify.app/frc")[Mantik's FRC Curriculum]
-
-    - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made curriculum: #link("https://akhaled247.github.io/personal/oarobotics/")[OARobotics]
+    - Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-developed OARobotics curriculum: #link("https://akhaled247.github.io/personal/oarobotics/")[OARobotics]
 
   ],
 )
@@ -149,9 +169,9 @@
 
   ],
   main-column-second-row: [
-    - Founded inaugural Robotics Club scaling from 0 to 50+ members in first year
+    - Founded inaugural Robotics Club, growing membership from 0 to 50+ students in the first year
 
-    - Secured funding and constructed competition-ready robot in under 2 weeks, qualified for FIRST in Texas FTC UIL State Championship
+    - Secured funding and constructed competition-ready robot in under 2 weeks, advancing to FIRST in Texas FTC UIL State Championship
 
     - Teach CAD software (Onshape) and Java programming through monthly technical workshops
 
@@ -174,7 +194,7 @@
 
     - Analyze student performance data to identify learning gaps and develop personalized plans
 
-    - Utilize ChatGPT for reading material level assessment and adjustment
+    - Evaluate reading material difficulty and adjust instruction to match target comprehension levels
 
   ],
 )
@@ -204,15 +224,15 @@
 
   ],
   [
-    Sept 2023 – present
+    Aug 2024 – present
 
   ],
   main-column-second-row: [
-    - Led organization as Vice President (2024-25) and Treasurer (2023-24), managing budget for 100+ members
+    - Lead organization as Vice President, managing budget for 100+ members
 
-    - Designed Math Lab Program website using Google Sites and coordinated peer tutoring, attaining over 20\% member participation
+    - Expanded Math Lab Program and coordinated peer tutoring, attaining over 20\% member participation
 
-    - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers
+    - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers to promote STEM
 
   ],
 )
@@ -238,7 +258,7 @@
 
 #regular-entry(
   [
-    #strong[Oral Disease Detector] -- #strong[The Conrad Challenge (Innovator Award, Alternate Finalist)]
+    #strong[Oral Disease Detector] -- #strong[The Conrad Challenge]
 
   ],
   [
@@ -246,9 +266,11 @@
 
   ],
   main-column-second-row: [
-    - Designed novel oral disease detector using HIPAA-compliant federated learning architecture with TensorFlow Federeated for distributed, low-cost model training without exposing patient data
+    - Designed novel oral disease detector to enable low-cost, privacy-preserving screening using HIPAA-compliant federated learning
 
     - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
+
+    - Earned Conrad Challenge Innovator Award and Alternate Finalist recognition, plus Diamond Challenge Semifinalist
 
   ],
 )
@@ -263,7 +285,7 @@
 
   ],
   main-column-second-row: [
-    - Developed lightweight TensorFlow Lite ML model for real-time motion tracking and fall detection on mobile devices with buzzer alert system
+    - Developed lightweight ML-based fall monitoring device to support senior safety with real-time alerts
 
     - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
 
@@ -284,12 +306,10 @@
 
 == Skills
 
-#strong[CAD\/CAM:] Fusion 360, Onshape
+#strong[Software & Data:] Python, Java, JavaScript, R, Google Sheets
 
-#strong[Web Development:] Python, Java, HTML, CSS, Javascript, Jekyll
+#strong[Robotics, ML & Vision:] TensorFlow, TensorFlow Federated, OpenCV, SolvePnP, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory, Federated Learning
 
-#strong[Vision Processing:] Java, SolvePNP, Python, TensorFlow
+#strong[CAD, Electronics & Prototyping:] Fusion 360, Onshape, NI Multisim, KiCAD, EasyEDA, Soldering
 
-#strong[Electrical:] NI Multisim, KiCAD, EasyEDA, Soldering
-
-#strong[Statistical Analysis:] R, Google Sheets, MS Office
+#strong[Web & Productivity:] HTML, CSS, Jekyll, Google Workspace, Microsoft Office

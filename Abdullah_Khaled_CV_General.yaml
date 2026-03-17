@@ -25,17 +25,18 @@ cv:
         location: Frisco, TX
         highlights:
           - 'Unweighted GPA: 4.0'
-          - Rigorous course load including 12 APs before senior year
-      # - institution: Frisco ISD Career and Technical Education Center
-      #   area: ''
-      #   degree: Project Lead The Way
-      #   date:
-      #   start_date: 2023-08
-      #   end_date: 2027-05
-      #   location: Frisco, TX
-      #   highlights:
-      #     - Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development
-      #     - '[PLTW Engineering EPortfolio](https://akhaled247.github.io/pltw-engineering/)'
+          - 18 AP courses by graduation (completed and planned)
+      - institution: Frisco ISD Career and Technical Education Center
+        area: ''
+        degree: Project Lead The Way
+        date:
+        start_date: 2023-08
+        end_date: 2027-05
+        location: Frisco, TX
+        highlights:
+          - Frisco ISD Career and Technical Education Center Project Lead the Way (PLTW) Nationally Distinguished Engineering Program
+          - 'Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)'
+          - '[Engineering Portfolio](https://akhaled247.github.io/pltw-engineering/)'
     Extracurricular Activities:
       - company: ITKAN Robotics
         position: Chief Technical Advisor
@@ -44,10 +45,10 @@ cv:
         end_date: present
         location: Frisco, TX
         highlights:
-          - Led team to playoffs at FIRST® In Texas District Championship (89 teams) using AprilTag pose estimation
-          - "Trained students in Java robotics programming concepts ranging from basic motor control to advanced sensor \n integration"
-          - "Designed custom Java training website to accompany training curriculum: [Mantik's FRC Curriculum](https://mantik.netlify.app/frc)"
-          - "Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-made curriculum: [OARobotics](https://akhaled247.github.io/personal/oarobotics/)"
+          - Mentored FRC and FTC students in Java robotics programming concepts from basic motor control to advanced sensor integration
+          - Led team to Texas District Championship playoffs (89 teams) while guiding strategy and robot software improvements
+          - "Developed self-paced robotics programming curriculum and training website used by 20+ FRC and FTC students: [Mantik's FRC Curriculum](https://mantik.netlify.app/frc)"
+          - "Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-developed OARobotics curriculum: [OARobotics](https://akhaled247.github.io/personal/oarobotics/)"
       - company: "Wakeland High School Wolverine Robotics (FTC 33791)"
         position: Co-Founder, President
         date:
@@ -55,8 +56,8 @@ cv:
         end_date: present
         location: Frisco, TX
         highlights:
-          - Founded inaugural Robotics Club scaling from 0 to 50+ members in first year
-          - Secured funding and constructed competition-ready robot in under 2 weeks, qualified for FIRST in Texas FTC UIL State Championship
+          - Founded inaugural Robotics Club, growing membership from 0 to 50+ students in the first year
+          - Secured funding and constructed competition-ready robot in under 2 weeks, advancing to FIRST in Texas FTC UIL State Championship
           - Teach CAD software (Onshape) and Java programming through monthly technical workshops
           - Manage club operations including mission development, curriculum design, and budget management
       - company: Gideon Math and Reading Center
@@ -68,7 +69,7 @@ cv:
         highlights:
           - Instruct K-11th grade students in mathematics (Algebra, Geometry), reading, and grammar
           - Analyze student performance data to identify learning gaps and develop personalized plans
-          - Utilize ChatGPT for reading material level assessment and adjustment
+          - Evaluate reading material difficulty and adjust instruction to match target comprehension levels
       - company: Ma'ruf Project Taleem
         position: Lead Math and English Instructor
         date:
@@ -82,13 +83,13 @@ cv:
       - company: Math National Honor Society
         position: Vice President
         date:
-        start_date: 2023-09
+        start_date: 2024-08
         end_date: present
         location: Wakeland High School, Frisco, TX
         highlights:
-          - Led organization as Vice President (2024-25) and Treasurer (2023-24), managing budget for 100+ members
-          - Designed Math Lab Program website using Google Sites and coordinated peer tutoring, attaining over 20% member participation
-          - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers
+          - Lead organization as Vice President, managing budget for 100+ members
+          - Expanded Math Lab Program and coordinated peer tutoring, attaining over 20% member participation
+          - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers to promote STEM
       - company: Muslim Student Association
         position: Secretary, Co-Founder
         date:
@@ -103,18 +104,18 @@ cv:
         date:
         start_date: 2025-10
         end_date: present
-        location: The Conrad Challenge (Innovator Award, Alternate Finalist)
+        location: The Conrad Challenge
         highlights:
-          # - Designed HIPAA-compliant federated learning architecture using TensorFlow Federated for distributed model training without exposing patient data
-          - Designed novel oral disease detector using HIPAA-compliant federated learning architecture with TensorFlow Federeated for distributed, low-cost model training without exposing patient data
+          - Designed novel oral disease detector to enable low-cost, privacy-preserving screening using HIPAA-compliant federated learning
           - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
+          - Earned Conrad Challenge Innovator Award and Alternate Finalist recognition, plus Diamond Challenge Semifinalist
       - name: "Senior Fall Monitor Device"
         date:
         start_date: 2025-09
         end_date: present
         location: Samsung Solve for Tomorrow
         highlights:
-          - Developed lightweight TensorFlow Lite ML model for real-time motion tracking and fall detection on mobile devices with buzzer alert system
+          - Developed lightweight ML-based fall monitoring device to support senior safety with real-time alerts
           - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
     selected_honors:
       - bullet: "(2026) OralVision: Conrad Challenge Innovator Award & Alternate Finalist, Diamond Challenge Semifinalist"
@@ -123,16 +124,14 @@ cv:
       - bullet: "(2025) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)"
       - bullet: "(2025) Collegeboard: AP Scholar with Distinction, National Recognition Program: School Recognition Award" 
     skills:
-      - label: CAD/CAM
-        details: Fusion 360, Onshape
-      - label: Web Development
-        details: Python, Java, HTML, CSS, Javascript, Jekyll
-      - label: Vision Processing
-        details: Java, SolvePNP, Python, TensorFlow
-      - label: Electrical
-        details: NI Multisim, KiCAD, EasyEDA, Soldering
-      - label: Statistical Analysis
-        details: R, Google Sheets, MS Office
+      - label: Software & Data
+        details: Python, Java, JavaScript, R, Google Sheets
+      - label: Robotics, ML & Vision
+        details: TensorFlow, TensorFlow Federated, OpenCV, SolvePnP, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory, Federated Learning
+      - label: CAD, Electronics & Prototyping
+        details: Fusion 360, Onshape, NI Multisim, KiCAD, EasyEDA, Soldering
+      - label: Web & Productivity
+        details: HTML, CSS, Jekyll, Google Workspace, Microsoft Office
 
 design:
   theme: engineeringclassic
