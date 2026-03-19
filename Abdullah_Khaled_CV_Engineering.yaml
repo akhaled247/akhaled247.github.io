@@ -2,7 +2,7 @@
 # python -m rendercv render --watch "Abdullah_Khaled_CV_Engineering.yaml"
 cv:
   name: Abdullah Khaled 
-  headline:
+  headline: Robotics & Machine Learning Engineering Student
   location: Frisco, TX
   email: abdullahkhaled0224@gmail.com
   photo:
@@ -37,20 +37,60 @@ cv:
           - Frisco ISD Career and Technical Education Center Project Lead the Way (PLTW) Nationally Distinguished Engineering Program
           - 'Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)'
           - 'Engineering Portfolio: akhaled247.github.io/pltw-engineering'
-    Technical Experience:
-      - company: ITKAN Robotics (FRC 9128)
-        position: Programming Lead, Chief Technical Advisor
+    Technical and Computer Skills:
+      - label: Engineering
+        details: 'CAD/CAM: Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA, Soldering'
+      - label: Software
+        details: Python, Java, JavaScript, HTML, Jekyll, CSS, Google Workspace, R, Google Sheets, MS Office
+      - label: Technologies
+        details: OpenCV, SolvePnP, TensorFlow, Federated Learning, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory
+    Engineering Projects:
+      - name: OralVision (Oral Disease Detector)
         date:
-        start_date: 2024-06
+        start_date: 2025-10
+        end_date: present
+        location: Conrad Challenge; Diamond Challenge
+        highlights:
+          - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
+          - Integrated xiao-esp32-c6 MCU with OV5642 5MP camera sensor, powered by two AAA batteries via a 5V voltage regulator
+          - Iterated through 3 PCB revisions and 5 3D-printed snap-fit case revisions to improve ergonomics, manufacturability, and reliability
+          - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
+          - Conrad Challenge Innovator Award and Alternate Finalist; Diamond Challenge Semi-Finalist
+          - Patent application in progress with the United States Patent and Trademark Office (USPTO)
+      - name: WatchFall (Senior Fall Monitor Device)
+        date:
+        start_date: 2025-09
+        end_date: present
+        location: Samsung Solve for Tomorrow
+        highlights:
+          - Designed fall-detection device using Raspberry Pi Pico with on-device TensorFlow Lite inference
+          - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
+          - Implemented autonomous Bezier path-style motion planning for fall scenarios using a command-based architecture
+          - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
+    Technical Experience:
+      - company: FIRST Robotics Competition (FRC) ITKAN Robotics
+        position: Chief Technical Advisor
+        date:
+        start_date: 2025-08
         end_date: present
         location: Frisco, TX
         highlights:
           - Developed components of competition robot software stack integrating localization, path planning, telemetry, and mechanism control in Java
-          - Built publish–subscribe telemetry and motor logging framework for real-time robot diagnostics and performance analysis 
-          - Led development of robot state estimation and localization system using sensor fusion of AprilTag vision and swerve-drive odometry, achieving <2 in positional error
+          - Built publish–subscribe telemetry and motor logging framework for real-time robot diagnostics and performance analysis
+          - Led development of robot state estimation and localization system using sensor fusion of AprilTag vision and swerve-drive odometry, achieving <2 inch positional error
           - Implemented finite-state machine control architecture with Dijkstra-based path planning using time-weighted graph
           - Used WPILib Java mechanism simulation to optimize telescoping arm geometry and motion constraints
-          - Developed self-paced robotics programming curriculum and training website used by 20+ FRC and FTC students and reaching 1000+ impressions worldwide (mantik.netlify.app)
+          - Maintained and extended a >1000-line Java codebase spanning autonomous routines, teleoperated control, vision, and mechanisms using WPILib's command-based framework
+      - company: FIRST Robotics Competition (FRC) ITKAN Robotics
+        position: Software Lead
+        date:
+        start_date: 2024-12
+        end_date: 2025-07
+        location: Frisco, TX
+        highlights:
+          - Provided technical leadership on the organization of software team projects, educating and training new programming team members, and maintaining the team's FRC codebases
+          - Trained new programming/software team members in Java, robotics-specific coding paradigms, debugging and troubleshooting, and mechanism control using control theory
+          - Implemented autonomous Bezier pathing using a command-based architecture to coordinate motion profiles, mechanism actions, and sensor feedback
           - Advanced team to Texas State Championship playoffs (89 teams)
           - "Robot codebase and documentation: akhaled247.github.io/first/reefscape"
       - company: ITKAN Robotics of ICF (FTC 26357, 28931)
@@ -63,82 +103,17 @@ cv:
           - Implemented Kalman-filtered state estimation combining AprilTag vision and wheel odometry for real-time robot localization and automated turret targeting
           - Mentored all-rookie FTC team through full engineering design cycle from prototyping to competition
           - Mentor refugee students in FLL workshops and lead weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (akhaled247.github.io/personal/oarobotics)
-      - company: "Wakeland High School Wolverine Robotics (FTC 33791)"
-        position: Co-Founder, President
+      - company: Wolverine Robotics, Wakeland High School
+        position: Founder and President
         date:
         start_date: 2024-08
         end_date: present
         location: Frisco, TX
         highlights:
-          - Co-founded Wakeland robotics club, growing membership from 0 to 50+ students in the first year
-          - Secured funding and constructed competition-ready robot in under 2 weeks
+          - Founded Wakeland Robotics Club, growing membership from 0 to 50+ students in the first year
+          - Secured funding and constructed competition-ready robot in under 2 weeks, advancing to UIL State Championship
           - Teach CAD software (Onshape) and Java programming through monthly technical workshops
-          - Manage club operations including mission development, curriculum design, and budget management
-      - company: Gideon Math and Reading Center
-        position: Math and Reading Instructor
-        date:
-        start_date: 2024-06
-        end_date: present
-        location: Frisco, TX
-        highlights:
-          - Instruct K-11th grade students in mathematics (Algebra, Geometry), reading, and grammar
-          - Analyze student performance data to identify learning gaps and develop personalized plans
-          - Evaluate reading material difficulty and adjust instruction to match target comprehension levels
-    Projects:
-      - name: OralVision
-        date:
-        start_date: 2025-10
-        end_date: present
-        location: The Conrad Challenge
-        highlights:
-          - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
-          - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
-          - Conrad Challenge Innovator Award and Alternate Finalist; Diamond Challenge Semi-Finalist
-          - Patent application in progress with the United States Patent and Trademark Office (USPTO)
-      - name: "WatchFall"
-        date:
-        start_date: 2025-09
-        end_date: present
-        location: Samsung Solve for Tomorrow
-        highlights:
-          - Designed fall-detection device using Raspberry Pi Pico with on-device TensorFlow Lite inference
-          - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
-          - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
-    Skills:
-      - label: Software & Data
-        details: Python, Java, JavaScript, R, Google Sheets
-      - label: Robotics, ML & Vision
-        details: TensorFlow, TensorFlow Federated, OpenCV, SolvePnP, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory, Federated Learning
-      - label: CAD, Electronics & Prototyping
-        details: Fusion 360, Onshape, NI Multisim, KiCAD, EasyEDA, Soldering
-      - label: Web & Productivity
-        details: HTML, CSS, Jekyll, Google Workspace, Microsoft Office
-    Leadership & Activities:
-      - company: Math National Honor Society
-        position: Vice President
-        date:
-        start_date: 2023-09
-        end_date: present
-        location: Wakeland High School, Frisco, TX
-        highlights:
-          - Led organization as Vice President (2024-25) and Treasurer (2023-24), managing budget for 100+ members
-          - Designed Math Lab Program website using Google Sites and coordinated peer tutoring, attaining over 20% member participation
-      - company: Muslim Student Association
-        position: Secretary, Co-Founder
-        date:
-        start_date: 2024-09
-        end_date: present
-        location: Wakeland High School, Frisco, TX
-        highlights:
-          - Co-founded MSA as Secretary, establishing organizational structure and creating digital promotional media
-      - company: Ma'ruf Project Taleem
-        position: Lead Math and English Instructor
-        date:
-        start_date: 2023-09
-        end_date: present
-        location: Dallas, TX
-        highlights:
-          - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
+          - Manage club operations including curriculum design, calendar management, and budget management
     Honors & Awards:
       - bullet: "(2026) OralVision: Conrad Challenge Innovator Award & Alternate Finalist, Diamond Challenge Semifinalist"
       - bullet: "(2026) FTC 33791: Event Winner, Control Award Winner (FiT-North Dallas Semi-Regional Championship, 25 teams), Control Award Winner (FiT-North U-League Tournament)"
@@ -300,11 +275,11 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: rendercv_output\engineering\NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output\engineering\NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: rendercv_output\engineering\NAME_IN_SNAKE_CASE_CV.md
-    html_path: rendercv_output\engineering\NAME_IN_SNAKE_CASE_CV.html
-    png_path: rendercv_output\engineering\NAME_IN_SNAKE_CASE_CV.png
+    typst_path: rendercv_output\eng\NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output\eng\NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output\eng\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\eng\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\eng\NAME_IN_SNAKE_CASE_CV.png
     dont_generate_markdown: true
     dont_generate_html: false
     dont_generate_typst: false

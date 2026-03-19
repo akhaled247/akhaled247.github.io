@@ -38,6 +38,87 @@ cv:
           - 'Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)'
           - '[Engineering Portfolio](https://akhaled247.github.io/pltw-engineering/)'
     Extracurricular Activities:
+      - company: Wolverine Robotics, Wakeland High School
+        position: Founder and President
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Founded Wakeland Robotics Club, growing membership from 0 to 50+ students in the first year
+          - Developed mission statement, recruited teacher sponsor and members, and presented team vision, schedule, and activities to school administration
+          - Secured funding and constructed competition-ready robot in under 2 weeks, advancing to UIL State Championship
+          - Teach CAD software (Onshape) and Java programming through monthly technical workshops
+          - Manage club operations including curriculum design, calendar management, and budget management
+          - Lead monthly club meetings with presentations and demonstrations of robots
+      - company: Mu Alpha Theta Math Honor Society, Wakeland High School
+        position: Vice President
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Organized and designed presentations for meetings
+          - Expanded Math Lab Program and coordinated peer tutoring, attaining over 20% member participation
+          - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers to promote STEM to middle school students
+      - company: Mu Alpha Theta Math Honor Society, Wakeland High School
+        position: Treasurer
+        date:
+        start_date: 2023-08
+        end_date: 2024-07
+        location: Frisco, TX
+        highlights:
+          - Designed and implemented Math Lab Program, coordinating student-led tutoring in Algebra I courses with teachers
+          - Built website for Math Lab Program using Google Sites for volunteer sign-up
+          - Managed budget for 100+ members
+      - company: Muslim Student Association (MSA), Wakeland High School
+        position: Co-Founder and President
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Developed mission statement, recruited teacher sponsor and members, and presented activities to school administration
+          - Coordinated with school staff to establish a prayer room for weekly prayers
+          - Created various media for promoting the club and prayer room, including social media posts
+      - company: Gideon Math and Reading Center
+        position: Math and Reading Instructor
+        date:
+        start_date: 2024-06
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Teach students from kindergarten to 11th-grade in math, reading, and grammar, including Algebra and Geometry
+          - Analyze student performance data to identify learning gaps and develop personalized plans
+          - Evaluate reading material difficulty and adjust instruction to match target comprehension levels
+      - company: Ma'ruf Dallas Refugee Organization
+        position: Lead Math and English Instructor
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Dallas, TX
+        highlights:
+          - Teach Math and English to refugee elementary and middle school children
+          - Developed differentiated curriculum for student groups based on their specific needs
+          - Provide mentorship to students in academic skills, time management, life skills, and social integration for students transitioning to American schools
+      - company: Islamic Center of Frisco (ICF)
+        position: Teaching Assistant (TA)
+        date:
+        start_date: 2023-09
+        end_date: 2024-05
+        location: Frisco, TX
+        highlights:
+          - Aided elementary students in religious studies and helped keep them on task and engaged
+          - Assisted Primary Instructor with curriculum implementation
+      - company: Frisco Family Services
+        position: Volunteer
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Sorted and shelved donations for Frisco Family Market, which raises funds for underserved local families with financial, medical, and physical needs
+          - Sorted and stocked Food Pantry, which also serves underserved local families
       - company: ITKAN Robotics
         position: Chief Technical Advisor
         date:
@@ -49,67 +130,17 @@ cv:
           - Led team to Texas District Championship playoffs (89 teams) while guiding strategy and robot software improvements
           - "Developed self-paced robotics programming curriculum and training website used by 20+ FRC and FTC students: [Mantik's FRC Curriculum](https://mantik.netlify.app/frc)"
           - "Mentor refugee children in FLL workshops and lead weekly summer training for FTC and FRC students through self-developed OARobotics curriculum: [OARobotics](https://akhaled247.github.io/personal/oarobotics/)"
-      - company: "Wakeland High School Wolverine Robotics (FTC 33791)"
-        position: Co-Founder, President
-        date:
-        start_date: 2024-08
-        end_date: present
-        location: Frisco, TX
-        highlights:
-          - Founded inaugural Robotics Club, growing membership from 0 to 50+ students in the first year
-          - Secured funding and constructed competition-ready robot in under 2 weeks, advancing to FIRST in Texas FTC UIL State Championship
-          - Teach CAD software (Onshape) and Java programming through monthly technical workshops
-          - Manage club operations including mission development, curriculum design, and budget management
-      - company: Gideon Math and Reading Center
-        position: Math and Reading Instructor
-        date:
-        start_date: 2024-06
-        end_date: present
-        location: Frisco, TX
-        highlights:
-          - Instruct K-11th grade students in mathematics (Algebra, Geometry), reading, and grammar
-          - Analyze student performance data to identify learning gaps and develop personalized plans
-          - Evaluate reading material difficulty and adjust instruction to match target comprehension levels
-      - company: Ma'ruf Project Taleem
-        position: Lead Math and English Instructor
-        date:
-        start_date: 2023-09
-        end_date: present
-        location: Dallas, TX
-        highlights:
-          - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
-          - Provide mentorship in academic skills, time management, and social integration for students transitioning to American schools
-          - 300+ volunteer hours to date
-      - company: Math National Honor Society
-        position: Vice President
-        date:
-        start_date: 2024-08
-        end_date: present
-        location: Wakeland High School, Frisco, TX
-        highlights:
-          - Lead organization as Vice President, managing budget for 100+ members
-          - Expanded Math Lab Program and coordinated peer tutoring, attaining over 20% member participation
-          - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers to promote STEM
-      - company: Muslim Student Association
-        position: Secretary, Co-Founder
-        date:
-        start_date: 2024-09
-        end_date: present
-        location: Wakeland High School, Frisco, TX
-        highlights:
-          - Co-founded MSA as Secretary, establishing organizational structure and creating digital promotional media
-          - Negotiated with school administration to establish dedicated prayer room, coordinating facility setup and policies
-    Independent Projects:
-      - name: Oral Disease Detector
+    Competition & Innovation Projects:
+      - name: OralVision (Oral Disease Detector)
         date:
         start_date: 2025-10
         end_date: present
-        location: The Conrad Challenge
+        location: Conrad Challenge; Diamond Challenge
         highlights:
-          - Designed novel oral disease detector to enable low-cost, privacy-preserving screening using HIPAA-compliant federated learning
+          - Designed oral disease detection system using HIPAA-compliant federated learning to enable low-cost, privacy-preserving screening
           - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
-          - Earned Conrad Challenge Innovator Award and Alternate Finalist recognition, plus Diamond Challenge Semifinalist
-      - name: "Senior Fall Monitor Device"
+          - Conrad Challenge Innovator Award and Alternate Finalist; Diamond Challenge Semi-Finalist
+      - name: WatchFall (Senior Fall Monitor Device)
         date:
         start_date: 2025-09
         end_date: present
@@ -287,11 +318,11 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: rendercv_output\general\NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output\general\NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: rendercv_output\general\NAME_IN_SNAKE_CASE_CV.md
-    html_path: rendercv_output\general\NAME_IN_SNAKE_CASE_CV.html
-    png_path: rendercv_output\general\NAME_IN_SNAKE_CASE_CV.png
+    typst_path: rendercv_output\gen\NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output\gen\NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output\gen\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\gen\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\gen\NAME_IN_SNAKE_CASE_CV.png
     dont_generate_markdown: true
     dont_generate_html: false
     dont_generate_typst: false

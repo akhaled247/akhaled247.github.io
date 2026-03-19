@@ -17,11 +17,11 @@
   page-show-footer: true,
   page-show-top-note: true,
   colors-body: rgb(0, 0, 0),
-  colors-name: rgb(0, 79, 144),
-  colors-headline: rgb(0, 79, 144),
-  colors-connections: rgb(0, 79, 144),
-  colors-section-titles: rgb(0, 79, 144),
-  colors-links: rgb(0, 79, 144),
+  colors-name: rgb(117, 0, 20),
+  colors-headline: rgb(117, 0, 20),
+  colors-connections: rgb(117, 0, 20),
+  colors-section-titles: rgb(117, 0, 20),
+  colors-links: rgb(117, 0, 20),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.6em,
@@ -88,6 +88,8 @@
 
 = Abdullah Khaled
 
+  #headline([Robotics & Autonomy Engineer-in-Training])
+
 #connections(
   [#connection-with-icon("location-dot")[Frisco, TX]],
   [#link("mailto:abdullahkhaled0224@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[abdullahkhaled0224\@gmail.com]]],
@@ -112,6 +114,10 @@
   main-column-second-row: [
     - Unweighted GPA: 4.0
 
+    - Math readiness: AP Calculus AB & BC; planned Multivariable Calculus
+
+    - Science readiness: AP Physics 1; AP Biology; planned AP Physics 2 and AP Physics C
+
     - 18 AP courses by graduation (completed and planned)
 
   ],
@@ -127,7 +133,7 @@
 
   ],
   main-column-second-row: [
-    - Frisco ISD Career and Technical Education Center Project Lead the Way (PLTW) Nationally Distinguished Engineering Program
+    - Nationally Distinguished PLTW Engineering Program
 
     - Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)
 
@@ -140,7 +146,7 @@
 
 #regular-entry(
   [
-    #strong[Chief Technical Advisor], ITKAN Robotics (FRC 9128)
+    #strong[Chief Technical Advisor], ITKAN Robotics (FRC 9128) -- Frisco, TX
 
   ],
   [
@@ -148,22 +154,28 @@
 
   ],
   main-column-second-row: [
-    - Developed components of competition robot software stack integrating localization, path planning, telemetry, and mechanism control in Java
+    - Provided high-level technical oversight across all robot subsystems for a state-level team of 40 members
 
-    - Built publish–subscribe telemetry and motor logging framework for real-time robot diagnostics and performance analysis
+    - Built an extensive publish–subscribe telemetry and motor logging framework with match logs viewable after events for diagnosing issues and debugging autonomous routines
 
-    - Led development of robot state estimation and localization system using sensor fusion of AprilTag vision and swerve-drive odometry, achieving \<2 in positional error
+    - Led development of robot state estimation and localization using sensor fusion of AprilTag vision and swerve-drive odometry, achieving \<2 inch positional error
 
-    - Implemented finite-state machine control architecture with Dijkstra-based path planning using time-weighted graph
+    - Engineered autonomous control architecture with finite-state-machine (FSM) logic, Dijkstra-based path planning on time-weighted graphs, and PID-aligned speed\/control tradeoffs
 
-    - Used WPILib Java mechanism simulation to optimize telescoping arm geometry and motion constraints
+    - Used WPILib Java mechanism simulation to validate autonomous and mechanism behaviors ahead of build to reduce integration risk
+
+    - Maintained and extended a \>1000-line Java codebase spanning autonomous routines, teleoperated control, vision, and mechanisms using WPILib's command-based framework
+
+    - Achieved 100\% autonomous success rate at the first event, produced the 5th-highest-scoring autonomous routine worldwide, and won an autonomous award
+
+    - Provided resources to 1000+ people online via mantik.netlify.app and an associated YouTube playlist
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Software Lead], ITKAN Robotics (FRC 9128)
+    #strong[Software Lead], ITKAN Robotics (FRC 9128) -- Frisco, TX
 
   ],
   [
@@ -171,11 +183,15 @@
 
   ],
   main-column-second-row: [
-    - Provided technical leadership on organization of software projects and mentored new programming team members
+    - Provided technical leadership on the organization of software team projects, educating and training new programming team members, and maintaining the team's FRC codebases
 
-    - Developed self-paced robotics programming curriculum and training website used by 20+ FRC and FTC students and reaching 1000+ impressions worldwide (mantik.netlify.app)
+    - Taught 5–10 students Java programming with a command-based subsystem architecture; trained debugging\/troubleshooting and mechanism control using control theory
 
-    - Advanced team to Texas State Championship playoffs (89 teams)
+    - Taught control theory concepts using PID and motion profiles, and used mechanism simulation to validate constraints before events
+
+    - Implemented autonomous Bezier pathing using a command-based architecture to coordinate motion profiles, mechanism actions, and sensor feedback
+
+    - Advanced the team to Texas State Championship playoffs (89 teams)
 
     - Robot codebase and documentation: akhaled247.github.io\/first\/reefscape
 
@@ -184,7 +200,7 @@
 
 #regular-entry(
   [
-    #strong[Programming Mentor], ITKAN Robotics of ICF (FTC 26357, 28931)
+    #strong[Programming Mentor], ITKAN Robotics of ICF (FTC 26357, 28931) -- Frisco, TX
 
   ],
   [
@@ -194,16 +210,16 @@
   main-column-second-row: [
     - Implemented Kalman-filtered state estimation combining AprilTag vision and wheel odometry for real-time robot localization and automated turret targeting
 
-    - Mentored all-rookie FTC team through full engineering design cycle from prototyping to competition
+    - Mentored a full all-rookie FTC team through the engineering design cycle from prototyping and debugging to competition, emphasizing measurement-driven iteration
 
-    - Mentor refugee students in FLL workshops and lead weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (akhaled247.github.io\/personal\/oarobotics)
+    - Mentored refugee students in FLL workshops and led weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (akhaled247.github.io\/personal\/oarobotics)
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Co-Founder, President], Wakeland High School Wolverine Robotics (FTC 33791)
+    #strong[Co-Founder, President], Wakeland High School Wolverine Robotics (FTC 33791) -- Frisco, TX
 
   ],
   [
@@ -224,7 +240,7 @@
 
 #regular-entry(
   [
-    #strong[Math and Reading Instructor], Gideon Math and Reading Center
+    #strong[Math and Reading Instructor], Gideon Math and Reading Center -- Frisco, TX
 
   ],
   [
@@ -236,14 +252,12 @@
 
     - Analyze student performance data to identify learning gaps and develop personalized plans
 
-    - Evaluate reading material difficulty and adjust instruction to match target comprehension levels
-
   ],
 )
 
 #regular-entry(
   [
-    #strong[Math and Reading Teaching Assistant], Gideon Math and Reading Center
+    #strong[Math and Reading Teaching Assistant], Gideon Math and Reading Center -- Frisco, TX
 
   ],
   [
@@ -251,11 +265,7 @@
 
   ],
   main-column-second-row: [
-    - Graded students’ work from kindergarten to 11th grade, including Algebra and Geometry
-
-    - Aided students in completing assignments appropriate to their age and skill level
-
-    - Increased grading efficiency by approximately 50\%
+    - Supported instruction and grading workflows, improving grading efficiency by approximately 50\%
 
   ],
 )
@@ -272,11 +282,19 @@
 
   ],
   main-column-second-row: [
-    - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
+    - Developed a privacy-preserving oral disease screening pipeline with centrally trained model + on-device inference, without transmitting raw patient images (HIPAA-aligned federated learning framing)
+
+    - Designed, wired, and programmed the imaging device (XIAO-ESP32-C6 MCU + OV5642 5MP camera), including power-aware capture constraints (camera current draw can trip the 5V voltage regulator)
+
+    - Bench-tested image capture quality and robustness across lighting\/viewing angles to maximize reliable low-cost imaging
+
+    - Verified repeatability by running multiple capture sessions under comparable conditions and confirming output consistency
+
+    - Iterated through 3 PCB revisions and 5 3D-printed snap-fit case revisions to improve reliability and manufacturability
 
     - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
 
-    - Conrad Challenge Innovator Award and Alternate Finalist; Diamond Challenge Semi-Finalist
+    - Awarded Conrad Challenge Innovator Award and Alternate Finalist; Diamond Challenge Semi-Finalist
 
     - Patent application in progress with the United States Patent and Trademark Office (USPTO)
 
@@ -297,16 +315,20 @@
 
     - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
 
-    - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
+    - Engineered a hybrid dataset combining public and custom annotated data, reducing false positive rate
+
+    - Integrated an Arducam HM01B0 Monochrome QVGA SPI Camera Module with Raspberry Pi Pico for resource-aware frame capture
+
+    - Planned next validation: evaluate false positives and alert responsiveness on recorded motion\/fall scenarios, then tune fall rules and thresholds before expanded on-device testing
 
   ],
 )
 
 == Skills
 
-#strong[Software & Data:] Python, Java, JavaScript, R, Google Sheets
+#strong[Robotics, ML & Vision:] TensorFlow, TensorFlow Federated, OpenCV, SolvePnP, AprilTag vision, Swerve-drive odometry, Kalman Filtering, Finite State Machines, Dijkstra path planning, PID control, Mechanism Simulation, Control Theory, Federated Learning
 
-#strong[Robotics, ML & Vision:] TensorFlow, TensorFlow Federated, OpenCV, SolvePnP, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory, Federated Learning
+#strong[Software & Data:] Python, Java, JavaScript, R, Google Sheets, WPILib (command-based)
 
 #strong[CAD, Electronics & Prototyping:] Fusion 360, Onshape, NI Multisim, KiCAD, EasyEDA, Soldering
 
@@ -343,16 +365,14 @@
 
   ],
   main-column-second-row: [
-    - Managed organization budget for 100+ members
-
-    - Designed and implemented Math Lab Program coordinating student-led tutoring in Algebra I courses with teachers
+    - Designed and implemented Math Lab Program coordinating student-led Algebra I tutoring with teachers
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Co-Founder and President], Muslim Student Association (MSA) -- Wakeland High School, Frisco, TX
+    #strong[Co-Founder, Secretary], Muslim Student Association (MSA) -- Wakeland High School, Frisco, TX
 
   ],
   [
@@ -363,8 +383,6 @@
     - Developed mission statement, recruited teacher sponsor and members, and presented activities to school administration
 
     - Negotiated with school administration to establish a dedicated prayer room, coordinating facility setup and policies
-
-    - Created media for promoting the club and prayer room, including social media posts
 
   ],
 )
@@ -379,72 +397,21 @@
 
   ],
   main-column-second-row: [
-    - Teach Math and English to refugee elementary and middle school students, developing differentiated curriculum
+    - Teach Math and English to refugee students and mentor them in academics, time management, and social integration
 
-    - Provide mentorship in academic skills, time management, and social integration for students transitioning to American schools
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Teaching Assistant], Islamic Center of Frisco (ICF) -- Frisco, TX
-
-  ],
-  [
-    Sept 2023 – May 2024
-
-  ],
-  main-column-second-row: [
-    - Aided elementary students in religious studies and helped keep them on task and engaged
-
-    - Assisted primary instructor with curriculum implementation
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Volunteer], Frisco Family Services -- Frisco, TX
-
-  ],
-  [
-    Sept 2023 – present
-
-  ],
-  main-column-second-row: [
-    - Sorted and shelved donations for Frisco Family Market supporting underserved local families with financial, medical, and physical needs
-
-    - Sorted and stocked the Food Pantry serving underserved local families
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Junior Varsity (JV) Player], Wolverines Tennis Team -- Wakeland High School, Frisco, TX
-
-  ],
-  [
-    Aug 2023 – Aug 2024
-
-  ],
-  main-column-second-row: [
-    - Participated in singles and doubles tournaments throughout the academic year
-
-    - Awarded 2024 Sportsmanship Award
+    - Coordinate small-group instruction and parent communication to support students' long-term academic progress
 
   ],
 )
 
 == Honors & Awards
 
-- (2026) OralVision: Conrad Challenge Innovator Award & Alternate Finalist, Diamond Challenge Semifinalist
+- (2026) OralVision: Conrad Challenge Innovator Award & Alternate Finalist; Diamond Challenge Semifinalist
 
-- (2026) FTC 33791: Event Winner, Control Award Winner (FiT-North Dallas Semi-Regional Championship, 25 teams), Control Award Winner (FiT-North U-League Tournament)
+- (2026) FTC 33791: Event Winner; Control Award Winner (FiT-North Dallas Semi-Regional, 25 teams; FiT-North U-League)
 
-- (2025) FRC 9128: FIRST® Leadership Award Semifinalist, Event Winner (FIRST® in Texas Victoria, 25 teams); Autonomous Award (FiT Plano, 31 teams); Creativity Award (FiT Amarillo, 36 teams)
+- (2025) FRC 9128: FIRST® Leadership Award Semifinalist; Event Winner (FiT Victoria, 25); Autonomous Award (FiT Plano, 31); Creativity Award (FiT Amarillo, 36)
 
 - (2025) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)
 
-- (2025) Collegeboard: AP Scholar with Distinction, National Recognition Program: School Recognition Award
+- (2025) Collegeboard: AP Scholar with Distinction; National Recognition Program School Recognition Award

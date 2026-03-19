@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
-# python -m rendercv render --watch "Abdullah_Khaled_CV.yaml"
+# python -m rendercv render --watch "Abdullah_Khaled_CV_MIT.yaml"
 cv:
   name: Abdullah Khaled 
-  headline:
+  headline: Robotics & Autonomy Engineer-in-Training
   location: Frisco, TX
-  email:
+  email: abdullahkhaled0224@gmail.com
   photo:
-  phone:
+  phone: +1 469-347-2884
   website: https://akhaled247.github.io/
   social_networks:
     - network: LinkedIn
@@ -25,6 +25,8 @@ cv:
         location: Frisco, TX
         highlights:
           - 'Unweighted GPA: 4.0'
+          - 'Math readiness: AP Calculus AB & BC; planned Multivariable Calculus'
+          - 'Science readiness: AP Physics 1; AP Biology; planned AP Physics 2 and AP Physics C'
           - 18 AP courses by graduation (completed and planned)
       - institution: Frisco ISD Career and Technical Education Center
         area: ''
@@ -45,9 +47,14 @@ cv:
         end_date: present
         location: Frisco, TX
         highlights:
-          - Developed components of competition robot software stack integrating localization, path planning, telemetry, and mechanism control in Java
-          - Built publish–subscribe telemetry/logging framework and finite-state-machine path planning (Dijkstra on time-weighted graphs) for real-time robot control and diagnostics
-          - Led development of robot state estimation and localization using sensor fusion of AprilTag vision and swerve-drive odometry, achieving <2 in positional error
+          - Provided high-level technical oversight across all robot subsystems for a state-level team of 40 members
+          - Built an extensive publish–subscribe telemetry and motor logging framework with match logs viewable after events for diagnosing issues and debugging autonomous routines
+          - Led development of robot state estimation and localization using sensor fusion of AprilTag vision and swerve-drive odometry, achieving <2 inch positional error
+          - Engineered autonomous control architecture with finite-state-machine (FSM) logic, Dijkstra-based path planning on time-weighted graphs, and PID-aligned speed/control tradeoffs
+          - Used WPILib Java mechanism simulation to validate autonomous and mechanism behaviors ahead of build to reduce integration risk
+          - Maintained and extended a >1000-line Java codebase spanning autonomous routines, teleoperated control, vision, and mechanisms using WPILib's command-based framework
+          - Achieved 100% autonomous success rate at the first event, produced the 5th-highest-scoring autonomous routine worldwide, and won an autonomous award
+          - Provided resources to 1000+ people online via mantik.netlify.app and an associated YouTube playlist
       - company: ITKAN Robotics (FRC 9128)
         position: Software Lead
         date:
@@ -55,8 +62,11 @@ cv:
         end_date: 2025-07
         location: Frisco, TX
         highlights:
-          - Provided technical leadership on organization of software projects and mentored new programming team members
-          - Developed self-paced robotics programming curriculum and training website used by 20+ FRC and FTC students and reaching 1000+ impressions worldwide (mantik.netlify.app)
+          - Provided technical leadership on the organization of software team projects, educating and training new programming team members, and maintaining the team's FRC codebases
+          - Taught 5–10 students Java programming with a command-based subsystem architecture; trained debugging/troubleshooting and mechanism control using control theory
+          - Taught control theory concepts using PID and motion profiles, and used mechanism simulation to validate constraints before events
+          - Implemented autonomous Bezier pathing using a command-based architecture to coordinate motion profiles, mechanism actions, and sensor feedback
+          - Advanced the team to Texas State Championship playoffs (89 teams)
           - "Robot codebase and documentation: akhaled247.github.io/first/reefscape"
       - company: ITKAN Robotics of ICF (FTC 26357, 28931)
         position: Programming Mentor
@@ -65,8 +75,9 @@ cv:
         end_date: 2026-02
         location: Frisco, TX
         highlights:
-          - Implemented Kalman-filtered localization and automated turret targeting for FTC competition robots
-          - Mentor refugee students in FLL workshops and lead weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (akhaled247.github.io/personal/oarobotics)
+          - Implemented Kalman-filtered state estimation combining AprilTag vision and wheel odometry for real-time robot localization and automated turret targeting
+          - Mentored a full all-rookie FTC team through the engineering design cycle from prototyping and debugging to competition, emphasizing measurement-driven iteration
+          - Mentored refugee students in FLL workshops and led weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (akhaled247.github.io/personal/oarobotics)
       - company: "Wakeland High School Wolverine Robotics (FTC 33791)"
         position: Co-Founder, President
         date:
@@ -102,8 +113,13 @@ cv:
         end_date: present
         location: The Conrad Challenge
         highlights:
-          - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
+          - Developed a privacy-preserving oral disease screening pipeline with centrally trained model + on-device inference, without transmitting raw patient images (HIPAA-aligned federated learning framing)
+          - Designed, wired, and programmed the imaging device (XIAO-ESP32-C6 MCU + OV5642 5MP camera), including power-aware capture constraints (camera current draw can trip the 5V voltage regulator)
+          - Bench-tested image capture quality and robustness across lighting/viewing angles to maximize reliable low-cost imaging
+          - Verified repeatability by running multiple capture sessions under comparable conditions and confirming output consistency
+          - Iterated through 3 PCB revisions and 5 3D-printed snap-fit case revisions to improve reliability and manufacturability
           - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
+          - Awarded Conrad Challenge Innovator Award and Alternate Finalist; Diamond Challenge Semi-Finalist
           - Patent application in progress with the United States Patent and Trademark Office (USPTO)
       - name: "WatchFall"
         date:
@@ -113,12 +129,14 @@ cv:
         highlights:
           - Designed fall-detection device using Raspberry Pi Pico with on-device TensorFlow Lite inference
           - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
-          - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
+          - Engineered a hybrid dataset combining public and custom annotated data, reducing false positive rate
+          - Integrated an Arducam HM01B0 Monochrome QVGA SPI Camera Module with Raspberry Pi Pico for resource-aware frame capture
+          - 'Planned next validation: evaluate false positives and alert responsiveness on recorded motion/fall scenarios, then tune fall rules and thresholds before expanded on-device testing'
     Skills:
-      - label: Software & Data
-        details: Python, Java, JavaScript, R, Google Sheets
       - label: Robotics, ML & Vision
-        details: TensorFlow, TensorFlow Federated, OpenCV, SolvePnP, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory, Federated Learning
+        details: TensorFlow, TensorFlow Federated, OpenCV, SolvePnP, AprilTag vision, Swerve-drive odometry, Kalman Filtering, Finite State Machines, Dijkstra path planning, PID control, Mechanism Simulation, Control Theory, Federated Learning
+      - label: Software & Data
+        details: Python, Java, JavaScript, R, Google Sheets, WPILib (command-based)
       - label: CAD, Electronics & Prototyping
         details: Fusion 360, Onshape, NI Multisim, KiCAD, EasyEDA, Soldering
       - label: Web & Productivity
@@ -179,11 +197,13 @@ design:
   #   show_top_note: true
   colors:
     body: rgb(0, 0, 0)
-    name: rgb(0, 79, 144)
-    headline: rgb(0, 79, 144)
-    connections: rgb(0, 79, 144)
-    links: rgb(0, 79, 144)
+    name: rgb(117, 0, 20)
+    headline: rgb(117, 0, 20)
+    connections: rgb(117, 0, 20)
+    section_titles: rgb(117, 0, 20)
+    links: rgb(117, 0, 20)
     footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
   typography:
   #   line_spacing: 0.6em
   #   alignment: justified
@@ -321,11 +341,11 @@ settings:
   render_command:
     design:
     locale:
-    typst_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.md
-    html_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.html
-    png_path: rendercv_output\NAME_IN_SNAKE_CASE_CV.png
+    typst_path: rendercv_output\mit\NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output\mit\NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output\mit\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\mit\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\mit\NAME_IN_SNAKE_CASE_CV.png
     dont_generate_markdown: true
     dont_generate_html: false
     dont_generate_typst: false
