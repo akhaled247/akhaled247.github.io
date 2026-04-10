@@ -1,0 +1,306 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+# FIRST Leadership Award interview prep resume (2-page target). Baseline facts: Abdullah_Khaled_CV_Extended.yaml
+# Official FIRST Leadership Award guidance: do not bring additional documentation to the interview—confirm with Lead Coach 1/2
+# before handing materials to judges. Use this PDF for mock interviews, mentor review, and allowed contexts.
+# python -m rendercv render --watch "Abdullah_Khaled_CV_FRC.yaml"
+cv:
+  name: Abdullah Khaled
+  headline: Programming Lead & Chief Technical Advisor, ITKAN FRC 9128 — FIRST® Leadership Award Semi-Finalist (2026)
+  location: Frisco, TX
+  email: abdullahkhaled0224@gmail.com
+  photo:
+  phone: +1 469-347-2884
+  website: https://akhaled247.github.io/
+  social_networks:
+    - network: LinkedIn
+      username: akhaled247
+    - network: GitHub
+      username: akhaled247
+  custom_connections:
+  sections:
+    education:
+      - institution: Wakeland High School
+        area: ' '
+        degree: High School Diploma
+        date:
+        start_date: 2023-08
+        end_date: 2027-05
+        location: Frisco, TX
+        highlights:
+          - 'Class rank: top 5 of ~560; unweighted GPA: 4.0; 18 AP courses by graduation (completed and planned), typically 4–6 AP/year in STEM'
+      - institution: Frisco ISD Career and Technical Education Center
+        area: ''
+        degree: Project Lead The Way (Engineering)
+        date:
+        start_date: 2023-08
+        end_date: 2027-05
+        location: Frisco, TX
+        highlights:
+          - PLTW Nationally Distinguished Engineering Program — IED, POE, Digital Electronics, EDD
+          - '[Engineering portfolio](https://akhaled247.github.io/pltw-engineering/)'
+    Extracurricular Activities:
+      - company: ITKAN Robotics — FIRST Robotics Competition (FRC 9128)
+        position: Programming Lead
+        date:
+        start_date: 2024-09
+        end_date: 2026-02
+        location: Plano, TX
+        highlights:
+          - 'Led robot **Programming** as primary Java/WPILib developer for a ~50-member team: owned ~80% of the codebase (2024-12–2025-06), GitHub workflows, command-based autonomous and teleop'
+          - 'Built AprilTag pose estimation + auto-align, swerve odometry fusion, and a field-oriented driver UI; integrated OpenCV + SolvePnP with Kalman fusion; shipped autonomous pathing/targeting (state machines, Bezier, PID)—~50% higher autonomous points/match across 12 matches after vision integration'
+          - Designed and fabricated an Onshape camera mount for reliable AprilTag detection across field distances; implemented driver-input buffering, custom motor logging classes (AdvantageScope), and match logging/simulation for limited build-season access
+          - '**Mentored** rookie FTC teams 26357 and 28931 (2024–Present); supported ~30 students (6 programmers) through competition, including ~25 hrs/week at peak FTC build season'
+          - '**Led** multiple FLL workshops (7 students/session) for refugee students using the **conceived** OARobotics curriculum ([OARobotics](https://akhaled247.github.io/personal/oarobotics/)); students completed block-code autonomous maze navigation by session end'
+      - company: ITKAN Robotics — FIRST Robotics Competition (FRC 9128)
+        position: Chief Technical Advisor
+        date:
+        start_date: 2025-07
+        end_date: present
+        location: Plano, TX
+        highlights:
+          - '**Lead** software strategy for ITKAN’s multi-team FRC program (~20 programmers, ~100-member organization): delegate work, standardize codebase layout, align autonomy/teleop with mechanical and **Electrical** integration under build-season deadlines'
+          - Managed autonomy/teleop reliability (**>90%** target) with layered failsafes; preserved match performance after a near-failure camera disconnect through contingency planning
+          - Improved mechanism cycle time (~2 s to <1 s), shooter accuracy (~70% to ~95%), throughput (~10 to ~20 balls/s, lab-measured); completed autonomous routines without error in ~8–10 pre-competition practice runs
+          - 'Presented vision and autonomous work to engineers at corporate sponsors **Toyota** and **Texas Instruments**; represented the team at nationwide conferences and community/university showcases (incl. U.S. Senator Chris Van Hollen event)'
+          - '**Led** summer FRC programming training (~10 students) from fundamentals through programming a competition robot from scratch; **conceived** and built adaptive training site [Mantik](https://mantik.netlify.app/) (written lessons, code, video); YouTube tutorial playlist; Discord support for peer learning'
+          - '**Conceived** a lightweight team task system to coordinate build-season work and reduce downtime between matches; cooperative leadership: adaptive curriculum by student mastery, follow-ups tying lessons to live robot code'
+      - company: Wolverine Robotics — Wakeland High School (FTC 33791)
+        position: Founder and President
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - 'Founded school FTC program after difficulty finding a school-sponsored FIRST team; **led** club operations and connected members with local FIRST opportunities while teaching Java, CAD, and competition skills'
+          - Built competition-ready robot in <2 weeks; UIL State Championship 3rd place; grew membership from 0 to 50+ (year one); ~$6k+ resourcing secured (school, NHS, parents)
+          - 'Delivered ~6 workshops (10–15 attendees) and monthly demonstrations; **Outreach**: promoted STEM via school administration presentations and engineering notebook'
+      - company: Ma'ruf Dallas Refugee Organization (Project Taleem)
+        position: Lead Instructor & Peer Program Coordinator
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Dallas, TX
+        highlights:
+          - Co-lead tutoring for K–6 refugees (~2 hr/week school year); multilingual, age-banded groups; recruited volunteers from five high schools via robotics networks
+          - Measured ~15-point average IXL SmartScore gain (Nov–Feb; n=10); monthly robotics enrichment using OARobotics for inclusive, hands-on STEM access
+      - company: Mu Alpha Theta Math Honor Society, Wakeland High School
+        position: Vice President
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - '**Led** annual middle school math competition: 100+ participants, 3 schools, 35+ volunteers; expanded Math Lab peer tutoring (>20% member participation)'
+      - company: Muslim Student Association (MSA), Wakeland High School
+        position: Co-Founder, Secretary
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Co-founded club; secured sponsor and prayer space; created outreach media for student community building
+    Work Experience:
+      - company: Gideon Math and Reading Center
+        position: Math and Reading Instructor
+        date:
+        start_date: 2024-06
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Instructs K–11 (through Algebra/Geometry) in guided sessions (~4–12 students/day); uses performance data to personalize plans and pacing
+      - company: Gideon Math and Reading Center
+        position: Math and Reading Teaching Assistant (TA)
+        date:
+        start_date: 2022-01
+        end_date: 2024-05
+        location: Frisco, TX
+        highlights:
+          - Graded multi-grade work; improved grading efficiency ~50%
+    STEM Projects:
+      - name: OralVision (Oral Disease Detector) - Conrad Challenge; Diamond Challenge
+        date:
+        start_date: 2025-10
+        end_date: present
+        location: 
+        highlights:
+          - On-device imaging + privacy-preserving ML pipeline; 3D-printed device (Onshape); Conrad Innovator Award; Diamond Semifinalist
+      - name: WatchFall (Senior Fall Monitor)
+        date:
+        start_date: 2025-09
+        end_date: present
+        location: Samsung Solve for Tomorrow
+        highlights:
+          - Raspberry Pi Pico + TFLite fall detection; hybrid dataset to reduce false positives
+    Honors & Awards:
+      - bullet: "(2026) FIRST® Tech Challenge: FIRST® Leadership Award Semi-Finalist (Team 28931)"
+      - bullet: "(2025) FRC 9128: Event Winner (FiT Victoria, 25 teams); Autonomous Award (FiT Plano, 31 teams); Creativity Award (FiT Amarillo, 36 teams)"
+      - bullet: "(2026) FTC 33791: Event Winner; Control Award (FiT-North Dallas Semi-Regional, 25 teams); Control Award (FiT-North U-League)"
+      - bullet: "(2026) OralVision: Conrad Challenge Innovator Award; Diamond Challenge Semifinalist"
+      - bullet: "(2025) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)"
+      - bullet: "(2025) College Board: AP Scholar with Distinction; National Recognition Program — School Recognition Award"
+
+design:
+  theme: engineeringclassic
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: false
+  #   show_top_note: true
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(128, 128, 128)
+  typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: XCharter
+  #     name: XCharter
+  #     headline: XCharter
+  #     connections: XCharter
+  #     section_titles: XCharter
+    font_size:
+      body: 9.25pt
+      name: 25pt
+      headline: 9pt
+      connections: 9pt
+  #     section_titles: 1.2em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: true
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: false
+  #     display_urls_instead_of_usernames: true
+  #     separator: '|'
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_full_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 0.42cm
+  #   space_between_text_based_entries: 0.15cm
+  #   show_time_spans_in: []
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: false
+  #   summary:
+  #     space_above: 0.08cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: ●
+  #     nested_bullet: ●
+  #     space_left: 0cm
+  #     space_above: 0.08cm
+  #     space_between_items: 0.08cm
+  #     space_between_bullet_and_text: 0.3em
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, DEGREE AREA -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      degree_column:
+      date_and_location_column: DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME** -- **LOCATION**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: DATE
+    experience_entry:
+      main_column: |-
+        **POSITION**, COMPANY -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2026-03-20'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/frc/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/frc/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/frc/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/frc/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/frc/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []

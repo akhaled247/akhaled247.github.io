@@ -88,7 +88,7 @@
 
 = Abdullah Khaled
 
-  #headline([Engineer-in-training focused on autonomy, vision, and embedded systems])
+  #headline([Undergraduate applicant — electrical engineering & Islamic studies; embedded systems, vision, robotics])
 
 #connections(
   [#connection-with-icon("location-dot")[Frisco, TX]],
@@ -101,23 +101,6 @@
 
 
 == Education
-
-#education-entry(
-  [
-    #strong[Wakeland High School], High School Diploma   -- Frisco, TX
-
-  ],
-  [
-    Aug 2023 – May 2027
-
-  ],
-  main-column-second-row: [
-    - Unweighted GPA: 4.0
-
-    - 18 AP courses by graduation (completed and planned)
-
-  ],
-)
 
 #education-entry(
   [
@@ -134,6 +117,23 @@
     - Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)
 
     - Engineering Portfolio: akhaled247.github.io\/pltw-engineering
+
+  ],
+)
+
+#education-entry(
+  [
+    #strong[Wakeland High School], High School Diploma   -- Frisco, TX
+
+  ],
+  [
+    Aug 2023 – May 2027
+
+  ],
+  main-column-second-row: [
+    - Unweighted GPA: 4.0
+
+    - 18 AP courses by graduation (completed and planned)
 
   ],
 )
@@ -162,9 +162,9 @@
 
     - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
 
-    - Conrad Challenge Innovator Award and Alternate Finalist
+    - Conrad Challenge Innovator Award
 
-    - Diamond Challenge Semi-Finalist
+    - Diamond Challenge Semifinalist
 
     - Patent application in progress with United States Patent and Trademark Office (USPTO)
 
@@ -193,14 +193,6 @@
 
   ],
 )
-
-== Technical and Computer Skills
-
-#strong[Engineering:] CAD\/CAM: Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA, Soldering
-
-#strong[Software:] Python, Java, JavaScript, HTML, Jekyll, CSS, Google Workspace, R, Google Sheets, MS Office
-
-#strong[Technologies:] OpenCV, SolvePnP, TensorFlow, Federated Learning, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory
 
 == Work Experience
 
@@ -242,98 +234,19 @@
   ],
 )
 
+== Technical and Computer Skills
+
+#strong[Engineering:] CAD\/CAM: Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA, Soldering
+
+#strong[Technologies:] WPILib, FTC SDK, OpenCV, SolvePnP, TensorFlow, Federated Learning, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory
+
+#strong[Software:] Python, Java (robotics), JavaScript, HTML, Jekyll, CSS, Google Workspace, R, Google Sheets, MS Office, Git, GitHub
+
 == Extracurricular Activities
 
 #regular-entry(
   [
-    #strong[Chief Technical Advisor], FIRST Robotics Competition (FRC) ITKAN Robotics -- Frisco, TX
-
-  ],
-  [
-    Aug 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Provided high-level technical oversight across all robot subsystems for a state-level team of 40 members
-
-    - Built an extensive publish–subscribe telemetry and motor logging framework with match logs viewable after events for diagnosing issues and debugging code
-
-    - Maintained and extended a \>1000-line Java codebase implementing autonomous routines, teleop control, vision, and mechanisms with a command-based paradigm
-
-    - Led development of robot state estimation and localization using sensor fusion of AprilTag vision and swerve-drive odometry, achieving \<2 inch positional error
-
-    - Oversaw development of finite-state machine control architecture with Dijkstra-based path planning using a time-weighted graph
-
-    - Used WPILib Java mechanism simulation to reduce time spent on in-house testing by validating behaviors ahead of build
-
-    - Engineered complex autonomous routines that optimized the tradeoff between speed and camera (AprilTag) updates, aligning to a specific target over time with PID control
-
-    - Achieved a 100\% autonomous success rate at the first event
-
-    - Produced the 5th-highest-scoring autonomous routine worldwide
-
-    - Won an autonomous award at the first event
-
-    - Verified performance through testing at home and during the event, supported by online simulations for autonomous pathing
-
-    - Developed self-paced robotics programming curriculum and training website (mantik.netlify.app), reaching 1k+ impressions online with users from 6 countries
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Software Lead], FIRST Robotics Competition (FRC) ITKAN Robotics -- Frisco, TX
-
-  ],
-  [
-    Dec 2024 – July 2025
-
-  ],
-  main-column-second-row: [
-    - Provided technical leadership on software team projects and taught 5-10 students Java programming with a command-based subsystem architecture
-
-    - Taught control theory concepts using PID and motion profiles, and used mechanism simulation with open-source libraries
-
-    - Implemented autonomous Bezier pathing using a command-based architecture to coordinate motion profiles and mechanism actions
-
-    - Advanced team to Texas State Championship playoffs (89 teams)
-
-    - Provided resources to 1000+ people online via my website and a YouTube playlist
-
-    - Robot codebase and documentation: akhaled247.github.io\/first\/reefscape
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Founder and President], Wolverine Robotics, Wakeland High School -- Frisco, TX
-
-  ],
-  [
-    Aug 2024 – present
-
-  ],
-  main-column-second-row: [
-    - Founded Wakeland Robotics Club, growing membership from 0 to 50+ students in the first year
-
-    - Developed mission statement, recruited teacher sponsor and members, and presented team vision, schedule, and activities to school administration
-
-    - Secured funding and constructed competition-ready robot in under 2 weeks, advancing to UIL State Championship
-
-    - Teach CAD software (Onshape) and Java programming through monthly technical workshops
-
-    - Manage club operations including curriculum design, calendar management, and budget management
-
-    - Lead monthly club meetings with presentations and demonstrations of robots
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Programming Mentor], ITKAN Robotics of ICF (FTC 26357, 28931)
+    #strong[Programming Lead], ITKAN Robotics - FIRST Robotics Competition (FRC 9128) -- Plano, TX
 
   ],
   [
@@ -341,11 +254,132 @@
 
   ],
   main-column-second-row: [
-    - Implemented Kalman-filtered state estimation combining AprilTag vision and wheel odometry for real-time robot localization and automated turret targeting
+    - Lead FRC 9128 robot software for a \~50-member team; as Programming Lead (2024-12–2025-06) owned \~80\% of the codebase as primary Java\/WPILib developer, maintaining GitHub workflows and command-based autonomous and teleop systems
 
-    - Mentored all-rookie FTC team through full engineering design cycle from prototyping to competition
+    - Integrated OpenCV + SolvePnP and tuned Kalman fusion between vision and drivetrain state; shipped autonomous pathing and targeting (state machines, Bezier-based planning, PID), improving average autonomous points per match by \~50\% across 12 matches after vision integration
 
-    - Mentor refugee students in FLL workshops and lead weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (akhaled247.github.io\/personal\/oarobotics)
+    - Implemented driver-input buffering for teleop handoff to automated placement; built match logging\/debug tooling and simulation workflows to validate behavior during an 8-week build season with limited robot access; taught mechanism simulation to supporting students
+
+    - Mentored rookie FTC teams 26357 and 28931 (2024–2025); supported \~30 students (6 programmers) from prototyping through competition, including \~25 hrs\/week at peak ITKAN FTC build season
+
+    - Applied FRC sensor-fusion experience to a custom FTC pose estimator (wheel odometry, IMU, vision) with Kalman filtering for localization and automated turret targeting; improved targeting\/scoring accuracy by \~35\%; #link("https://github.com/itkan-of-icf/ftc-26357-2526-v2")[FTC codebase]
+
+    - Delivered three 1-hour ICF FLL workshops (7 students\/session) for refugee students using the self-developed OARobotics curriculum (#link("https://akhaled247.github.io/personal/oarobotics/")[OARobotics]); students built FLL-class robots and completed block-code autonomous maze navigation by session end
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Chief Technical Advisor], ITKAN Robotics - FIRST Robotics Competition (FRC 9128) -- Plano, TX
+
+  ],
+  [
+    July 2025 – present
+
+  ],
+  main-column-second-row: [
+    - Lead software strategy for ITKAN's multi-team FRC program (\~20 programmers, \~100-member organization), delegating work, standardizing codebase layout, and aligning autonomy and teleop with mechanical\/electrical integration under build-season deadlines
+
+    - Managed autonomy and teleop reliability engineering, implementing layered failsafes to meet \>90\% reliability expectations despite limited build-season time and staffing; coordinated cross-functional integration so contingency planning preserved match performance after a near-failure camera disconnect
+
+    - Improved mechanism cycle time from \~2 s to \<1 s (intake-to-top) and increased shooter accuracy from \~70\% to \~95\%, doubling throughput from \~10 to \~20 balls\/s (lab-measured before\/after under comparable conditions)
+
+    - Completed autonomous routines without error in \~8–10 unofficial practice runs (pre-competition testing)
+
+    - Mentored programming students and led sponsor and university\/community communication, including Toyota and U.S. Senator Chris Van Hollen at an in-person event
+
+    - Built #link("https://mantik.netlify.app/")[Mantik] (Java + WPILib training website) and produced an FRC programming tutorial playlist (#link("https://www.youtube.com/playlist?list=PLXZmTommNXyXFZJGnoJt82-evVkSwn-f8")[YouTube series]); Google Search Console reach over a 2-month period reached 50+ students in the United States
+
+    - Supported multi-team FRC outcomes including FRC 9128 Texas State Championship playoff qualification; program results on #link("https://www.thebluealliance.com/team/9128")[The Blue Alliance (9128)] and #link("https://www.thebluealliance.com/team/10340")[10340]
+
+    - Ranked highly on Statbotics for Highest Combined Clean Scores among global FRC teams (snapshot Mar 2026); https:\/\/www.statbotics.io\/matches
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Founder and President], Wolverine Robotics — Wakeland High School (FTC 33791) -- Frisco, TX
+
+  ],
+  [
+    Aug 2024 – present
+
+  ],
+  main-column-second-row: [
+    - Founded school FTC program (team 33791) and led Wolverine Robotics to an undefeated run and 3rd place at the UIL State Championship; grew membership from 0 to 50+ in year one (\~75 roster in year two; 25–50\% active participants)
+
+    - Secured \~\$6,000+ in resources and built a competition-ready FTC robot in under two weeks (approx. \$2,000 school allocation + \$2,000 NHS fundraising + \$2,000 parent donations)
+
+    - Presented club vision and resourcing plan to school administration (principal, assistant principal\/club manager, physics teacher sponsor) to obtain approval, a teacher sponsor, and permission to compete
+
+    - Delivered \~6 technical workshops (10–15 attendees) on assembly, Java, FTC simulations, and Onshape CAD; created onboarding presentations and an engineering notebook; led monthly meetings with robot demonstrations
+
+    - Implemented FTC autonomous\/pathing (FTC Libraries, PedroPathing) with dead-reckoning wheel odometry and IMU fusion for real-time localization
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Teaching Assistant (TA)], Islamic Center of Frisco (ICF) -- Frisco, TX
+
+  ],
+  [
+    Sept 2023 – May 2024
+
+  ],
+  main-column-second-row: [
+    - Aided elementary students in religious studies and helped keep them on task and engaged
+
+    - Assisted Primary Instructor with curriculum implementation
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Co-Founder, Secretary], Muslim Student Association (MSA), Wakeland High School -- Frisco, TX
+
+  ],
+  [
+    Aug 2024 – present
+
+  ],
+  main-column-second-row: [
+    - Developed mission statement, recruited teacher sponsor and members, and presented activities to school administration
+
+    - Coordinated with school staff to establish a prayer room for weekly prayers
+
+    - Created various media for promoting the club and prayer room, including social media posts
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Lead Instructor & Peer Program Coordinator], Ma'ruf Dallas Refugee Organization (Project Taleem) -- Dallas, TX
+
+  ],
+  [
+    Sept 2023 – present
+
+  ],
+  main-column-second-row: [
+    - Co-lead Project Taleem (\~2 hr\/week during the school year; pauses for summer and winter breaks), tutoring K–6 refugee students in small groups (\~1:2–3), typically 3–10 learners per session alongside \~4–5 peer instructors
+
+    - Coordinate Ma'ruf and Gideon organizers to supply discounted Gideon learning materials; place students with IXL math and reading diagnostics spanning phonics through \~3rd-grade reading passages and addition through fractions
+
+    - Lead pre-session briefings for peer instructors; assign age-banded groups and smaller ratios for newer volunteers; supervise instructional delivery while maintaining a direct tutoring load; train peers on Gideon-based methods informed by parallel Gideon student, TA, and instructor roles
+
+    - Recruit high-school volunteers from five schools via robotics networks and onboard them into the program; provide periodic updates to the volunteer coordinator
+
+    - Run multilingual sessions with peer interpretation when available, mid-session breaks, and age-separated groupings to stabilize pacing and engagement
+
+    - Deliver monthly robotics enrichment for Project Taleem using the OARobotics curriculum (akhaled247.github.io\/personal\/oarobotics)
+
+    - Measured average \~15-point IXL SmartScore increase over four months (Nov–Feb; n=10 students)
 
   ],
 )
@@ -390,61 +424,6 @@
 
 #regular-entry(
   [
-    #strong[Co-Founder, Secretary], Muslim Student Association (MSA), Wakeland High School -- Frisco, TX
-
-  ],
-  [
-    Aug 2024 – present
-
-  ],
-  main-column-second-row: [
-    - Developed mission statement, recruited teacher sponsor and members, and presented activities to school administration
-
-    - Coordinated with school staff to establish a prayer room for weekly prayers
-
-    - Created various media for promoting the club and prayer room, including social media posts
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Lead Math and English Instructor], Ma'ruf Dallas Refugee Organization -- Dallas, TX
-
-  ],
-  [
-    Sept 2023 – present
-
-  ],
-  main-column-second-row: [
-    - Teach Math and English to refugee elementary and middle school children
-
-    - Developed differentiated curriculum for student groups based on their specific needs
-
-    - Provide mentorship to students in academic skills, time management, life skills, and social integration for students transitioning to American schools
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Teaching Assistant (TA)], Islamic Center of Frisco (ICF) -- Frisco, TX
-
-  ],
-  [
-    Sept 2023 – May 2024
-
-  ],
-  main-column-second-row: [
-    - Aided elementary students in religious studies and helped keep them on task and engaged
-
-    - Assisted Primary Instructor with curriculum implementation
-
-  ],
-)
-
-#regular-entry(
-  [
     #strong[Volunteer], Frisco Family Services -- Frisco, TX
 
   ],
@@ -479,12 +458,12 @@
 
 == Honors & Awards
 
-- (2026) OralVision: Conrad Challenge Innovator Award & Alternate Finalist, Diamond Challenge Semifinalist
+- (2025) Collegeboard: AP Scholar with Distinction, National Recognition Program: School Recognition Award
+
+- (2026) OralVision: Conrad Challenge Innovator Award; Diamond Challenge Semifinalist
 
 - (2026) FTC 33791: Event Winner, Control Award Winner (FiT-North Dallas Semi-Regional Championship, 25 teams), Control Award Winner (FiT-North U-League Tournament)
 
 - (2025) FRC 9128: FIRST® Leadership Award Semifinalist, Event Winner (FIRST® in Texas Victoria, 25 teams); Autonomous Award (FiT Plano, 31 teams); Creativity Award (FiT Amarillo, 36 teams)
 
 - (2025) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)
-
-- (2025) Collegeboard: AP Scholar with Distinction, National Recognition Program: School Recognition Award

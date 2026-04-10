@@ -10,12 +10,12 @@
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
-  page-top-margin: 0.7in,
-  page-bottom-margin: 0.7in,
-  page-left-margin: 0.7in,
-  page-right-margin: 0.7in,
-  page-show-footer: true,
-  page-show-top-note: true,
+  page-top-margin: 0.55in,
+  page-bottom-margin: 0.55in,
+  page-left-margin: 0.58in,
+  page-right-margin: 0.58in,
+  page-show-footer: false,
+  page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 79, 144),
   colors-headline: rgb(0, 79, 144),
@@ -24,7 +24,7 @@
   colors-links: rgb(0, 79, 144),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
-  typography-line-spacing: 0.6em,
+  typography-line-spacing: 0.48em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
   typography-font-family-body: "Raleway",
@@ -62,22 +62,22 @@
   section-titles-space-above: 0.5cm,
   section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.3em,
-  sections-space-between-regular-entries: 1.2em,
+  sections-space-between-text-based-entries: 0.12cm,
+  sections-space-between-regular-entries: 0.32cm,
   entries-date-and-location-width: 4.15cm,
-  entries-side-space: 0.2cm,
+  entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
-  entries-summary-space-above: 0.12cm,
-  entries-highlights-bullet:  "•" ,
-  entries-highlights-nested-bullet:  "•" ,
+  entries-summary-space-above: 0.06cm,
+  entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
+  entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-space-left: 0cm,
-  entries-highlights-space-above: 0.12cm,
-  entries-highlights-space-between-items: 0.12cm,
-  entries-highlights-space-between-bullet-and-text: 0.5em,
+  entries-highlights-space-above: 0.05cm,
+  entries-highlights-space-between-items: 0.05cm,
+  entries-highlights-space-between-bullet-and-text: 0.28em,
   date: datetime(
     year: 2026,
     month: 3,
@@ -88,8 +88,12 @@
 
 = Abdullah Khaled
 
+  #headline([Prospective undergraduate — electrical engineering & Islamic studies; embedded ML, computer vision, robotics])
+
 #connections(
   [#connection-with-icon("location-dot")[Frisco, TX]],
+  [#link("mailto:abdullahkhaled0224@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[abdullahkhaled0224\@gmail.com]]],
+  [#link("tel:+1-469-347-2884", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[(469) 347-2884]]],
   [#link("https://akhaled247.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[akhaled247.github.io]]],
   [#link("https://linkedin.com/in/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[akhaled247]]],
   [#link("https://github.com/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[akhaled247]]],
@@ -108,9 +112,7 @@
 
   ],
   main-column-second-row: [
-    - Unweighted GPA: 4.0
-
-    - 18 AP courses by graduation (completed and planned)
+    - 4.0 unweighted GPA; 18 AP courses (completed\/planned) by graduation
 
   ],
 )
@@ -125,11 +127,49 @@
 
   ],
   main-column-second-row: [
-    - Frisco ISD Career and Technical Education Center Project Lead the Way (PLTW) Nationally Distinguished Engineering Program
+    - Frisco ISD CTE PLTW Nationally Distinguished Engineering Program
 
-    - Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)
+    - Courses: Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development (grades 9–12)
 
-    - Engineering Portfolio: akhaled247.github.io\/pltw-engineering
+    - Engineering portfolio: akhaled247.github.io\/pltw-engineering
+
+  ],
+)
+
+== Projects
+
+#regular-entry(
+  [
+    #strong[OralVision (oral disease screening device)] -- #strong[Conrad Challenge; Diamond Challenge]
+
+  ],
+  [
+    Oct 2025 – present
+
+  ],
+  main-column-second-row: [
+    - Privacy-preserving screening pipeline using centrally trained models and on-device inference without transmitting raw patient imagery; HIPAA-aligned design goal; author led imaging hardware end-to-end (partner focused on training\/inference stack)
+
+    - Designed, built, and programmed embedded imager (XIAO-ESP32-C6, OV5642 5 MP) with power-aware capture; bench-tested illumination and viewpoint; repeated sessions to confirm capture consistency; 3 PCB and 5 snap-fit enclosure revisions
+
+    - Onshape CAD and 3D printing; USPTO patent application in progress
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[WatchFall (fall-monitoring prototype)] -- #strong[Samsung Solve for Tomorrow]
+
+  ],
+  [
+    Sept 2025 – present
+
+  ],
+  main-column-second-row: [
+    - On-device fall detection on Raspberry Pi Pico with TensorFlow Lite; lightweight motion model and alert path; hybrid public + custom-labeled data to reduce false positives
+
+    - Resource-aware monochrome imaging (Arducam HM01B0, SPI) on Pico; planned validation on recorded motion\/fall clips to tune thresholds before wider field testing
 
   ],
 )
@@ -138,7 +178,7 @@
 
 #regular-entry(
   [
-    #strong[Chief Technical Advisor], ITKAN Robotics (FRC 9128) -- Frisco, TX
+    #strong[Chief Technical Advisor], ITKAN Robotics (FRC 9128) -- Plano, TX
 
   ],
   [
@@ -146,18 +186,18 @@
 
   ],
   main-column-second-row: [
-    - Developed components of competition robot software stack integrating localization, path planning, telemetry, and mechanism control in Java
+    - Software architecture and process for multi-team FRC (\~20 programmers); standardized repository layout; integrated autonomy and teleop with mechanical and electrical subsystems under tight iteration cycles
 
-    - Built publish–subscribe telemetry\/logging framework and finite-state-machine path planning (Dijkstra on time-weighted graphs) for real-time robot control and diagnostics
+    - Reliability-focused autonomy\/teleop with layered failsafes; post-incident recovery planning after near-complete vision dropout; documented debugging and match logging workflows
 
-    - Led development of robot state estimation and localization using sensor fusion of AprilTag vision and swerve-drive odometry, achieving \<2 in positional error
+    - Lab-characterized mechanism performance (cycle time, accuracy, throughput); Mantik open WPILib\/Java notes (mantik.netlify.app); mentored programmers; university and industry outreach
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Software Lead], ITKAN Robotics (FRC 9128) -- Frisco, TX
+    #strong[Software Lead], ITKAN Robotics (FRC 9128) -- Plano, TX
 
   ],
   [
@@ -165,18 +205,20 @@
 
   ],
   main-column-second-row: [
-    - Provided technical leadership on organization of software projects and mentored new programming team members
+    - Primary Java\/WPILib contributor (\~80\% of codebase) for \~50-member team; Git-based review; command-based autonomous and teleoperation modes
 
-    - Developed self-paced robotics programming curriculum and training website used by 20+ FRC and FTC students and reaching 1000+ impressions worldwide (mantik.netlify.app)
+    - Vision-based pose with OpenCV and SolvePnP fused to drivetrain state via Kalman filtering; Bezier-based paths, finite-state autonomy, and PID tracking—\~50\% higher autonomous scoring per match (n=12) after vision integration
 
-    - Robot codebase and documentation: akhaled247.github.io\/first\/reefscape
+    - Match logging, simulation, and teleop handoff tooling; mentored newer programmers in WPILib and mechanism simulation
+
+    - Reference codebase: akhaled247.github.io\/first\/reefscape
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Programming Mentor], ITKAN Robotics of ICF (FTC 26357, 28931) -- Frisco, TX
+    #strong[Programming Mentor], ITKAN Robotics of ICF (FTC 26357, 28931) -- Plano, TX
 
   ],
   [
@@ -184,9 +226,9 @@
 
   ],
   main-column-second-row: [
-    - Implemented Kalman-filtered state estimation combining AprilTag vision and wheel odometry for real-time robot localization and automated turret targeting
+    - State-estimation for FTC—wheel odometry, IMU, and vision fused with Kalman filtering; improved targeting and scoring efficiency \~35\% (github.com\/itkan-of-icf\/ftc-26357-2526-v2)
 
-    - Mentor refugee students in FLL workshops and lead weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (akhaled247.github.io\/personal\/oarobotics)
+    - Mentored rookie FTC teams through design reviews and integration; peak \~25 hrs\/week during build season; FLL outreach for refugee students via OARobotics (akhaled247.github.io\/personal\/oarobotics)
 
   ],
 )
@@ -201,13 +243,9 @@
 
   ],
   main-column-second-row: [
-    - Co-founded Wakeland robotics club, growing membership from 0 to 50+ students in the first year
+    - Founded school FTC program; UIL State Championship finalist (3rd); scaled membership 0→50+ in year one; secured \~\$6k+ resources; first competition robot in under two weeks
 
-    - Secured funding and constructed competition-ready robot in under 2 weeks
-
-    - Teach CAD software (Onshape) and Java programming through monthly technical workshops
-
-    - Manage club operations including mission development, curriculum design, and budget management
+    - Taught recurring technical workshops (Java, Onshape, FTC simulation); maintained engineering notebook and onboarding materials; autonomous localization with wheel odometry and IMU fusion (PedroPathing, FTC SDK)
 
   ],
 )
@@ -222,9 +260,9 @@
 
   ],
   main-column-second-row: [
-    - Instruct K-11th grade students in mathematics (Algebra, Geometry), reading, and grammar
+    - Instructed K–11 in mathematics (through Geometry), reading, and grammar in guided small groups (\~4–12 students per day); used formative checkpoints to adjust pacing and difficulty
 
-    - Analyze student performance data to identify learning gaps and develop personalized plans
+    - Analyzed student work to target misconceptions and personalize practice; adapted reading passages to goal comprehension levels
 
   ],
 )
@@ -239,68 +277,26 @@
 
   ],
   main-column-second-row: [
-    - Graded K–11th work (including Algebra and Geometry) and supported students in completing assignments
+    - Graded K–11 mathematics including Algebra and Geometry; scaffolded in-class assignments
 
-  ],
-)
-
-== Projects
-
-#regular-entry(
-  [
-    #strong[OralVision] -- #strong[The Conrad Challenge]
-
-  ],
-  [
-    Oct 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
-
-    - Used Onshape 3D CAD software to design and 3D print the device, reducing manufacturing costs
-
-    - Conrad Challenge Innovator Award and Alternate Finalist; Diamond Challenge Semi-Finalist
-
-    - Patent application in progress with the United States Patent and Trademark Office (USPTO)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[WatchFall] -- #strong[Samsung Solve for Tomorrow]
-
-  ],
-  [
-    Sept 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Designed fall-detection device using Raspberry Pi Pico with on-device TensorFlow Lite inference
-
-    - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
-
-    - Engineered hybrid dataset combining public and custom annotated data, reducing false positive rate
+    - Streamlined grading workflow (\~50\% time reduction) while preserving feedback quality
 
   ],
 )
 
 == Skills
 
-#strong[Software & Data:] Python, Java, JavaScript, R, Google Sheets
+#strong[Software & Web:] Python, Java, JavaScript, R, Git, GitHub, HTML, CSS, Jekyll, Google Sheets, Google Workspace, Microsoft Office
 
-#strong[Robotics, ML & Vision:] TensorFlow, TensorFlow Federated, OpenCV, SolvePnP, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory, Federated Learning
+#strong[Robotics, ML & Vision:] WPILib, FTC SDK, TensorFlow, TensorFlow Lite, TensorFlow Federated, OpenCV, SolvePnP, Kalman filtering, FSMs, mechanism simulation, control systems
 
-#strong[CAD, Electronics & Prototyping:] Fusion 360, Onshape, NI Multisim, KiCAD, EasyEDA, Soldering
-
-#strong[Web & Productivity:] HTML, CSS, Jekyll, Google Workspace, Microsoft Office
+#strong[CAD & Electronics:] Fusion 360, Onshape, NI Multisim, KiCAD, EasyEDA, soldering
 
 == Leadership & Activities
 
 #regular-entry(
   [
-    #strong[Vice President], Mu Alpha Theta\/Math National Honor Society
+    #strong[Vice President], Mu Alpha Theta\/Math National Honor Society -- Wakeland High School, Frisco, TX
 
   ],
   [
@@ -308,18 +304,16 @@
 
   ],
   main-column-second-row: [
-    - Lead organization as Vice President, managing budget for 100+ members
+    - Vice President (100+ members); organized chapter presentations; expanded Math Lab peer tutoring (\>20\% participation)
 
-    - Expanded Math Lab Program and coordinated peer tutoring, attaining over 20\% member participation
-
-    - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers to promote STEM
+    - Directed annual middle school mathematics contest (\~100 students, 3 schools, 35+ student volunteers)
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Treasurer], Mu Alpha Theta\/Math National Honor Society
+    #strong[Treasurer], Mu Alpha Theta\/Math National Honor Society -- Wakeland High School, Frisco, TX
 
   ],
   [
@@ -327,33 +321,31 @@
 
   ],
   main-column-second-row: [
-    - Managed organization budget for 100+ members
+    - Launched Math Lab with faculty-aligned Algebra I peer tutoring; volunteer scheduling via Google Sites
 
-    - Designed and implemented Math Lab Program coordinating student-led tutoring in Algebra I courses with teachers
+    - Treasurer—managed club budget for 100+ members
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Co-Founder and President], Muslim Student Association (MSA) -- Wakeland High School, Frisco, TX
+    #strong[Co-Founder, Secretary], Muslim Student Association (MSA) -- Wakeland High School, Frisco, TX
 
   ],
   [
-    Sept 2024 – present
+    Aug 2024 – present
 
   ],
   main-column-second-row: [
-    - Developed mission statement, recruited teacher sponsor and members, and presented activities to school administration
-
-    - Negotiated with school administration to establish a dedicated prayer room, coordinating facility setup and policies
+    - Co-founded; mission, recruitment, admin presentations; prayer room coordination; club promotional media
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Lead Math and English Instructor], Ma'ruf Project Taleem -- Dallas, TX
+    #strong[Tutoring Program Coordinator], Ma'ruf Dallas Refugee Organization (Project Taleem) -- Dallas, TX
 
   ],
   [
@@ -361,21 +353,38 @@
 
   ],
   main-column-second-row: [
-    - Teach Math and English to refugee students and mentor them in academics, time management, and social integration
+    - Co-lead after-school tutoring (\~2 hr\/week, school year): K–6 refugee learners in small groups with trained high-school volunteers; coordinated Ma'ruf and Gideon for materials; IXL diagnostics (math and reading)
 
-    - Coordinate small-group instruction and parent communication to support students' long-term academic progress
+    - Ran pre-session briefings, age-banded grouping, and newcomer onboarding; trained tutors using methods informed by parallel Gideon instructor\/TA experience
+
+    - \~15-point mean IXL SmartScore gain over four months (Nov–Feb, n=10); monthly robotics enrichment via OARobotics (akhaled247.github.io\/personal\/oarobotics)
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Teaching Assistant], Islamic Center of Frisco (ICF) -- Frisco, TX
+
+  ],
+  [
+    Sept 2023 – May 2024
+
+  ],
+  main-column-second-row: [
+    - Supported elementary religious studies classes; assisted lead instructor with lesson delivery and student engagement
 
   ],
 )
 
 == Honors & Awards
 
-- (2026) OralVision: Conrad Challenge Innovator Award & Alternate Finalist; Diamond Challenge Semifinalist
+- (2025) Collegeboard: AP Scholar with Distinction; National Recognition Program School Recognition Award
 
-- (2026) FTC 33791: Event Winner; Control Award Winner (FiT-North Dallas Semi-Regional, 25 teams; FiT-North U-League)
+- (2026) OralVision: Conrad Challenge Innovator; Diamond Challenge Semifinalist
 
-- (2025) FRC 9128: FIRST® Leadership Award Semifinalist; Event Winner (FiT Victoria, 25); Autonomous Award (FiT Plano, 31); Creativity Award (FiT Amarillo, 36)
+- (2026) FTC 33791: Event Winner; Control Award (FiT-North Dallas Semi-Regional Championship, 25 teams); Control Award (FiT-North U-League Tournament)
+
+- (2025) FRC 9128: FIRST® Leadership Award Semifinalist; Event Winner (FIRST® in Texas Victoria, 25 teams); Autonomous Award (FiT Plano, 31 teams); Creativity Award (FiT Amarillo, 36 teams)
 
 - (2025) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)
-
-- (2025) Collegeboard: AP Scholar with Distinction; National Recognition Program School Recognition Award
