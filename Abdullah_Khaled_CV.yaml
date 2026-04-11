@@ -2,7 +2,7 @@
 # python -m rendercv render --watch "Abdullah_Khaled_CV.yaml"
 cv:
   name: Abdullah Khaled 
-  headline: Prospective undergraduate — electrical engineering & Islamic studies; embedded ML, computer vision, robotics
+  headline:
   location: Frisco, TX
   email: abdullahkhaled0224@gmail.com
   photo:

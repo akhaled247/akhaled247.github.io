@@ -88,8 +88,6 @@
 
 = Abdullah Khaled
 
-  #headline([Prospective undergraduate — electrical engineering & Islamic studies; embedded ML, computer vision, robotics])
-
 #connections(
   [#connection-with-icon("location-dot")[Frisco, TX]],
   [#link("mailto:abdullahkhaled0224@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[abdullahkhaled0224\@gmail.com]]],
