@@ -4,6 +4,8 @@ title: "Engineering Portfolio | Abdullah Khaled"
 description: "Explore Abdullah Khaled's engineering portfolio featuring robotics projects, FRC/FTC competition work, and software engineering from Frisco, TX."
 permalink: /
 author_profile: false
+header:
+  og_image: /assets/images/first/9128_2025.jpg
 
 feature_row_projects:
   - image_path: /assets/images/personal/oralvision/main.png

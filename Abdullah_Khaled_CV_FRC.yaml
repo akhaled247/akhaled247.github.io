@@ -10,7 +10,7 @@ cv:
   email: abdullahkhaled0224@gmail.com
   photo:
   phone: +1 469-347-2884
-  website: https://akhaled247.github.io/
+  website: https://www.aakhaled.com/
   social_networks:
     - network: LinkedIn
       username: akhaled247
@@ -37,7 +37,7 @@ cv:
         location: Frisco, TX
         highlights:
           - PLTW Nationally Distinguished Engineering Program — IED, POE, Digital Electronics, EDD
-          - '[Engineering portfolio](https://akhaled247.github.io/pltw-engineering/)'
+          - '[Engineering portfolio](https://www.aakhaled.com/pltw-engineering/)'
     Extracurricular Activities:
       - company: ITKAN Robotics — FIRST Robotics Competition (FRC 9128)
         position: Programming Lead
@@ -50,7 +50,7 @@ cv:
           - 'Built AprilTag pose estimation + auto-align, swerve odometry fusion, and a field-oriented driver UI; integrated OpenCV + SolvePnP with Kalman fusion; shipped autonomous pathing/targeting (state machines, Bezier, PID)—~50% higher autonomous points/match across 12 matches after vision integration'
           - Designed and fabricated an Onshape camera mount for reliable AprilTag detection across field distances; implemented driver-input buffering, custom motor logging classes (AdvantageScope), and match logging/simulation for limited build-season access
           - '**Mentored** rookie FTC teams 26357 and 28931 (2024–Present); supported ~30 students (6 programmers) through competition, including ~25 hrs/week at peak FTC build season'
-          - '**Led** multiple FLL workshops (7 students/session) for refugee students using the **conceived** OARobotics curriculum ([OARobotics](https://akhaled247.github.io/personal/oarobotics/)); students completed block-code autonomous maze navigation by session end'
+          - '**Led** multiple FLL workshops (7 students/session) for refugee students using the **conceived** OARobotics curriculum ([OARobotics](https://www.aakhaled.com/personal/oarobotics/)); students completed block-code autonomous maze navigation by session end'
       - company: ITKAN Robotics — FIRST Robotics Competition (FRC 9128)
         position: Chief Technical Advisor
         date:

@@ -159,11 +159,12 @@
         "position": {{ position }},
         "name": {{ crumb | url_decode | replace: '-', ' ' | capitalize | jsonify }},
         "item": {{ path | absolute_url | append: "/" | jsonify }}
-      }{% assign position = position | plus: 1 %}{% endunless %}{% if forloop.last %},
+      }{% assign position = position | plus: 1 %}{% endunless %}      {% if forloop.last %},
       {
         "@type": "ListItem",
         "position": {{ position }},
-        "name": {{ page.title | jsonify }}
+        "name": {{ page.title | jsonify }},
+        "item": {{ canonical_url | jsonify }}
       }{% endif %}{% endunless %}{% endfor %}
     ]
   }

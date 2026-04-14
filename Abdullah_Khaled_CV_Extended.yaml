@@ -7,7 +7,7 @@ cv:
   email: abdullahkhaled0224@gmail.com
   photo:
   phone: +1 469-347-2884
-  website: https://akhaled247.github.io/
+  website: https://www.aakhaled.com/
   social_networks:
     - network: LinkedIn
       username: akhaled247
@@ -26,7 +26,7 @@ cv:
         highlights:
           - Frisco ISD Career and Technical Education Center Project Lead the Way (PLTW) Nationally Distinguished Engineering Program
           - 'Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)'
-          - 'Engineering Portfolio: akhaled247.github.io/pltw-engineering'
+          - 'Engineering Portfolio: aakhaled.com/pltw-engineering'
       - institution: Wakeland High School
         area: ' '
         degree: High School Diploma
@@ -105,7 +105,7 @@ cv:
           - Implemented driver-input buffering for teleop handoff to automated placement; built match logging/debug tooling and simulation workflows to validate behavior during an 8-week build season with limited robot access; taught mechanism simulation to supporting students
           - Mentored rookie FTC teams 26357 and 28931 (2024–2025); supported ~30 students (6 programmers) from prototyping through competition, including ~25 hrs/week at peak ITKAN FTC build season
           - "Applied FRC sensor-fusion experience to a custom FTC pose estimator (wheel odometry, IMU, vision) with Kalman filtering for localization and automated turret targeting; improved targeting/scoring accuracy by ~35%; [FTC codebase](https://github.com/itkan-of-icf/ftc-26357-2526-v2)"
-          - Delivered three 1-hour ICF FLL workshops (7 students/session) for refugee students using the self-developed OARobotics curriculum ([OARobotics](https://akhaled247.github.io/personal/oarobotics/)); students built FLL-class robots and completed block-code autonomous maze navigation by session end
+          - Delivered three 1-hour ICF FLL workshops (7 students/session) for refugee students using the self-developed OARobotics curriculum ([OARobotics](https://www.aakhaled.com/personal/oarobotics/)); students built FLL-class robots and completed block-code autonomous maze navigation by session end
       - company: ITKAN Robotics - FIRST Robotics Competition (FRC 9128)
         position: Chief Technical Advisor
         date:
@@ -164,7 +164,7 @@ cv:
           - Lead pre-session briefings for peer instructors; assign age-banded groups and smaller ratios for newer volunteers; supervise instructional delivery while maintaining a direct tutoring load; train peers on Gideon-based methods informed by parallel Gideon student, TA, and instructor roles
           - Recruit high-school volunteers from five schools via robotics networks and onboard them into the program; provide periodic updates to the volunteer coordinator
           - Run multilingual sessions with peer interpretation when available, mid-session breaks, and age-separated groupings to stabilize pacing and engagement
-          - Deliver monthly robotics enrichment for Project Taleem using the OARobotics curriculum (akhaled247.github.io/personal/oarobotics)
+          - Deliver monthly robotics enrichment for Project Taleem using the OARobotics curriculum (www.aakhaled.com/personal/oarobotics)
           - Measured average ~15-point IXL SmartScore increase over four months (Nov–Feb; n=10 students)
       - company: Mu Alpha Theta Math Honor Society, Wakeland High School
         position: Vice President

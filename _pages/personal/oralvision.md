@@ -3,6 +3,8 @@ title: "OralVision - Conrad Challenge Entry"
 description: "OralVision: A low-cost oral disease detection device using federated learning and ESP32 for HIPAA-compliant cancer screening, achieving 87% accuracy in the Conrad Challenge."
 permalink: /personal/oralvision/
 author_profile: false
+header:
+  og_image: /assets/images/personal/oralvision/main.png
 media:
   - url: /assets/images/personal/oralvision/caseprototypes.png
     image_path: /assets/images/personal/oralvision/caseprototypes.png
@@ -10,8 +12,8 @@ media:
     title: "Case Iterations"
   - url: /assets/images/personal/oralvision/irlprototype.jpg
     image_path: /assets/images/personal/oralvision/irlprototype.jpg
-    alt: "Physicial Prototype"
-    title: "Physicial prototype using 3D printing."
+    alt: "Physical prototype of OralVision handheld device"
+    title: "Physical prototype using 3D printing."
   - url: /assets/images/personal/oralvision/specifics.png
     image_path: /assets/images/personal/oralvision/specifics.png
     alt: "Design Details"

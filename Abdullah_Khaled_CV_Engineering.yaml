@@ -7,7 +7,7 @@ cv:
   email: abdullahkhaled0224@gmail.com
   photo:
   phone: +1 469-347-2884
-  website: https://akhaled247.github.io/
+  website: https://www.aakhaled.com/
   social_networks:
     - network: LinkedIn
       username: akhaled247
@@ -36,7 +36,7 @@ cv:
         highlights:
           - Frisco ISD Career and Technical Education Center Project Lead the Way (PLTW) Nationally Distinguished Engineering Program
           - 'Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)'
-          - 'Engineering Portfolio: akhaled247.github.io/pltw-engineering'
+          - 'Engineering Portfolio: aakhaled.com/pltw-engineering'
     Technical and Computer Skills:
       - label: Engineering
         details: 'CAD/CAM: Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA, Soldering'
@@ -92,7 +92,7 @@ cv:
           - Trained new programming/software team members in Java, robotics-specific coding paradigms, debugging and troubleshooting, and mechanism control using control theory
           - Implemented autonomous Bezier pathing using a command-based architecture to coordinate motion profiles, mechanism actions, and sensor feedback
           - Advanced team to Texas State Championship playoffs (89 teams)
-          - "Robot codebase and documentation: akhaled247.github.io/first/reefscape"
+          - "Robot codebase and documentation: aakhaled.com/first/reefscape"
       - company: ITKAN Robotics of ICF (FTC 26357, 28931)
         position: Programming Mentor
         date:
@@ -102,7 +102,7 @@ cv:
         highlights:
           - Implemented Kalman-filtered state estimation combining AprilTag vision and wheel odometry for real-time robot localization and automated turret targeting
           - Mentored all-rookie FTC team through full engineering design cycle from prototyping to competition
-          - Mentor refugee students in FLL workshops and lead weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (akhaled247.github.io/personal/oarobotics)
+          - Mentor refugee students in FLL workshops and lead weekly summer training for FTC and FRC students using self-developed OARobotics curriculum (aakhaled.com/personal/oarobotics)
       - company: Wolverine Robotics, Wakeland High School
         position: Founder and President
         date:

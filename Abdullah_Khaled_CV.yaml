@@ -7,7 +7,7 @@ cv:
   email: abdullahkhaled0224@gmail.com
   photo:
   phone: +1 469-347-2884
-  website: https://akhaled247.github.io/
+  website: https://www.aakhaled.com/
   social_networks:
     - network: LinkedIn
       username: akhaled247
@@ -35,7 +35,7 @@ cv:
         highlights:
           - Frisco ISD CTE PLTW Nationally Distinguished Engineering Program
           - 'Courses: Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development (grades 9–12)'
-          - 'Engineering portfolio: akhaled247.github.io/pltw-engineering'
+          - 'Engineering portfolio: aakhaled.com/pltw-engineering'
     Projects:
       - name: OralVision (oral disease screening device)
         date:
@@ -75,7 +75,7 @@ cv:
           - Primary Java/WPILib contributor (~80% of codebase) for ~50-member team; Git-based review; command-based autonomous and teleoperation modes
           - Vision-based pose with OpenCV and SolvePnP fused to drivetrain state via Kalman filtering; Bezier-based paths, finite-state autonomy, and PID tracking—~50% higher autonomous scoring per match (n=12) after vision integration
           - Match logging, simulation, and teleop handoff tooling; mentored newer programmers in WPILib and mechanism simulation
-          - "Reference codebase: akhaled247.github.io/first/reefscape"
+          - "Reference codebase: aakhaled.com/first/reefscape"
       - company: ITKAN Robotics of ICF (FTC 26357, 28931)
         position: Programming Mentor
         date:
@@ -84,7 +84,7 @@ cv:
         location: Plano, TX
         highlights:
           - "State-estimation for FTC—wheel odometry, IMU, and vision fused with Kalman filtering; improved targeting and scoring efficiency ~35% (github.com/itkan-of-icf/ftc-26357-2526-v2)"
-          - "Mentored rookie FTC teams through design reviews and integration; peak ~25 hrs/week during build season; FLL outreach for refugee students via OARobotics (akhaled247.github.io/personal/oarobotics)"
+          - "Mentored rookie FTC teams through design reviews and integration; peak ~25 hrs/week during build season; FLL outreach for refugee students via OARobotics (www.aakhaled.com/personal/oarobotics)"
       - company: "Wakeland High School Wolverine Robotics (FTC 33791)"
         position: Co-Founder, President
         date:
@@ -155,7 +155,7 @@ cv:
         highlights:
           - "Co-lead after-school tutoring (~2 hr/week, school year): K–6 refugee learners in small groups with trained high-school volunteers; coordinated Ma'ruf and Gideon for materials; IXL diagnostics (math and reading)"
           - Ran pre-session briefings, age-banded grouping, and newcomer onboarding; trained tutors using methods informed by parallel Gideon instructor/TA experience
-          - "~15-point mean IXL SmartScore gain over four months (Nov–Feb, n=10); monthly robotics enrichment via OARobotics (akhaled247.github.io/personal/oarobotics)"
+          - "~15-point mean IXL SmartScore gain over four months (Nov–Feb, n=10); monthly robotics enrichment via OARobotics (aakhaled.com/personal/oarobotics)"
       - company: Islamic Center of Frisco (ICF)
         position: Teaching Assistant
         date:

@@ -3,6 +3,8 @@ title: "2025 FRC Season"
 description: "REEFSCAPE as Programming Lead: motion profiling for smooth elevator/pivot control (vs PID), triple-PID autonomous alignment for pole scoring — Autonomous Award at the first event, district win at the second, Texas State Playoffs."
 permalink: /first/reefscape/
 author_profile: false
+header:
+  og_image: /assets/images/first/9128_2025.jpg
 ---
 In this season of the FIRST® Robotics Competition (FRC) game, REEFSCAPE, robots had to align to a pole and place a 4-inch diameter pipe on the pole, leaving teams with a ±2 inch placement tolerance. As the Programming Lead for my team, I used control theory to ensure smooth movement of our mechanisms and robot drivetrain as well as developed our robot's autonomous alignment algorithm. In doing so, our team won the Autonomous Award at our first event, were the District Event Winner at our second, and advanced to the Texas State Playoffs!
 

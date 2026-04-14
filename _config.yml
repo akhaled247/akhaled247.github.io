@@ -26,7 +26,7 @@ title_separator          : "|"
 subtitle                 : "Engineering Portfolio"
 name                     : "Abdullah Khaled"
 description              : "Engineering portfolio of Abdullah Khaled, showcasing robotics projects, FRC/FTC competitions, and software engineering work from a high school student in Frisco, TX."
-url                      : "https://akhaled247.github.io"
+url                      : "https://www.aakhaled.com"
 baseurl                  : "" # empty string for root domain deployment
 repository               : akhaled247/akhaled247.github.io
 teaser                   : "/assets/images/first/9128_2025.jpg" # fallback teaser for posts without images
@@ -305,6 +305,15 @@ compress_html:
 
 # Defaults
 defaults:
+  # RenderCV: omit duplicate HTML + variant PDFs from sitemap (later default wins for primary PDF)
+  - scope:
+      path: "rendercv_output"
+    values:
+      sitemap: false
+  - scope:
+      path: "rendercv_output/Abdullah_Khaled_CV.pdf"
+    values:
+      sitemap: true
   # _posts
   - scope:
       path: ""

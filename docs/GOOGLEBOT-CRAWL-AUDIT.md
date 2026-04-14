@@ -8,8 +8,8 @@ This document summarizes how Googlebot would crawl this site and identifies **in
 
 ### 1.1 Entry points
 
-- **robots.txt**: `https://akhaled247.github.io/robots.txt`  
-  - Declares `Sitemap: https://akhaled247.github.io/sitemap.xml`
+- **robots.txt**: `https://www.aakhaled.com/robots.txt` (canonical host from `_config.yml` `url`)  
+  - Declares `Sitemap: https://www.aakhaled.com/sitemap.xml`
 - **Sitemap**: Used as primary discovery for URLs to crawl.
 
 ### 1.2 Allowed vs disallowed (robots.txt)
@@ -39,7 +39,7 @@ This document summarizes how Googlebot would crawl this site and identifies **in
 
 ### 2.1 Homepage duplicate in sitemap (fixed)
 
-- **Issue:** Both root `index.html` and `_pages/index.md` have URL `/`. jekyll-sitemap included both, so `https://akhaled247.github.io/` appeared **twice** in `sitemap.xml`.
+- **Issue:** Both root `index.html` and `_pages/index.md` have URL `/`. jekyll-sitemap included both, so `/` appeared **twice** in `sitemap.xml`.
 - **Risk:** Duplicate signals for the same page; possible crawl waste or ranking split.
 - **Fix:** `sitemap: false` added to root `index.html` so only the page from `_pages/index.md` (full content) is in the sitemap. One homepage URL remains.
 
@@ -60,13 +60,11 @@ This document summarizes how Googlebot would crawl this site and identifies **in
 After fixes, the sitemap includes:
 
 - **Pages:** Home (`/`), about, resume, projects, section homepages (first, personal, pltw-engineering), and all project/subsection pages (e.g. first/reefscape, personal/oralvision, pltw-engineering/automata, etc.).
-- **Static / non-HTML:** PDFs under `assets/images/PLTW/` (e.g. mvmultisimcombined.pdf, rngreport.pdf) and `rendercv_output/Abdullah_Khaled_CV.html` and `Abdullah_Khaled_CV.pdf`.
+- **Static / non-HTML:** PDFs under `assets/images/PLTW/` (e.g. mvmultisimcombined.pdf, rngreport.pdf) and `rendercv_output/Abdullah_Khaled_CV.pdf`. `rendercv_output/Abdullah_Khaled_CV.html` is excluded from the sitemap via `_config.yml` `sitemap.exclude` (duplicate of resume content).
 
-**Optional:** If you do not want PDFs or CV output indexed, you can:
+**RenderCV:** `_config.yml` `defaults` set `sitemap: false` for path `rendercv_output`, then `sitemap: true` for `rendercv_output/Abdullah_Khaled_CV.pdf` so only the primary CV PDF is listed (plus all HTML pages as usual). Duplicate HTML + variant PDFs stay on disk for direct links but drop out of `sitemap.xml`.
 
-- Exclude those paths from the build (`exclude:` in `_config.yml`), or  
-- Serve them from a path that is disallowed in `robots.txt`, or  
-- Add a custom sitemap that only lists HTML pages (requires plugin or custom generator).
+**Optional:** To drop PLTW PDFs or the primary CV PDF from the sitemap, add their paths to `sitemap.exclude`, or `exclude:` those paths from the Jekyll build.
 
 ---
 
