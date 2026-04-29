@@ -3,7 +3,7 @@
 cv:
   name: Abdullah Khaled 
   headline:
-  location: Frisco, TX
+  location:
   email: abdullahkhaled0224@gmail.com
   photo:
   phone: +1 469-347-2884
@@ -24,7 +24,17 @@ cv:
         end_date: 2027-05
         location: Frisco, TX
         highlights:
-          - '4.0 unweighted GPA; 18 AP courses (completed/planned) by graduation'
+          - 'Unweighted GPA: 4.0; 18 AP classes completed/planned'
+          - 'Rank: Top 5% of class; Expected graduation: 2027'
+      - institution: Boston University
+        area: Research in Science & Engineering (BU RISE)
+        degree:
+        date:
+        start_date: 2026-06
+        end_date: 2026-08
+        location: Boston, MA
+        highlights:
+          - 'Matched with mentor Dr. Wenchao Li, Department of Electrical and Computer Engineering for summer internship program'
       - institution: Frisco ISD Career and Technical Education Center
         area: ''
         degree: Project Lead The Way
@@ -33,67 +43,97 @@ cv:
         end_date: 2027-05
         location: Frisco, TX
         highlights:
-          - Frisco ISD CTE PLTW Nationally Distinguished Engineering Program
-          - 'Courses: Introduction to Engineering Design, Principles of Engineering, Digital Electronics, Engineering Design and Development (grades 9–12)'
-          - 'Engineering portfolio: aakhaled.com/pltw-engineering'
+          - Frisco ISD Career and Technical Education Center PLTW Nationally Distinguished Engineering Program
+          - 'Courses: Introduction to Engineering Design (Gr. 9), Principles of Engineering Design (Gr. 10), Digital Electronics (Gr. 11), Engineering Design and Development (Gr. 12)'
+          - 'Engineering online portfolio: https://www.aakhaled.com'
+    Honors & Awards:
+      - bullet: 'OralVision: Conrad Challenge Innovator Award; Diamond Challenge Semifinalist (Gr. 11)'
+      - bullet: 'FIRST Robotics Competition (FRC) State Championship Winner (Gr. 11)'
+      - bullet: 'FIRST Tech Challenge (FTC) 5A UIL State Championship Bronze Medalist (Gr. 11)'
+      - bullet: 'FTC FIRST Leadership Award Semifinalist (Gr. 11)'
+      - bullet: 'FRC FIRST Leadership Award Semifinalist (Gr. 11)'
+      - bullet: 'CollegeBoard AP Scholar with Distinction (Gr. 10)'
+      - bullet: 'CollegeBoard National Recognition and School Recognition Awards (Gr. 10)'
+      - bullet: 'Member of National Honor Society (NHS), Wakeland High School (Gr. 11–12)'
     Projects:
-      - name: OralVision (oral disease screening device)
+      - name: OralVision (Oral Disease Detector) — Conrad Challenge Innovator Award; Diamond Challenge Semifinalist
         date:
         start_date: 2025-10
         end_date: present
-        location: Conrad Challenge; Diamond Challenge
         highlights:
-          - Privacy-preserving screening pipeline using centrally trained models and on-device inference without transmitting raw patient imagery; HIPAA-aligned design goal; author led imaging hardware end-to-end (partner focused on training/inference stack)
-          - Designed, built, and programmed embedded imager (XIAO-ESP32-C6, OV5642 5 MP) with power-aware capture; bench-tested illumination and viewpoint; repeated sessions to confirm capture consistency; 3 PCB and 5 snap-fit enclosure revisions
-          - Onshape CAD and 3D printing; USPTO patent application in progress
-      - name: WatchFall (fall-monitoring prototype)
+          - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
+          - Patent application in progress with United States Patent and Trademark Office (USPTO)
+      - name: WatchFall (Senior Fall Monitor Device) — Samsung Solve for Tomorrow
         date:
         start_date: 2025-09
         end_date: present
-        location: Samsung Solve for Tomorrow
         highlights:
-          - On-device fall detection on Raspberry Pi Pico with TensorFlow Lite; lightweight motion model and alert path; hybrid public + custom-labeled data to reduce false positives
-          - Resource-aware monochrome imaging (Arducam HM01B0, SPI) on Pico; planned validation on recorded motion/fall clips to tune thresholds before wider field testing
-    Technical Experience:
-      - company: ITKAN Robotics (FRC 9128)
+          - Selected as one of two teams to represent school district in Samsung Solve for Tomorrow competition
+          - Designed fall-detection device using Raspberry Pi Pico with on-device TensorFlow Lite inference
+          - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
+    Community Service:
+      - company: Ma'ruf Dallas Refugee Organization
+        position: Tutoring Program Coordinator
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Dallas, TX
+        highlights:
+          - Lead Math and English tutoring for 20+ refugee elementary and middle school children over three years
+          - Developed differentiated curriculum for student groups based on their specific needs
+          - Provide mentorship to students in academic skills, time management, life skills, and social integration for students transitioning to American schools
+    Extracurricular Activities:
+      - company: ITKAN Robotics (FIRST Robotics Team)
         position: Chief Technical Advisor
         date:
         start_date: 2025-08
         end_date: present
         location: Plano, TX
         highlights:
-          - Software architecture and process for multi-team FRC (~20 programmers); standardized repository layout; integrated autonomy and teleop with mechanical and electrical subsystems under tight iteration cycles
-          - Reliability-focused autonomy/teleop with layered failsafes; post-incident recovery planning after near-complete vision dropout; documented debugging and match logging workflows
-          - Lab-characterized mechanism performance (cycle time, accuracy, throughput); Mantik open WPILib/Java notes (mantik.netlify.app); mentored programmers; university and industry outreach
-      - company: ITKAN Robotics (FRC 9128)
+          - 'Led programming team to 1st place wins at Space City #1 (32 teams), Farmersville (31 teams), and State Championship (90 teams)'
+          - Undefeated 53-0 record during autonomous; 1st in the World
+          - Ranked 5th in the World as of March 2026
+          - 'Developed self-paced robotics programming curriculum and training website used by 30+ FRC and FTC students and over 2000 impressions across 7 countries (mantik.netlify.app)'
+      - company: ‎ 
         position: Software Lead
         date:
         start_date: 2024-12
         end_date: 2025-07
-        location: Plano, TX
+        location:
         highlights:
-          - Primary Java/WPILib contributor (~80% of codebase) for ~50-member team; Git-based review; command-based autonomous and teleoperation modes
-          - Vision-based pose with OpenCV and SolvePnP fused to drivetrain state via Kalman filtering; Bezier-based paths, finite-state autonomy, and PID tracking—~50% higher autonomous scoring per match (n=12) after vision integration
-          - Match logging, simulation, and teleop handoff tooling; mentored newer programmers in WPILib and mechanism simulation
-          - "Reference codebase: aakhaled.com/first/reefscape"
-      - company: ITKAN Robotics of ICF (FTC 26357, 28931)
-        position: Programming Mentor
-        date:
-        start_date: 2024-09
-        end_date: 2026-02
-        location: Plano, TX
-        highlights:
-          - "State-estimation for FTC—wheel odometry, IMU, and vision fused with Kalman filtering; improved targeting and scoring efficiency ~35% (github.com/itkan-of-icf/ftc-26357-2526-v2)"
-          - "Mentored rookie FTC teams through design reviews and integration; peak ~25 hrs/week during build season; FLL outreach for refugee students via OARobotics (www.aakhaled.com/personal/oarobotics)"
-      - company: "Wakeland High School Wolverine Robotics (FTC 33791)"
-        position: Co-Founder, President
+          - Provided technical leadership on the organization of software team projects; educated and trained new programming team members; maintained the team's FRC and FTC codebases
+          - 'FRC robot GitHub codebase and documentation: https://www.aakhaled.com/first/reefscape'
+      - company: Wolverine Robotics, Wakeland High School
+        position: Founder and President
         date:
         start_date: 2024-08
         end_date: present
         location: Frisco, TX
         highlights:
-          - Founded school FTC program; UIL State Championship finalist (3rd); scaled membership 0→50+ in year one; secured ~$6k+ resources; first competition robot in under two weeks
-          - Taught recurring technical workshops (Java, Onshape, FTC simulation); maintained engineering notebook and onboarding materials; autonomous localization with wheel odometry and IMU fusion (PedroPathing, FTC SDK)
+          - Founded the Wakeland Robotics Club, growing membership from 0 to 50+ students in the first year
+          - Bronze medalist at FTC UIL 5A State Championship in team's rookie year
+          - Developed mission statement, recruited teacher sponsor and members, and presented team vision, schedule, and activities to school administration
+          - Manage club operations including curriculum design, calendar management, and budget management
+      - company: Mu Alpha Theta Math Honor Society, Wakeland High School
+        position: Vice President
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Designed and implemented school Math Lab Program and coordinated peer tutoring, attaining over 20% member participation
+          - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers to promote STEM to middle school students
+      - company: Muslim Student Association (MSA), Wakeland High School
+        position: Co-Founder and President
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Developed mission statement, recruited teacher sponsor and members, and presented activities to school administration
+          - Coordinated with school staff to establish a prayer room for weekly prayers
+          - Created various media for promoting the club and prayer room, including social media posts
+    Work Experience:
       - company: Gideon Math and Reading Center
         position: Math and Reading Instructor
         date:
@@ -101,75 +141,25 @@ cv:
         end_date: present
         location: Frisco, TX
         highlights:
-          - Instructed K–11 in mathematics (through Geometry), reading, and grammar in guided small groups (~4–12 students per day); used formative checkpoints to adjust pacing and difficulty
-          - Analyzed student work to target misconceptions and personalize practice; adapted reading passages to goal comprehension levels
+          - Teach students from kindergarten to 11th grade in math, reading, and grammar, including Algebra and Geometry
+          - Analyze student performance data to identify learning gaps and develop personalized plans
       - company: Gideon Math and Reading Center
-        position: Math and Reading Teaching Assistant
+        position: Math and Reading Teaching Assistant (TA)
         date:
         start_date: 2022-01
         end_date: 2024-05
         location: Frisco, TX
         highlights:
-          - Graded K–11 mathematics including Algebra and Geometry; scaffolded in-class assignments
-          - Streamlined grading workflow (~50% time reduction) while preserving feedback quality
+          - Graded students' work from kindergarten to 11th grade, including Algebra and Geometry
+          - Aided students in completing their assignments appropriate to their age and skill level
+          - Increased grading efficiency by 50%
     Skills:
-      - label: Software & Web
-        details: Python, Java, JavaScript, R, Git, GitHub, HTML, CSS, Jekyll, Google Sheets, Google Workspace, Microsoft Office
-      - label: Robotics, ML & Vision
-        details: WPILib, FTC SDK, TensorFlow, TensorFlow Lite, TensorFlow Federated, OpenCV, SolvePnP, Kalman filtering, FSMs, mechanism simulation, control systems
-      - label: CAD & Electronics
-        details: Fusion 360, Onshape, NI Multisim, KiCAD, EasyEDA, soldering
-    Leadership & Activities:
-      - company: Mu Alpha Theta/Math National Honor Society
-        position: Vice President
-        date:
-        start_date: 2024-08
-        end_date: present
-        location: Wakeland High School, Frisco, TX
-        highlights:
-          - Vice President (100+ members); organized chapter presentations; expanded Math Lab peer tutoring (>20% participation)
-          - Directed annual middle school mathematics contest (~100 students, 3 schools, 35+ student volunteers)
-      - company: Mu Alpha Theta/Math National Honor Society
-        position: Treasurer
-        date:
-        start_date: 2023-08
-        end_date: 2024-07
-        location: Wakeland High School, Frisco, TX
-        highlights:
-          - Launched Math Lab with faculty-aligned Algebra I peer tutoring; volunteer scheduling via Google Sites
-          - Treasurer—managed club budget for 100+ members
-      - company: Muslim Student Association (MSA)
-        position: Co-Founder, Secretary
-        date:
-        start_date: 2024-08
-        end_date: present
-        location: Wakeland High School, Frisco, TX
-        highlights:
-          - Co-founded; mission, recruitment, admin presentations; prayer room coordination; club promotional media
-      - company: Ma'ruf Dallas Refugee Organization (Project Taleem)
-        position: Tutoring Program Coordinator
-        date:
-        start_date: 2023-09
-        end_date: present
-        location: Dallas, TX
-        highlights:
-          - "Co-lead after-school tutoring (~2 hr/week, school year): K–6 refugee learners in small groups with trained high-school volunteers; coordinated Ma'ruf and Gideon for materials; IXL diagnostics (math and reading)"
-          - Ran pre-session briefings, age-banded grouping, and newcomer onboarding; trained tutors using methods informed by parallel Gideon instructor/TA experience
-          - "~15-point mean IXL SmartScore gain over four months (Nov–Feb, n=10); monthly robotics enrichment via OARobotics (aakhaled.com/personal/oarobotics)"
-      - company: Islamic Center of Frisco (ICF)
-        position: Teaching Assistant
-        date:
-        start_date: 2023-09
-        end_date: 2024-05
-        location: Frisco, TX
-        highlights:
-          - Supported elementary religious studies classes; assisted lead instructor with lesson delivery and student engagement
-    Honors & Awards:
-      - bullet: "(2025) Collegeboard: AP Scholar with Distinction; National Recognition Program School Recognition Award"
-      - bullet: "(2026) OralVision: Conrad Challenge Innovator; Diamond Challenge Semifinalist"
-      - bullet: "(2026) FTC 33791: Event Winner; Control Award (FiT-North Dallas Semi-Regional Championship, 25 teams); Control Award (FiT-North U-League Tournament)"
-      - bullet: "(2025) FRC 9128: FIRST® Leadership Award Semifinalist; Event Winner (FIRST® in Texas Victoria, 25 teams); Autonomous Award (FiT Plano, 31 teams); Creativity Award (FiT Amarillo, 36 teams)"
-      - bullet: "(2025) FTC 26357: Finalist Alliance Captain (FiT-North McKinney Qualifier, 19 teams)"
+      - label: Engineering
+        details: 'CAD/CAM: Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA; soldering'
+      - label: Software
+        details: Python, Java, JavaScript, HTML, Jekyll, CSS, Google Workspace, R, Google Sheets, MS Office
+      - label: Technologies
+        details: OpenCV, SolvePnP, TensorFlow, Federated Learning, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory
 
 design:
   theme: engineeringclassic
