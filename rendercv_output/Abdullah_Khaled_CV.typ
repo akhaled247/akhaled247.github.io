@@ -89,8 +89,7 @@
 = Abdullah Khaled
 
 #connections(
-  [#link("mailto:abdullahkhaled0224@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[abdullahkhaled0224\@gmail.com]]],
-  [#link("tel:+1-469-347-2884", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[(469) 347-2884]]],
+  [#link("mailto:me@aakhaled.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[me\@aakhaled.com]]],
   [#link("https://www.aakhaled.com/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[www.aakhaled.com]]],
   [#link("https://linkedin.com/in/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[akhaled247]]],
   [#link("https://github.com/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[akhaled247]]],
@@ -145,7 +144,7 @@
 
     - Courses: Introduction to Engineering Design (Gr. 9), Principles of Engineering Design (Gr. 10), Digital Electronics (Gr. 11), Engineering Design and Development (Gr. 12)
 
-    - Engineering online portfolio: https:\/\/www.aakhaled.com
+    - Engineering online portfolio: aakhaled.com\/pltw-engineering
 
   ],
 )
@@ -218,11 +217,62 @@
 
   ],
   main-column-second-row: [
-    - Lead Math and English tutoring for 20+ refugee elementary and middle school children over three years
+    - Lead Math and English tutoring for 30+ refugee elementary and middle school children over three years
 
     - Developed differentiated curriculum for student groups based on their specific needs
 
-    - Provide mentorship to students in academic skills, time management, life skills, and social integration for students transitioning to American schools
+    - Created bespoke robotics curriculum for limited English proficiency students and hosted monthly robotics sessions for students
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Sunday School Teacher Assistant], Islamic Center of Frisco -- Frisco, TX
+
+  ],
+  [
+    Aug 2024 – present
+
+  ],
+  main-column-second-row: [
+    - Taught 20+ elementary students in religious studies and helped keep them on task and engaged
+
+    - Assisted Primary Instructor with curriculum implementation, including grading and reviewing assignments
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Robotics Camp Volunteer], Muhsen -- Plano, TX
+
+  ],
+  [
+    July 2025 – Aug 2025
+
+  ],
+  main-column-second-row: [
+    - Acquired special needs sensitivity training to work with special needs students
+
+    - Taught 10+ students in robotics build and programming while providing support to other volunteers
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Volunteer], Frisco Family Services -- Frisco, TX
+
+  ],
+  [
+    July 2025 – Aug 2025
+
+  ],
+  main-column-second-row: [
+    - Sorted and shelved donations for Frisco Family Market, which raises funds for underserved local families
+
+    - Sorted and stocked Food Pantry, which also serves underserved local families
 
   ],
 )
@@ -262,7 +312,7 @@
   main-column-second-row: [
     - Provided technical leadership on the organization of software team projects; educated and trained new programming team members; maintained the team's FRC and FTC codebases
 
-    - FRC robot GitHub codebase and documentation: https:\/\/www.aakhaled.com\/first\/reefscape
+    - FRC robot GitHub codebase and documentation: aakhaled.com\/first\/reefscape
 
   ],
 )
@@ -307,7 +357,7 @@
 
 #regular-entry(
   [
-    #strong[Co-Founder and President], Muslim Student Association (MSA), Wakeland High School -- Frisco, TX
+    #strong[Co-Founder and President], Muslim Student Association, Wakeland High School -- Frisco, TX
 
   ],
   [
@@ -345,7 +395,7 @@
 
 #regular-entry(
   [
-    #strong[Math and Reading Teaching Assistant (TA)], Gideon Math and Reading Center -- Frisco, TX
+    #strong[Math and Reading Teaching Assistant], ‎ -- Frisco, TX
 
   ],
   [
@@ -364,8 +414,6 @@
 
 == Skills
 
-#strong[Engineering:] CAD\/CAM: Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA; soldering
+#strong[Engineering:] Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA; soldering
 
 #strong[Software:] Python, Java, JavaScript, HTML, Jekyll, CSS, Google Workspace, R, Google Sheets, MS Office
-
-#strong[Technologies:] OpenCV, SolvePnP, TensorFlow, Federated Learning, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory

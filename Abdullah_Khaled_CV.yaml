@@ -4,9 +4,9 @@ cv:
   name: Abdullah Khaled 
   headline:
   location:
-  email: abdullahkhaled0224@gmail.com
+  email: me@aakhaled.com
   photo:
-  phone: +1 469-347-2884
+  phone:
   website: https://www.aakhaled.com/
   social_networks:
     - network: LinkedIn
@@ -45,7 +45,7 @@ cv:
         highlights:
           - Frisco ISD Career and Technical Education Center PLTW Nationally Distinguished Engineering Program
           - 'Courses: Introduction to Engineering Design (Gr. 9), Principles of Engineering Design (Gr. 10), Digital Electronics (Gr. 11), Engineering Design and Development (Gr. 12)'
-          - 'Engineering online portfolio: https://www.aakhaled.com'
+          - 'Engineering online portfolio: aakhaled.com/pltw-engineering'
     Honors & Awards:
       - bullet: 'OralVision: Conrad Challenge Innovator Award; Diamond Challenge Semifinalist (Gr. 11)'
       - bullet: 'FIRST Robotics Competition (FRC) State Championship Winner (Gr. 11)'
@@ -79,9 +79,36 @@ cv:
         end_date: present
         location: Dallas, TX
         highlights:
-          - Lead Math and English tutoring for 20+ refugee elementary and middle school children over three years
+          - Lead Math and English tutoring for 30+ refugee elementary and middle school children over three years
           - Developed differentiated curriculum for student groups based on their specific needs
-          - Provide mentorship to students in academic skills, time management, life skills, and social integration for students transitioning to American schools
+          - Created bespoke robotics curriculum for limited English proficiency students and hosted monthly robotics sessions for students
+      - company: Islamic Center of Frisco
+        position: Sunday School Teacher Assistant
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Taught 20+ elementary students in religious studies and helped keep them on task and engaged
+          - Assisted Primary Instructor with curriculum implementation, including grading and reviewing assignments
+      - company: Muhsen
+        position: Robotics Camp Volunteer
+        date:
+        start_date: 2025-07
+        end_date: 2025-08
+        location: Plano, TX
+        highlights:
+          - Acquired special needs sensitivity training to work with special needs students
+          - Taught 10+ students in robotics build and programming while providing support to other volunteers
+      - company: Frisco Family Services
+        position: Volunteer
+        date:
+        start_date: 2025-07
+        end_date: 2025-08
+        location: Frisco, TX
+        highlights:
+          - Sorted and shelved donations for Frisco Family Market, which raises funds for underserved local families
+          - Sorted and stocked Food Pantry, which also serves underserved local families
     Extracurricular Activities:
       - company: ITKAN Robotics (FIRST Robotics Team)
         position: Chief Technical Advisor
@@ -102,7 +129,7 @@ cv:
         location:
         highlights:
           - Provided technical leadership on the organization of software team projects; educated and trained new programming team members; maintained the team's FRC and FTC codebases
-          - 'FRC robot GitHub codebase and documentation: https://www.aakhaled.com/first/reefscape'
+          - 'FRC robot GitHub codebase and documentation: aakhaled.com/first/reefscape'
       - company: Wolverine Robotics, Wakeland High School
         position: Founder and President
         date:
@@ -123,7 +150,7 @@ cv:
         highlights:
           - Designed and implemented school Math Lab Program and coordinated peer tutoring, attaining over 20% member participation
           - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers to promote STEM to middle school students
-      - company: Muslim Student Association (MSA), Wakeland High School
+      - company: Muslim Student Association, Wakeland High School
         position: Co-Founder and President
         date:
         start_date: 2024-08
@@ -143,8 +170,8 @@ cv:
         highlights:
           - Teach students from kindergarten to 11th grade in math, reading, and grammar, including Algebra and Geometry
           - Analyze student performance data to identify learning gaps and develop personalized plans
-      - company: Gideon Math and Reading Center
-        position: Math and Reading Teaching Assistant (TA)
+      - company: ‎ 
+        position: Math and Reading Teaching Assistant
         date:
         start_date: 2022-01
         end_date: 2024-05
@@ -155,11 +182,9 @@ cv:
           - Increased grading efficiency by 50%
     Skills:
       - label: Engineering
-        details: 'CAD/CAM: Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA; soldering'
+        details: 'Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA; soldering'
       - label: Software
         details: Python, Java, JavaScript, HTML, Jekyll, CSS, Google Workspace, R, Google Sheets, MS Office
-      - label: Technologies
-        details: OpenCV, SolvePnP, TensorFlow, Federated Learning, Kalman Filtering, Finite State Machines, Mechanism Simulation, Control Theory
 
 design:
   theme: engineeringclassic
