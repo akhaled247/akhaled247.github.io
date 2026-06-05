@@ -17,11 +17,11 @@
   page-show-footer: false,
   page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
-  colors-name: rgb(0, 79, 144),
-  colors-headline: rgb(0, 79, 144),
-  colors-connections: rgb(0, 79, 144),
-  colors-section-titles: rgb(0, 79, 144),
-  colors-links: rgb(0, 79, 144),
+  colors-name: rgb(0, 0, 0),
+  colors-headline: rgb(0, 0, 0),
+  colors-connections: rgb(0, 0, 0),
+  colors-section-titles: rgb(0, 0, 0),
+  colors-links: rgb(0, 0, 0),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.48em,
@@ -281,7 +281,7 @@
 
 #regular-entry(
   [
-    #strong[Chief Technical Advisor], ITKAN Robotics (FIRST Robotics Team) -- Plano, TX
+    #strong[Technical Advisor], ITKAN Robotics (FIRST Robotics Team) -- Plano, TX
 
   ],
   [
@@ -291,9 +291,9 @@
   main-column-second-row: [
     - Led programming team to 1st place wins at Space City \#1 (32 teams), Farmersville (31 teams), and State Championship (90 teams)
 
-    - Undefeated 53-0 record during autonomous; 1st in the World
+    - Undefeated 53-0 record during autonomous against Texas teams; ranked 1st in the World as of April 2026
 
-    - Ranked 5th in the World as of March 2026
+    - Ranked 5th in the World, 1st in Texas during first week of competition season
 
     - Developed self-paced robotics programming curriculum and training website used by 30+ FRC and FTC students and over 2000 impressions across 7 countries (mantik.netlify.app)
 
@@ -319,7 +319,7 @@
 
 #regular-entry(
   [
-    #strong[Founder and President], Wolverine Robotics, Wakeland High School -- Frisco, TX
+    #strong[Founder and President], Wakeland Robotics Club, Wakeland High School -- Frisco, TX
 
   ],
   [
