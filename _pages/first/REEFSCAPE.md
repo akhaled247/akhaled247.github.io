@@ -25,7 +25,7 @@ I also went through multiple iterations of the autonomous alignment algorithm to
 </div>  
 
 {% include videotextbreak %}
-[GitHub Code](https://github.com/itkan-robotics/FRC_REEFSCAPE2025_V2){: .btn .btn--purple .btn--large}
+[GitHub Code](https://github.com/itkan-robotics/RobotCode2025Public){: .btn .btn--purple .btn--large}
 [Onshape CAD](https://cad.onshape.com/documents/9aad57d3cb5d2be899be5aa7/w/f997cc794f7a12ee163b0551/e/a7a9a0e959e36dfcddccf823?renderMode=0&uiState=68e7261632f8214a01eab67d
 ){: .btn .btn--success .btn--large}
 [Match Video](https://youtu.be/J6AmbcRqa6o){: .btn .btn--danger .btn--large}
