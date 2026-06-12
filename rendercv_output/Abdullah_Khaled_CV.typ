@@ -319,7 +319,7 @@
 
 #regular-entry(
   [
-    #strong[Founder and President], Wakeland Robotics Club, Wakeland High School -- Frisco, TX
+    #strong[Co-Founder and President], Wakeland Robotics Club, Wakeland High School -- Frisco, TX
 
   ],
   [
