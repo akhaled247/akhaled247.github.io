@@ -88,7 +88,10 @@
 
 = Abdullah Khaled
 
+  #headline([Embedded systems engineer with robotics, vision, and on-device ML experience])
+
 #connections(
+  [#connection-with-icon("location-dot")[Frisco, TX]],
   [#link("mailto:me@aakhaled.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[me\@aakhaled.com]]],
   [#link("https://www.aakhaled.com/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[www.aakhaled.com]]],
   [#link("https://linkedin.com/in/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[akhaled247]]],
@@ -96,11 +99,105 @@
 )
 
 
+== Summary
+
+- Embedded systems engineer with hands-on experience building robotics automation, sensor fusion, and on-device inference systems.
+
+- Delivered reliability engineering for competition-grade robotics, led distributed software teams, and developed low-cost vision hardware for real-world monitoring applications.
+
+== Skills
+
+#strong[Hardware & Prototyping:] Fusion 360, Onshape, NI Multisim, KiCad, EasyEDA, soldering, PCB prototyping
+
+#strong[Software & Machine Learning:] ROS, Python, Java, JavaScript, TensorFlow, OpenCV
+
+#strong[Systems & Methods:] Kalman filtering, finite state machines, mechanism simulation, control theory, prompt engineering
+
+== Work Experience
+
+#regular-entry(
+  [
+    #strong[Math and Reading Instructor], Gideon Math and Reading Center -- Frisco, TX
+
+  ],
+  [
+    June 2024 – present
+
+  ],
+  main-column-second-row: [
+    - Designed individualized instruction plans using student performance data to identify learning gaps and accelerate progress.
+
+    - Managed daily small-group sessions, adapting delivery and materials across multiple grade levels.
+
+    - Strengthened progress tracking by implementing structured checkpoints and targeted review.
+
+  ],
+)
+
+== Projects
+
+#regular-entry(
+  [
+    #strong[OralVision] -- #strong[Conrad Challenge; Diamond Challenge]
+
+  ],
+  [
+    Oct 2025 – present
+
+  ],
+  main-column-second-row: [
+    - Developed a privacy-preserving oral disease detection prototype using federated learning for centralized model training and on-device inference.
+
+    - Designed and programmed a low-cost imaging device using XIAO-ESP32-C6, OV5642 camera, and power-aware capture logic.
+
+    - Iterated through three PCB revisions and five 3D-printed enclosure revisions to improve reliability and manufacturability.
+
+    - Bench-tested capture consistency across lighting and viewing angles to validate robustness.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[WatchFall] -- #strong[Samsung Solve for Tomorrow]
+
+  ],
+  [
+    Sept 2025 – present
+
+  ],
+  main-column-second-row: [
+    - Built a fall-detection system with Raspberry Pi Pico, TensorFlow Lite inference, and buzzer alerting for real-time on-device monitoring.
+
+    - Engineered a hybrid dataset and sensor integration strategy to lower false positives and improve detection responsiveness.
+
+  ],
+)
+
+== Leadership
+
+#regular-entry(
+  [
+    #strong[Chief Technical Advisor \/ Programming Lead], ITKAN Robotics -- Plano, TX
+
+  ],
+  [
+    July 2025 – present
+
+  ],
+  main-column-second-row: [
+    - Directed software strategy for a multi-team robotics program with \~20 programmers, standardizing code structure, GitHub workflows, and integration practices.
+
+    - Implemented reliability engineering and contingency planning that preserved system performance after critical sensor failures.
+
+  ],
+)
+
 == Education
 
 #education-entry(
   [
-    #strong[Wakeland High School], High School Diploma   -- Frisco, TX
+    #strong[Wakeland High School], High School Diploma  -- Frisco, TX
 
   ],
   [
@@ -108,9 +205,9 @@
 
   ],
   main-column-second-row: [
-    - Unweighted GPA: 4.0; 18 AP classes completed\/planned
+    - Completed PLTW engineering coursework in digital electronics, systems design, and engineering development.
 
-    - Rank: Top 5\% of class; Expected graduation: 2027
+    - Took rigorous course load, including Multivariable Calculus and Physics C
 
   ],
 )
@@ -125,295 +222,9 @@
 
   ],
   main-column-second-row: [
-    - Matched with mentor Dr. Wenchao Li, Department of Electrical and Computer Engineering for summer internship program
+    - Researched under Dr. Wenchao Li, Department of Electrical and Computer Engineering
+
+    - Studied VLM\/VLA-driven Sawyer robots to enable long-horizon task completion from vague human prompts
 
   ],
 )
-
-#education-entry(
-  [
-    #strong[Frisco ISD Career and Technical Education Center], Project Lead The Way  -- Frisco, TX
-
-  ],
-  [
-    Aug 2023 – May 2027
-
-  ],
-  main-column-second-row: [
-    - Frisco ISD Career and Technical Education Center PLTW Nationally Distinguished Engineering Program
-
-    - Courses: Introduction to Engineering Design (Gr. 9), Principles of Engineering Design (Gr. 10), Digital Electronics (Gr. 11), Engineering Design and Development (Gr. 12)
-
-    - Engineering online portfolio: aakhaled.com\/pltw-engineering
-
-  ],
-)
-
-== Honors & Awards
-
-- OralVision: Conrad Challenge Innovator Award; Diamond Challenge Semifinalist (Gr. 11)
-
-- FIRST Robotics Competition (FRC) State Championship Winner (Gr. 11)
-
-- FIRST Tech Challenge (FTC) 5A UIL State Championship Bronze Medalist (Gr. 11)
-
-- FTC FIRST Leadership Award Semifinalist (Gr. 11)
-
-- FRC FIRST Leadership Award Semifinalist (Gr. 11)
-
-- CollegeBoard AP Scholar with Distinction (Gr. 10)
-
-- CollegeBoard National Recognition and School Recognition Awards (Gr. 10)
-
-- Member of National Honor Society (NHS), Wakeland High School (Gr. 11–12)
-
-== Projects
-
-#regular-entry(
-  [
-    #strong[OralVision (Oral Disease Detector) — Conrad Challenge Innovator Award; Diamond Challenge Semifinalist]
-
-  ],
-  [
-    Oct 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
-
-    - Patent application in progress with United States Patent and Trademark Office (USPTO)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[WatchFall (Senior Fall Monitor Device) — Samsung Solve for Tomorrow]
-
-  ],
-  [
-    Sept 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Selected as one of two teams to represent school district in Samsung Solve for Tomorrow competition
-
-    - Designed fall-detection device using Raspberry Pi Pico with on-device TensorFlow Lite inference
-
-    - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
-
-  ],
-)
-
-== Community Service
-
-#regular-entry(
-  [
-    #strong[Tutoring Program Coordinator], Ma'ruf Dallas Refugee Organization -- Dallas, TX
-
-  ],
-  [
-    Sept 2023 – present
-
-  ],
-  main-column-second-row: [
-    - Lead Math and English tutoring for 30+ refugee elementary and middle school children over three years
-
-    - Developed differentiated curriculum for student groups based on their specific needs
-
-    - Created bespoke robotics curriculum for limited English proficiency students and hosted monthly robotics sessions for students
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Sunday School Teacher Assistant], Islamic Center of Frisco -- Frisco, TX
-
-  ],
-  [
-    Aug 2024 – present
-
-  ],
-  main-column-second-row: [
-    - Taught 20+ elementary students in religious studies and helped keep them on task and engaged
-
-    - Assisted Primary Instructor with curriculum implementation, including grading and reviewing assignments
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Robotics Camp Volunteer], Muhsen -- Plano, TX
-
-  ],
-  [
-    July 2025 – Aug 2025
-
-  ],
-  main-column-second-row: [
-    - Acquired special needs sensitivity training to work with special needs students
-
-    - Taught 10+ students in robotics build and programming while providing support to other volunteers
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Volunteer], Frisco Family Services -- Frisco, TX
-
-  ],
-  [
-    July 2025 – Aug 2025
-
-  ],
-  main-column-second-row: [
-    - Sorted and shelved donations for Frisco Family Market, which raises funds for underserved local families
-
-    - Sorted and stocked Food Pantry, which also serves underserved local families
-
-  ],
-)
-
-== Extracurricular Activities
-
-#regular-entry(
-  [
-    #strong[Technical Advisor], ITKAN Robotics (FIRST Robotics Team) -- Plano, TX
-
-  ],
-  [
-    Aug 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Led programming team to 1st place wins at Space City \#1 (32 teams), Farmersville (31 teams), and State Championship (90 teams)
-
-    - Undefeated 53-0 record during autonomous against Texas teams; ranked 1st in the World as of April 2026
-
-    - Ranked 5th in the World, 1st in Texas during first week of competition season
-
-    - Developed self-paced robotics programming curriculum and training website used by 30+ FRC and FTC students and over 2000 impressions across 7 countries (mantik.netlify.app)
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Software Lead], ‎
-
-  ],
-  [
-    Dec 2024 – July 2025
-
-  ],
-  main-column-second-row: [
-    - Provided technical leadership on the organization of software team projects; educated and trained new programming team members; maintained the team's FRC and FTC codebases
-
-    - FRC robot GitHub codebase and documentation: aakhaled.com\/first\/reefscape
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Co-Founder and President], Wakeland Robotics Club, Wakeland High School -- Frisco, TX
-
-  ],
-  [
-    Aug 2024 – present
-
-  ],
-  main-column-second-row: [
-    - Founded the Wakeland Robotics Club, growing membership from 0 to 50+ students in the first year
-
-    - Bronze medalist at FTC UIL 5A State Championship in team's rookie year
-
-    - Developed mission statement, recruited teacher sponsor and members, and presented team vision, schedule, and activities to school administration
-
-    - Manage club operations including curriculum design, calendar management, and budget management
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Vice President], Mu Alpha Theta Math Honor Society, Wakeland High School -- Frisco, TX
-
-  ],
-  [
-    Aug 2024 – present
-
-  ],
-  main-column-second-row: [
-    - Designed and implemented school Math Lab Program and coordinated peer tutoring, attaining over 20\% member participation
-
-    - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers to promote STEM to middle school students
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Co-Founder and President], Muslim Student Association, Wakeland High School -- Frisco, TX
-
-  ],
-  [
-    Aug 2024 – present
-
-  ],
-  main-column-second-row: [
-    - Developed mission statement, recruited teacher sponsor and members, and presented activities to school administration
-
-    - Coordinated with school staff to establish a prayer room for weekly prayers
-
-    - Created various media for promoting the club and prayer room, including social media posts
-
-  ],
-)
-
-== Work Experience
-
-#regular-entry(
-  [
-    #strong[Math and Reading Instructor], Gideon Math and Reading Center -- Frisco, TX
-
-  ],
-  [
-    June 2024 – present
-
-  ],
-  main-column-second-row: [
-    - Teach students from kindergarten to 11th grade in math, reading, and grammar, including Algebra and Geometry
-
-    - Analyze student performance data to identify learning gaps and develop personalized plans
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Math and Reading Teaching Assistant], ‎ -- Frisco, TX
-
-  ],
-  [
-    Jan 2022 – May 2024
-
-  ],
-  main-column-second-row: [
-    - Graded students' work from kindergarten to 11th grade, including Algebra and Geometry
-
-    - Aided students in completing their assignments appropriate to their age and skill level
-
-    - Increased grading efficiency by 50\%
-
-  ],
-)
-
-== Skills
-
-#strong[Engineering:] Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA; soldering
-
-#strong[Software:] Python, Java, JavaScript, HTML, Jekyll, CSS, Google Workspace, R, Google Sheets, MS Office
