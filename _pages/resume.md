@@ -5,4 +5,4 @@ permalink: /resume/
 author_profile: false
 ---
 
-{% include pdf path="/rendercv_output/Abdullah_Khaled_CV.pdf"%}
+{% include pdf path="/rendercv_output/public/Abdullah_Khaled_CV.pdf"%}
