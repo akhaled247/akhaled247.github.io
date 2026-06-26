@@ -1,8 +1,10 @@
 ---
 title: "Photo Lab - Retro Collage Creator"
-description: "Photo Lab: A minimalist web app for creating retro photo collages with 12 custom filters, available on desktop and mobile."
+description: "Photo Lab by Abdullah Khaled (akhaled247): A minimalist web app for retro photo collages with 12 custom filters, at aakhaled.com/photo-lab/."
 permalink: /personal/photo-lab/
 author_profile: false
+project_schema: true
+project_type: SoftwareSourceCode
 ---
 <div style="width:25vw; float: left; margin: 10px">
 {% include figure popup=true image_path="assets/images/personal/photolabexample.jpg" alt="Photo Lab collage example with retro filters applied" caption="Example of generated collage using PhotoLab." %}

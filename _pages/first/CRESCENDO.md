@@ -1,8 +1,9 @@
 ---
 title: "CRESCENDO 2024 FRC Season | Team 9752"
-description: "2024 FRC CRESCENDO season: programming swerve drive, motion profiling, AprilTag vision alignment, and autonomous pathing algorithms for Team 9752."
+description: "CRESCENDO 2024 FRC season by Abdullah Khaled (akhaled247): swerve drive programming, motion profiling, AprilTag vision, and autonomous pathing for Team 9752."
 permalink: /first/crescendo/
 author_profile: false
+project_schema: true
 ---
 {% include video id="dHAEvzB9j1I" provider="youtube" width="48vw" height="27vw" float="left" margin="10px"%}
 While I joined my First Robotics Competition (FRC) team late in the season, I was still able to gain valuable experience in programming and designing a robot for the 2024 FRC Game, CRESCENDO. In this game, robots were meant to shoot rings into a goal, which required a combination of precision and accuracy in order to shoot from distances as far as 13.5 feet away!

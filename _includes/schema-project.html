@@ -1,0 +1,20 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.project_type %}{{ page.project_type }}{% else %}CreativeWork{% endif %}",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | default: site.description | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  {% if page.header.og_image %}"image": {{ page.header.og_image | absolute_url | jsonify }},{% endif %}
+  "author": {
+    "@id": "{{ site.url }}/#person"
+  },
+  "creator": {
+    "@type": "Person",
+    "@id": "{{ site.url }}/#person",
+    "name": "Abdullah Khaled",
+    "alternateName": "akhaled247",
+    "url": {{ '/' | absolute_url | jsonify }}
+  }
+}
+</script>

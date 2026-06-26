@@ -4,12 +4,12 @@ main:
     url: /
   - title: "Projects"
     url: /projects/
-  # - title: "PLTW"
-  #   url: /pltw-engineering/
-  # - title: "FIRST®"
-  #   url: /first/
-  # - title: "Personal"
-  #   url: /personal/
+  - title: "FIRST®"
+    url: /first/
+  - title: "Personal"
+    url: /personal/
+  - title: "PLTW"
+    url: /pltw-engineering/
   - title: "Resume"
     url: /resume/
   - title: "About"

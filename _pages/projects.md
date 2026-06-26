@@ -1,6 +1,6 @@
 ---
 title: "Engineering Projects"
-description: "Browse Abdullah Khaled's engineering projects including FRC robotics, competition entries, PLTW coursework, and personal software projects."
+description: "Browse Abdullah Khaled (akhaled247) engineering projects—FRC robotics, FTC, competition entries, PLTW coursework, and personal software."
 permalink: /projects/
 author_profile: false
 
@@ -34,25 +34,25 @@ feature_row_projects:
     tags:
       - Personal
 
-  # - image_path: /assets/images/personal/oarobotics/Bots_Top.png
-  #   title: "OARobotics Curriculum"
-  #   excerpt: "I designed a robotics curriculum for students with limited English proficiency."
-  #   url: "/personal/oarobotics/"
-  #   btn_label: "Read More"
-  #   btn_class: "btn--inverse"
-  #   tags:
-  #     - Personal
-  #     - Software
+  - image_path: /assets/images/personal/oarobotics/Bots_Top.png
+    title: "OARobotics Curriculum"
+    excerpt: "I designed a robotics curriculum for students with limited English proficiency."
+    url: "/personal/oarobotics/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+    tags:
+      - Personal
+      - Software
 
-  # - image_path: /assets/images/personal/mantik.png
-  #   title: "Mantik"
-  #   excerpt: "I created an extensive written and video curricula for training students in Java, FTC, and FRC programming."
-  #   url: "/personal/mantik"
-  #   btn_label: "Read More"
-  #   btn_class: "btn--inverse"
-  #   tags:
-  #     - Personal
-  #     - Software
+  - image_path: /assets/images/personal/mantik.png
+    title: "Mantik"
+    excerpt: "I created an extensive written and video curricula for training students in Java, FTC, and FRC programming."
+    url: "/personal/mantik/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+    tags:
+      - Personal
+      - Software
 
   - image_path: /assets/images/first/26357_2526.jpg
     title: "DECODE - 2025-2026 FTC"
@@ -74,23 +74,23 @@ feature_row_projects:
       - Robotics
       - Competition
 
-  # - image_path: /assets/images/first/21330_2425.png
-  #   title: "INTO THE DEEP - 2024-2025 FTC"
-  #   excerpt: "The 2024-25 FTC Season, during which I competed with team 21330 ITKAN of Tomorrow."
-  #   url: "/first/into-the-deep/"
-  #   btn_label: "Read More"
-  #   btn_class: "btn--inverse"
-  #   tags:
-  #     - FIRST
+  - image_path: /assets/images/first/21330_2425.png
+    title: "INTO THE DEEP - 2024-2025 FTC"
+    excerpt: "The 2024-25 FTC Season, during which I competed with team 21330 ITKAN of Tomorrow."
+    url: "/first/into-the-deep/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+    tags:
+      - FIRST
 
-  # - image_path: /assets/images/first/9128_2024.jpg
-  #   title: "CRESCENDO - 2024 FRC"
-  #   excerpt: "The 2024 FRC Season, during which I competed with team 9752 ITKAN Robotics Jr."
-  #   url: "/first/crescendo/"
-  #   btn_label: "Read More"
-  #   btn_class: "btn--inverse"
-  #   tags:
-  #     - FIRST
+  - image_path: /assets/images/first/9128_2024.jpg
+    title: "CRESCENDO - 2024 FRC"
+    excerpt: "The 2024 FRC Season, during which I competed with team 9752 ITKAN Robotics Jr."
+    url: "/first/crescendo/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+    tags:
+      - FIRST
 
   - image_path: /assets/images/PLTW/homepage/mvnand.png
     title: "Majority Vote"
@@ -102,16 +102,6 @@ feature_row_projects:
       - Coursework
       - Electrical
 
-  # - image_path: /assets/images/PLTW/homepage/rng.png
-  #   title: "Random Number Generator"
-  #   excerpt: "I created a working number generator using capacitors, timers, and combinational logic design."
-  #   url: "/pltw-engineering/rng/"
-  #   btn_label: "Read More"
-  #   btn_class: "btn--inverse"
-  #   tags:
-  #     - PLTW
-  #     - Electrical
-
   - image_path: /assets/images/PLTW/homepage/elevatorIso.png
     title: "Machine Control Project"
     excerpt: "I worked with my team to CAD and program a full elevator prototype using feedback control systems."
@@ -122,38 +112,46 @@ feature_row_projects:
       - Coursework
       - Robotics
 
-  # - image_path: /assets/images/PLTW/homepage/compoundMachineIso.png
-  #   title: "Compound Machine"
-  #   excerpt: "I worked with my team to CAD a design using Onshape to elegantly meet the required mechanical advantage constraints."
-  #   url: "/pltw-engineering/compound-machine/"
-  #   btn_label: "Read More"
-  #   btn_class: "btn--inverse"
-  #   tags:
-  #     - PLTW
+  - image_path: /assets/images/PLTW/homepage/rng.png
+    title: "Random Number Generator"
+    excerpt: "I created a working number generator using capacitors, timers, and combinational logic design."
+    url: "/pltw-engineering/rng/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+    tags:
+      - PLTW
+      - Electrical
 
-  # - image_path: /assets/images/PLTW/homepage/motorCarIso.jpg
-  #   alt: "image of motor car"
-  #   title: "Motor Car"
-  #   excerpt: "I worked with a partner to create a unique three-wheel solution to create a reliable motor car, while looking stylish at the same time!"
-  #   url: "/pltw-engineering/motor-car/"
-  #   btn_label: "Read More"
-  #   btn_class: "btn--inverse"
-  #   tags:
-  #     - PLTW
+  - image_path: /assets/images/PLTW/homepage/compoundMachineIso.png
+    title: "Compound Machine"
+    excerpt: "I worked with my team to CAD a design using Onshape to elegantly meet the required mechanical advantage constraints."
+    url: "/pltw-engineering/compound-machine/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+    tags:
+      - PLTW
 
-    
-  # - image_path: /assets/images/PLTW/homepage/automataKobeIso.png
-  #   alt: "automata"
-  #   title: "Automata"
-  #   excerpt: "Using Fusion360, I designed an animated automata and customized it based on a Kobe Bryant theme."
-  #   url: "/pltw-engineering/automata/"
-  #   btn_label: "Read More"
-  #   btn_class: "btn--inverse"
-  #   tags:
-  #     - PLTW
+  - image_path: /assets/images/PLTW/homepage/motorCarIso.jpg
+    alt: "image of motor car"
+    title: "Motor Car"
+    excerpt: "I worked with a partner to create a unique three-wheel solution to create a reliable motor car, while looking stylish at the same time!"
+    url: "/pltw-engineering/motor-car/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+    tags:
+      - PLTW
+
+  - image_path: /assets/images/PLTW/homepage/automataKobeIso.png
+    alt: "automata"
+    title: "Automata"
+    excerpt: "Using Fusion360, I designed an animated automata and customized it based on a Kobe Bryant theme."
+    url: "/pltw-engineering/automata/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+    tags:
+      - PLTW
 ---
 
 Feel free to check out some of the favorite project I have worked on so far!
 
 {% include feature_row_filtered id="feature_row_projects"%}
-

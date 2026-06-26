@@ -1,6 +1,6 @@
 ---
 title: "Personal Projects"
-description: "Abdullah Khaled's personal engineering projects including OralVision medical device, WatchFall fall detection system, Photo Lab web app, and robotics education resources."
+description: "Personal engineering projects by Abdullah Khaled (akhaled247)—OralVision, WatchFall, Photo Lab, Mantik, and OARobotics."
 permalink: /personal/
 author_profile: false
 
@@ -37,7 +37,7 @@ feature_row_projects:
   - image_path: /assets/images/personal/mantik.png
     title: "Mantik"
     excerpt: "I created an extensive written and video curricula for training students in Java, FTC, and FRC programming."
-    url: "/personal/mantik"
+    url: "/personal/mantik/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---

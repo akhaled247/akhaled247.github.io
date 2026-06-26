@@ -1,8 +1,9 @@
 ---
 title: "Machine Control Project | PLTW Engineering"
-description: "VEX V5 elevator project using proportional control systems, CAD design in Onshape, and telemetry programming for PLTW Engineering coursework."
+description: "Machine Control Project by Abdullah Khaled (akhaled247): VEX V5 elevator with proportional control, Onshape CAD, and telemetry for PLTW Engineering."
 permalink: /pltw-engineering/machine-control/
 author_profile: false
+project_schema: true
 ---
 {% include video id="IykJOCmuGt0" provider="youtube" width="27vw" height="48vw" float="left" margin="10px"%}
 

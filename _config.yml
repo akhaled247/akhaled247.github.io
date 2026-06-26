@@ -25,7 +25,7 @@ title                    : "Abdullah Khaled"
 title_separator          : "|"
 subtitle                 : "Engineering Portfolio"
 name                     : "Abdullah Khaled"
-description              : "Engineering portfolio of Abdullah Khaled, showcasing robotics projects, FRC/FTC competitions, and software engineering work from a high school student in Frisco, TX."
+description              : "Engineering portfolio of Abdullah Khaled (akhaled247)—robotics, FRC/FTC competition work, and software projects. Contact me@aakhaled.com."
 url                      : "https://www.aakhaled.com"
 baseurl                  : "" # empty string for root domain deployment
 repository               : akhaled247/akhaled247.github.io
@@ -109,6 +109,9 @@ social:
     - "https://github.com/akhaled247"
     - "https://www.linkedin.com/in/akhaled247/"
     - "https://www.youtube.com/@akhaled247"
+    - "https://mantik.netlify.app/"
+    - "https://oral-vision.github.io/"
+    - "https://www.aakhaled.com/photo-lab/"
 
 # Analytics
 analytics:
@@ -122,13 +125,13 @@ analytics:
 author:
   name             : "Abdullah Khaled"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "My name is Abdullah Khaled, and I am currently a junior at Wakeland High School in Frisco, TX. I enjoy both the hardware and software side of engineering and am always searching for ways to dive deeper into the field of engineering while helping others along the way. I am especially interested in robotics and am currently a software lead on my FIRST® Robotics (FRC) team Itkan Robotics! When I'm not working on engineering, I can be found playing tennis with my friends or tutoring refugee students in math and reading at Ma'ruf Dallas. If you would like to contact me, please reach out via email at abdullahkhaled0224@gmail.com or connect with me on LinkedIn!"
+  bio              : "Abdullah Khaled (akhaled247)—engineering portfolio at www.aakhaled.com. Robotics, vision, and on-device ML. Contact me@aakhaled.com or connect on GitHub and LinkedIn."
   location         : "Frisco, Texas"
-  email            : abdullahkhaled0224@gmail.com
+  email            : me@aakhaled.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:abdullahkhaled0224@gmail.com"
+      url: "mailto:me@aakhaled.com"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/akhaled247"

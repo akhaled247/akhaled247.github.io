@@ -10,20 +10,13 @@
       "description": {{ site.description | jsonify }},
       "publisher": {
         "@id": "{{ site.url }}/#person"
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "{{ site.url }}/search/?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
       }
     },
     {
       "@type": "Person",
       "@id": "{{ site.url }}/#person",
       "name": {{ site.social.name | default: site.name | jsonify }},
+      "alternateName": ["akhaled247", "Abdullah Khaled"],
       "url": {{ '/' | absolute_url | jsonify }},
       "description": {{ site.author.bio | default: site.description | truncate: 160 | jsonify }},
       {% if site.author.location %}"address": {

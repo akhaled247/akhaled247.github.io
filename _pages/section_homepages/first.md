@@ -1,6 +1,6 @@
 ---
 title: "FIRST Robotics Projects | FRC & FTC"
-description: "Abdullah Khaled's FIRST Robotics competition projects including FRC Team 9128 ITKAN Robotics and FTC Teams 21330, 26357, featuring autonomous programming and vision systems."
+description: "FIRST Robotics projects by Abdullah Khaled (akhaled247)—FRC Team 9128 ITKAN and FTC teams 21330, 26357, 28391. REEFSCAPE, DECODE, CRESCENDO, INTO THE DEEP."
 permalink: /first/
 author_profile: false
 

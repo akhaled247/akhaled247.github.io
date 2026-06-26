@@ -1,8 +1,9 @@
 ---
 title: "OralVision - Conrad Challenge Entry"
-description: "OralVision: A low-cost oral disease detection device using federated learning and ESP32 for HIPAA-compliant cancer screening, achieving 87% accuracy in the Conrad Challenge."
+description: "OralVision by Abdullah Khaled (akhaled247): A low-cost oral disease detection device using federated learning and ESP32, achieving 87% accuracy in the Conrad Challenge."
 permalink: /personal/oralvision/
 author_profile: false
+project_schema: true
 header:
   og_image: /assets/images/personal/oralvision/main.png
 media:

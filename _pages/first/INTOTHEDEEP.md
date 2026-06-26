@@ -1,8 +1,9 @@
 ---
 title: "INTO THE DEEP 2024-2025 FTC Season | Team 21330"
-description: "2024-25 FTC INTO THE DEEP season: custom pathing algorithm, Java modular programming, and League Tournament with Team 21330 ITKAN of Tomorrow."
+description: "INTO THE DEEP 2024-25 FTC season by Abdullah Khaled (akhaled247): custom pathing algorithm and modular Java programming for Team 21330 ITKAN of Tomorrow."
 permalink: /first/into-the-deep/
 author_profile: false
+project_schema: true
 ---
 
 {% include video id="72TyK_xXU0Q" provider="youtube" width="48vw" height="27vw" float="left" margin="10px"%}

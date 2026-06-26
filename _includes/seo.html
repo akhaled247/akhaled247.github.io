@@ -172,6 +172,10 @@
   {%- endif -%}
 {% endif %}
 
+{% if page.project_schema %}
+  {% include schema-project.html %}
+{% endif %}
+
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 {% endif %}

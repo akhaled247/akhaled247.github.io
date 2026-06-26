@@ -1,8 +1,9 @@
 ---
 title: "2025-26 FTC Season"
-description: "2025-26 FTC DECODE season highlights: Limelight vision, Bezier pathing, Kalman filter localization, and Dean's List Semifinalist recognition with ITKAN of ICF."
+description: "DECODE 2025-26 FTC season by Abdullah Khaled (akhaled247): Programming Lead for ITKAN of ICF teams 26357 and 28391—Limelight vision, Bezier pathing, Kalman filter, UIL State 3rd."
 permalink: /first/decode/
 author_profile: false
+project_schema: true
 ---
 
 In this season of the FIRST® Tech Challenge (FTC) game, robot were tasked with the deceptively simple task of shooting multicolored balls into a triangular goal as fast as possible. This year, I was the Programming Lead and Co-Founder of my school's team, coding all of the robot's functions, particularly the shooter, auto align, and autonomous routines. Through our efforts, our team won the Control Award (which "celebrates a team that uses sensors and software to increase the ROBOT’S functionality during gameplay") at two of our events, were the event winners at the Semi-Regional Tournament, and placed 3rd at the UIL State Championship!

@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Engineering Portfolio | Abdullah Khaled"
-description: "Explore Abdullah Khaled's engineering portfolio featuring robotics projects, FRC/FTC competition work, and software engineering from Frisco, TX."
+description: "Abdullah Khaled (akhaled247) engineering portfolio—robotics, FRC/FTC, and software projects. Browse projects, resume, and contact me@aakhaled.com."
 permalink: /
 author_profile: false
 header:
@@ -39,7 +39,7 @@ feature_row_projects:
 <section class="hero">
   <div class="overlay"></div>
   <div class="hero-content">
-    <h1 style="text-size: 100px;">Abdullah Khaled</h1>
+    <h1 style="font-size: clamp(2.5rem, 8vw, 5rem);">Abdullah Khaled</h1>
     <p>Engineering Portfolio</p>
   </div>
 </section>
@@ -56,7 +56,7 @@ feature_row_projects:
 {: .text-center}
 ---
 <h2>Background</h2>
-I am currently a junior at Wakeland High School in Frisco, TX, and have been working with robots since I was in kindergarten when I participated in a local LEGO BattleBots using EV3s. While I don't play with LEGOs as much as I used to (though I still find myself drawn to them at times), I now indulge in big LEGOs—actual robots made using real-world manufacturing and assembly techniques.
+I am Abdullah Khaled ([akhaled247](https://github.com/akhaled247)), currently a junior at Wakeland High School in Frisco, TX, and have been working with robots since I was in kindergarten when I participated in a local LEGO BattleBots using EV3s. While I don't play with LEGOs as much as I used to (though I still find myself drawn to them at times), I now indulge in big LEGOs—actual robots made using real-world manufacturing and assembly techniques.
 Through my background in engineering both through academic courses and extracurricular activites, I have developed my skills in design, software, and electronics to become a (hopefully) well-rounded student. For more information about me, see my [about me](/about/) or my [resume](/resume/)!
 
 ---

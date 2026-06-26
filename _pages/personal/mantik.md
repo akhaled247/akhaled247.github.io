@@ -1,8 +1,10 @@
 ---
 title: "Mantik - FIRST Robotics Programming Curriculum"
-description: "Mantik: Free video and written tutorials for FIRST Robotics programming covering WPILib, command-based programming, PID tuning, and motion profiling."
+description: "Mantik by Abdullah Khaled (akhaled247): Free video and written tutorials for FIRST Robotics programming—WPILib, command-based programming, PID, and motion profiling."
 permalink: /personal/mantik/
 author_profile: false
+project_schema: true
+project_type: SoftwareSourceCode
 ---
 {% include video id="guKZn1h-oeI?si=jYLIrwyS2MBDTL1Y" provider="youtube" width="48vw" height="27vw" float="left" margin="10px"%}
 

@@ -1,6 +1,6 @@
 ---
 title: "PLTW Engineering Coursework"
-description: "Project Lead The Way engineering projects including circuit design, CAD modeling in Onshape and Fusion360, VEX robotics, and control systems programming."
+description: "PLTW Engineering coursework by Abdullah Khaled (akhaled247)—circuit design, CAD, VEX robotics, and control systems."
 permalink: /pltw-engineering/
 author_profile: false
 
