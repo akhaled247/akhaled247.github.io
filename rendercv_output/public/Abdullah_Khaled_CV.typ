@@ -16,22 +16,22 @@
   page-right-margin: 0.58in,
   page-show-footer: false,
   page-show-top-note: false,
-  colors-body: rgb(0, 0, 0),
-  colors-name: rgb(0, 0, 0),
-  colors-headline: rgb(0, 0, 0),
-  colors-connections: rgb(0, 0, 0),
-  colors-section-titles: rgb(0, 0, 0),
-  colors-links: rgb(0, 0, 0),
+  colors-body: rgb(49, 49, 49),
+  colors-name: rgb(49, 49, 49),
+  colors-headline: rgb(97, 97, 97),
+  colors-connections: rgb(16, 130, 172),
+  colors-section-titles: rgb(4, 65, 109),
+  colors-links: rgb(26, 167, 247),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.48em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "Raleway",
-  typography-font-family-name: "Raleway",
-  typography-font-family-headline: "Raleway",
-  typography-font-family-connections: "Raleway",
-  typography-font-family-section-titles: "Raleway",
+  typography-font-family-body: "IBM Plex Sans",
+  typography-font-family-name: "Playfair Display",
+  typography-font-family-headline: "IBM Plex Sans",
+  typography-font-family-connections: "Georgia",
+  typography-font-family-section-titles: "Georgia",
   typography-font-size-body: 9.25pt,
   typography-font-size-name: 25pt,
   typography-font-size-headline: 9pt,
@@ -44,8 +44,8 @@
   typography-bold-name: false,
   typography-bold-headline: false,
   typography-bold-connections: false,
-  typography-bold-section-titles: false,
-  links-underline: false,
+  typography-bold-section-titles: true,
+  links-underline: true,
   links-show-external-link-icon: false,
   header-alignment: left,
   header-photo-width: 3.5cm,
@@ -88,7 +88,7 @@
 
 = Abdullah Khaled
 
-  #headline([Embedded systems engineer with robotics, vision, and on-device ML experience])
+  #headline([#emph[Embedded systems engineer with robotics, vision, and on-device ML experience]])
 
 #connections(
   [#connection-with-icon("location-dot")[Frisco, TX]],

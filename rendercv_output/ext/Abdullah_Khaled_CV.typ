@@ -16,22 +16,22 @@
   page-right-margin: 0.7in,
   page-show-footer: true,
   page-show-top-note: true,
-  colors-body: rgb(0, 0, 0),
-  colors-name: rgb(0, 79, 144),
-  colors-headline: rgb(0, 79, 144),
-  colors-connections: rgb(0, 79, 144),
-  colors-section-titles: rgb(0, 79, 144),
-  colors-links: rgb(0, 79, 144),
+  colors-body: rgb(49, 49, 49),
+  colors-name: rgb(49, 49, 49),
+  colors-headline: rgb(97, 97, 97),
+  colors-connections: rgb(16, 130, 172),
+  colors-section-titles: rgb(4, 65, 109),
+  colors-links: rgb(26, 167, 247),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
-  typography-line-spacing: 0.6em,
+  typography-line-spacing: 0.48em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "Raleway",
-  typography-font-family-name: "Raleway",
-  typography-font-family-headline: "Raleway",
-  typography-font-family-connections: "Raleway",
-  typography-font-family-section-titles: "Raleway",
+  typography-font-family-body: "IBM Plex Sans",
+  typography-font-family-name: "Playfair Display",
+  typography-font-family-headline: "IBM Plex Sans",
+  typography-font-family-connections: "Georgia",
+  typography-font-family-section-titles: "Georgia",
   typography-font-size-body: 9.25pt,
   typography-font-size-name: 25pt,
   typography-font-size-headline: 9pt,
@@ -44,8 +44,8 @@
   typography-bold-name: false,
   typography-bold-headline: false,
   typography-bold-connections: false,
-  typography-bold-section-titles: false,
-  links-underline: false,
+  typography-bold-section-titles: true,
+  links-underline: true,
   links-show-external-link-icon: false,
   header-alignment: left,
   header-photo-width: 3.5cm,
@@ -92,9 +92,8 @@
 
 #connections(
   [#connection-with-icon("location-dot")[Frisco, TX]],
-  [#link("mailto:abdullahkhaled0224@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[abdullahkhaled0224\@gmail.com]]],
-  [#link("tel:+1-469-347-2884", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[(469) 347-2884]]],
-  [#link("https://akhaled247.github.io/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[akhaled247.github.io]]],
+  [#link("mailto:me@aakhaled.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[me\@aakhaled.com]]],
+  [#link("https://www.aakhaled.com/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[www.aakhaled.com]]],
   [#link("https://linkedin.com/in/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[akhaled247]]],
   [#link("https://github.com/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[akhaled247]]],
 )
@@ -116,7 +115,7 @@
 
     - Courses: PLTW Introduction to Engineering Design (9th grade), PLTW Principles of Engineering (10th grade), PLTW Digital Electronics (11th grade), PLTW Engineering Design and Development (12th grade)
 
-    - Engineering Portfolio: akhaled247.github.io\/pltw-engineering
+    - Engineering Portfolio: aakhaled.com\/pltw-engineering
 
   ],
 )
@@ -264,7 +263,7 @@
 
     - Applied FRC sensor-fusion experience to a custom FTC pose estimator (wheel odometry, IMU, vision) with Kalman filtering for localization and automated turret targeting; improved targeting\/scoring accuracy by \~35\%; #link("https://github.com/itkan-of-icf/ftc-26357-2526-v2")[FTC codebase]
 
-    - Delivered three 1-hour ICF FLL workshops (7 students\/session) for refugee students using the self-developed OARobotics curriculum (#link("https://akhaled247.github.io/personal/oarobotics/")[OARobotics]); students built FLL-class robots and completed block-code autonomous maze navigation by session end
+    - Delivered three 1-hour ICF FLL workshops (7 students\/session) for refugee students using the self-developed OARobotics curriculum (#link("https://www.aakhaled.com/personal/oarobotics/")[OARobotics]); students built FLL-class robots and completed block-code autonomous maze navigation by session end
 
   ],
 )
@@ -359,7 +358,7 @@
 
 #regular-entry(
   [
-    #strong[Lead Instructor & Peer Program Coordinator], Ma'ruf Dallas Refugee Organization (Project Taleem) -- Dallas, TX
+    #strong[Tutoring Program Coordinator], Ma'ruf Dallas Refugee Organization (Project Taleem) -- Dallas, TX
 
   ],
   [
@@ -377,7 +376,7 @@
 
     - Run multilingual sessions with peer interpretation when available, mid-session breaks, and age-separated groupings to stabilize pacing and engagement
 
-    - Deliver monthly robotics enrichment for Project Taleem using the OARobotics curriculum (akhaled247.github.io\/personal\/oarobotics)
+    - Deliver monthly robotics enrichment for Project Taleem using the OARobotics curriculum (www.aakhaled.com\/personal\/oarobotics)
 
     - Measured average \~15-point IXL SmartScore increase over four months (Nov–Feb; n=10 students)
 
