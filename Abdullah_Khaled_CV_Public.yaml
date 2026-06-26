@@ -6,7 +6,7 @@ cv:
   location: Frisco, TX
   email: me@aakhaled.com
   photo:
-  phone:
+  phone: "+1 (469) 347-2884"
   website: https://www.aakhaled.com/
   social_networks:
     - network: LinkedIn
@@ -15,17 +15,38 @@ cv:
       username: akhaled247
   custom_connections:
   sections:
-    Summary:
-      - bullet: Embedded systems engineer with hands-on experience building robotics automation, sensor fusion, and on-device inference systems.
-      - bullet: Delivered reliability engineering for competition-grade robotics, led distributed software teams, and developed low-cost vision hardware for real-world monitoring applications.
-    Skills:
-      - label: Hardware & Prototyping
-        details: Fusion 360, Onshape, NI Multisim, KiCad, EasyEDA, soldering, PCB prototyping
-      - label: Software & Machine Learning
-        details: ROS, Python, Java, JavaScript, TensorFlow, OpenCV
-      - label: Systems & Methods
-        details: Kalman filtering, finite state machines, mechanism simulation, control theory, prompt engineering
+    Education:
+      - institution: Wakeland High School
+        area: '- GPA: 4.0/4.0'
+        degree: High School Diploma
+        date:
+        start_date: 2023-08
+        end_date: 2027-05
+        location:
+        highlights:
+          - Completing PLTW engineering coursework in digital electronics, systems design, and engineering development.
+          - Taking rigorous course load, including 18 AP classes, Multivariable Calculus, Physics C
+      - institution: Boston University
+        area: "- Electrical & Computer Engineering"
+        degree: Research in Science & Engineering (BU RISE)
+        date:
+        start_date: 2026-06
+        end_date: 2026-08
+        location:
+        highlights:
+          - 'Researching under Dr. Wenchao Li in the Dependable Computing Lab'
+          - Studying VLM/VLA-driven Sawyer robots to enable long-horizon task completion from vague human prompts
     Work Experience:
+      - company: Ma'ruf Dallas
+        position: Summer Programs & Operations Intern
+        date:
+        start_date: 2026-06
+        end_date: 2026-06
+        location: Richardson, TX
+        highlights:
+          - Selected as first high school intern in organization history
+          - Built multilingual (5) client check-in for events to reduce volunteer dependency at events; preserved PII and attendance metrics for marketing and client analysis
+          - Designed inventory management system for 100+ items and created coding system using custom formula in Google Sheets
       - company: Gideon Math and Reading Center
         position: Math and Reading Instructor
         date:
@@ -33,29 +54,10 @@ cv:
         end_date: present
         location: Frisco, TX
         highlights:
-          - Designed individualized instruction plans using student performance data to identify learning gaps and accelerate progress.
-          - Managed daily small-group sessions, adapting delivery and materials across multiple grade levels.
-          - Strengthened progress tracking by implementing structured checkpoints and targeted review.
-    Projects:
-      - name: OralVision
-        date:
-        start_date: 2025-10
-        end_date: present
-        location: Conrad Challenge; Diamond Challenge
-        highlights:
-          - Developed a privacy-preserving oral disease detection prototype using federated learning for centralized model training and on-device inference.
-          - Designed and programmed a low-cost imaging device using XIAO-ESP32-C6, OV5642 camera, and power-aware capture logic.
-          - Iterated through three PCB revisions and five 3D-printed enclosure revisions to improve reliability and manufacturability.
-          - Bench-tested capture consistency across lighting and viewing angles to validate robustness.
-      - name: WatchFall
-        date:
-        start_date: 2025-09
-        end_date: present
-        location: Samsung Solve for Tomorrow
-        highlights:
-          - Built a fall-detection system with Raspberry Pi Pico, TensorFlow Lite inference, and buzzer alerting for real-time on-device monitoring.
-          - Engineered a hybrid dataset and sensor integration strategy to lower false positives and improve detection responsiveness.
-    Leadership:
+          - Design individualized instruction plans using student performance data to identify learning gaps and accelerate progress.
+          - Manage daily small-group sessions, adapting delivery and materials across multiple grade levels.
+          - Strengthen progress tracking by implementing structured checkpoints and targeted review.
+    Activities:
       - company: ITKAN Robotics
         position: Chief Technical Advisor / Programming Lead
         date:
@@ -63,30 +65,41 @@ cv:
         end_date: present
         location: Plano, TX
         highlights:
-          - Directed software strategy for a multi-team robotics program with ~20 programmers, standardizing code structure, GitHub workflows, and integration practices.
-          - Implemented reliability engineering and contingency planning that preserved system performance after critical sensor failures.
-    Education:
-      - institution: Wakeland High School
-        area: ''
-        degree: High School Diploma
+          - Direct software strategy for a multi-team robotics program with ~20 programmers, standardizing code structure, GitHub workflows, and integration practices.
+          - Implement reliability engineering and contingency planning that preserve system performance after critical sensor failures.
+      - company: Ma'ruf Dallas
+        position: Curriculum Overhaul Coordinator
         date:
         start_date: 2023-08
-        end_date: 2027-05
-        location: Frisco, TX
+        end_date: present
+        location: Plano, TX
         highlights:
-          - Completed PLTW engineering coursework in digital electronics, systems design, and engineering development.
-          - Took rigorous course load, including Multivariable Calculus and Physics C
-      - institution: Boston University
-        area: Research in Science & Engineering (BU RISE)
-        degree:
+          - "Lead Project Taleem tutoring K–6 refugee students in small group sessions"
+          - "Recruit high-school volunteers from five schools; onboard into program"
+          - "Measured up to +45% improvement over three months"
+    Projects:
+      - name: Automated Mechanical Doser
         date:
         start_date: 2026-06
         end_date: 2026-08
-        location: Boston, MA
+        location: MedRock Pharmacy
         highlights:
-          - 'Researched under Dr. Wenchao Li, Department of Electrical and Computer Engineering'
-          - Studied VLM/VLA-driven Sawyer robots to enable long-horizon task completion from vague human prompts
-
+          - Creating system architecture for powder dispenser with ±0.5% precision for masses from 20mg-100g
+          - Leading device construction, programming, and testing to ensure deliverables were met within 10-week deadline
+      - name: OralVision
+        date:
+        start_date: 2025-10
+        end_date: present
+        location: Conrad Challenge; Diamond Challenge
+        highlights:
+          - Developed a privacy-preserving oral disease detection prototype using federated learning.
+          - Designed and programmed a low-cost imaging device using XIAO-ESP32-C6, OV5642 camera, and power-aware capture logic.
+          - Iterated through three PCB revisions and five 3D-printed enclosure revisions to improve reliability and manufacturability.
+    Additional:
+      - label: Honors
+        details: Texas High School Ideas Finalist (2026); FTC 5A UIL State Championship 3rd (2026); FRC State Championship Winner (2026)
+      - label: Technical Skills
+        details: CAD/CAM, ROS, Python, Java, JavaScript, Digital Logic Design, PCB Software, Google Workspace, R
 
 design:
   theme: engineeringclassic
@@ -118,10 +131,10 @@ design:
       section_titles: Georgia
     font_size:
       body: 9.25pt
-      name: 25pt
+      name: 20pt
       headline: 9pt
       connections: 9pt
-  #     section_titles: 1.2em
+      section_titles: 12pt
   #   small_caps:
   #     name: false
   #     headline: false

@@ -33,10 +33,10 @@
   typography-font-family-connections: "Georgia",
   typography-font-family-section-titles: "Georgia",
   typography-font-size-body: 9.25pt,
-  typography-font-size-name: 25pt,
+  typography-font-size-name: 20pt,
   typography-font-size-headline: 9pt,
   typography-font-size-connections: 9pt,
-  typography-font-size-section-titles: 1.4em,
+  typography-font-size-section-titles: 12pt,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
@@ -93,27 +93,69 @@
 #connections(
   [#connection-with-icon("location-dot")[Frisco, TX]],
   [#link("mailto:me@aakhaled.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[me\@aakhaled.com]]],
+  [#link("tel:+1-469-347-2884", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[(469) 347-2884]]],
   [#link("https://www.aakhaled.com/", icon: false, if-underline: false, if-color: false)[#connection-with-icon("link")[www.aakhaled.com]]],
   [#link("https://linkedin.com/in/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[akhaled247]]],
   [#link("https://github.com/akhaled247", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[akhaled247]]],
 )
 
 
-== Summary
+== Education
 
-- Embedded systems engineer with hands-on experience building robotics automation, sensor fusion, and on-device inference systems.
+#education-entry(
+  [
+    #strong[Wakeland High School], High School Diploma - GPA: 4.0\/4.0
 
-- Delivered reliability engineering for competition-grade robotics, led distributed software teams, and developed low-cost vision hardware for real-world monitoring applications.
+  ],
+  [
+    Aug 2023 – May 2027
 
-== Skills
+  ],
+  main-column-second-row: [
+    - Completing PLTW engineering coursework in digital electronics, systems design, and engineering development.
 
-#strong[Hardware & Prototyping:] Fusion 360, Onshape, NI Multisim, KiCad, EasyEDA, soldering, PCB prototyping
+    - Taking rigorous course load, including 18 AP classes, Multivariable Calculus, Physics C
 
-#strong[Software & Machine Learning:] ROS, Python, Java, JavaScript, TensorFlow, OpenCV
+  ],
+)
 
-#strong[Systems & Methods:] Kalman filtering, finite state machines, mechanism simulation, control theory, prompt engineering
+#education-entry(
+  [
+    #strong[Boston University], Research in Science & Engineering (BU RISE) - Electrical & Computer Engineering
+
+  ],
+  [
+    June 2026 – Aug 2026
+
+  ],
+  main-column-second-row: [
+    - Researching under Dr. Wenchao Li in the Dependable Computing Lab
+
+    - Studying VLM\/VLA-driven Sawyer robots to enable long-horizon task completion from vague human prompts
+
+  ],
+)
 
 == Work Experience
+
+#regular-entry(
+  [
+    #strong[Summer Programs & Operations Intern], Ma'ruf Dallas -- Richardson, TX
+
+  ],
+  [
+    June 2026 – June 2026
+
+  ],
+  main-column-second-row: [
+    - Selected as first high school intern in organization history
+
+    - Built multilingual (5) client check-in for events to reduce volunteer dependency at events; preserved PII and attendance metrics for marketing and client analysis
+
+    - Designed inventory management system for 100+ items and created coding system using custom formula in Google Sheets
+
+  ],
+)
 
 #regular-entry(
   [
@@ -125,56 +167,16 @@
 
   ],
   main-column-second-row: [
-    - Designed individualized instruction plans using student performance data to identify learning gaps and accelerate progress.
+    - Design individualized instruction plans using student performance data to identify learning gaps and accelerate progress.
 
-    - Managed daily small-group sessions, adapting delivery and materials across multiple grade levels.
+    - Manage daily small-group sessions, adapting delivery and materials across multiple grade levels.
 
-    - Strengthened progress tracking by implementing structured checkpoints and targeted review.
-
-  ],
-)
-
-== Projects
-
-#regular-entry(
-  [
-    #strong[OralVision] -- #strong[Conrad Challenge; Diamond Challenge]
-
-  ],
-  [
-    Oct 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Developed a privacy-preserving oral disease detection prototype using federated learning for centralized model training and on-device inference.
-
-    - Designed and programmed a low-cost imaging device using XIAO-ESP32-C6, OV5642 camera, and power-aware capture logic.
-
-    - Iterated through three PCB revisions and five 3D-printed enclosure revisions to improve reliability and manufacturability.
-
-    - Bench-tested capture consistency across lighting and viewing angles to validate robustness.
+    - Strengthen progress tracking by implementing structured checkpoints and targeted review.
 
   ],
 )
 
-#regular-entry(
-  [
-    #strong[WatchFall] -- #strong[Samsung Solve for Tomorrow]
-
-  ],
-  [
-    Sept 2025 – present
-
-  ],
-  main-column-second-row: [
-    - Built a fall-detection system with Raspberry Pi Pico, TensorFlow Lite inference, and buzzer alerting for real-time on-device monitoring.
-
-    - Engineered a hybrid dataset and sensor integration strategy to lower false positives and improve detection responsiveness.
-
-  ],
-)
-
-== Leadership
+== Activities
 
 #regular-entry(
   [
@@ -186,35 +188,37 @@
 
   ],
   main-column-second-row: [
-    - Directed software strategy for a multi-team robotics program with \~20 programmers, standardizing code structure, GitHub workflows, and integration practices.
+    - Direct software strategy for a multi-team robotics program with \~20 programmers, standardizing code structure, GitHub workflows, and integration practices.
 
-    - Implemented reliability engineering and contingency planning that preserved system performance after critical sensor failures.
+    - Implement reliability engineering and contingency planning that preserve system performance after critical sensor failures.
 
   ],
 )
 
-== Education
-
-#education-entry(
+#regular-entry(
   [
-    #strong[Wakeland High School], High School Diploma  -- Frisco, TX
+    #strong[Curriculum Overhaul Coordinator], Ma'ruf Dallas -- Plano, TX
 
   ],
   [
-    Aug 2023 – May 2027
+    Aug 2023 – present
 
   ],
   main-column-second-row: [
-    - Completed PLTW engineering coursework in digital electronics, systems design, and engineering development.
+    - Lead Project Taleem tutoring K–6 refugee students in small group sessions
 
-    - Took rigorous course load, including Multivariable Calculus and Physics C
+    - Recruit high-school volunteers from five schools; onboard into program
+
+    - Measured up to +45\% improvement over three months
 
   ],
 )
 
-#education-entry(
+== Projects
+
+#regular-entry(
   [
-    #strong[Boston University],  Research in Science & Engineering (BU RISE) -- Boston, MA
+    #strong[Automated Mechanical Doser] -- #strong[MedRock Pharmacy]
 
   ],
   [
@@ -222,9 +226,34 @@
 
   ],
   main-column-second-row: [
-    - Researched under Dr. Wenchao Li, Department of Electrical and Computer Engineering
+    - Creating system architecture for powder dispenser with ±0.5\% precision for masses from 20mg-100g
 
-    - Studied VLM\/VLA-driven Sawyer robots to enable long-horizon task completion from vague human prompts
+    - Leading device construction, programming, and testing to ensure deliverables were met within 10-week deadline
 
   ],
 )
+
+#regular-entry(
+  [
+    #strong[OralVision] -- #strong[Conrad Challenge; Diamond Challenge]
+
+  ],
+  [
+    Oct 2025 – present
+
+  ],
+  main-column-second-row: [
+    - Developed a privacy-preserving oral disease detection prototype using federated learning.
+
+    - Designed and programmed a low-cost imaging device using XIAO-ESP32-C6, OV5642 camera, and power-aware capture logic.
+
+    - Iterated through three PCB revisions and five 3D-printed enclosure revisions to improve reliability and manufacturability.
+
+  ],
+)
+
+== Additional
+
+#strong[Honors:] Texas High School Ideas Finalist (2026); FTC 5A UIL State Championship 3rd (2026); FRC State Championship Winner (2026)
+
+#strong[Technical Skills:] CAD\/CAM, ROS, Python, Java, JavaScript, Digital Logic Design, PCB Software, Google Workspace, R
