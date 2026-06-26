@@ -4,5 +4,5 @@ description: "Download Abdullah Khaled's resume showcasing robotics experience, 
 permalink: /resume/
 author_profile: false
 ---
-
+{% include videotextbreak %}
 {% include pdf path="/rendercv_output/public/Abdullah_Khaled_CV.pdf"%}

@@ -101,6 +101,7 @@ cv:
       - label: Technical Skills
         details: CAD/CAM, ROS, Python, Java, JavaScript, Digital Logic Design, PCB Software, Google Workspace, R
 
+# Web design tokens: keep in sync with _sass/_design-tokens.scss
 design:
   theme: engineeringclassic
   page:

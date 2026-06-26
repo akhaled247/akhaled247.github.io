@@ -4,84 +4,165 @@ search: false
 ---
 
 @charset "utf-8";
+@import "design-tokens";
 
 /* ==========================================================================
-   Custom skin
+   Custom skin — mapped from resume design tokens
    ========================================================================== */
 
-/* Colors */
 $background-color: #eeeeee !default;
-$text-color: #222831 !default;
-$muted-text-color: #393e46 !default;
-$primary-color: #004e8f !default;
-$border-color: mix(#fff, #393e46, 75%) !default;
-$footer-background-color: $primary-color !default;
-$link-color: #004e8f !default;
+$text-color: $cv-body !default;
+$muted-text-color: $cv-muted !default;
+$primary-color: $cv-section !default;
+$border-color: mix(#fff, $cv-body, 75%) !default;
+$footer-background-color: $cv-section !default;
+$link-color: $cv-link !default;
 $masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
+$masthead-link-color-hover: $cv-accent !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
-/* system typefaces */
-$serif      : "Playfair Display", Georgia, Times, serif;
-$sans-serif : "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$monospace  : Monaco, Consolas, "Lucida Console", monospace;
-$global-font-family : $sans-serif;
-$header-font-family : $serif;
+
+$serif: $cv-font-display;
+$sans-serif: $cv-font-body;
+$monospace: Monaco, Consolas, "Lucida Console", monospace;
+$global-font-family: $sans-serif;
+$header-font-family: $serif;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-@property --rv-float {
-    syntax: "<float>";
-    inherits: false;
-    initial-value: left; /* Default value */
+/* ==========================================================================
+   Typography rhythm
+   ========================================================================== */
+
+.page__content {
+  p,
+  li,
+  dl {
+    font-family: $cv-font-body;
+    color: $cv-body;
+    line-height: 1.55;
+  }
+
+  h2 {
+    font-family: $cv-font-section;
+    font-weight: 700;
+    color: $cv-section;
+    border-bottom: 0.5px solid $cv-section;
+    padding-bottom: 0.3em;
+    margin-top: 1.5em;
+  }
+
+  a:not(.btn) {
+    color: $cv-link;
+    text-decoration: underline;
+
+    &:hover {
+      color: darken($cv-link, 10%);
     }
+  }
+}
+
+.layout--home h2 {
+  font-family: $cv-font-section;
+  font-weight: 700;
+  color: $cv-section;
+  border-bottom: 0.5px solid $cv-section;
+  padding-bottom: 0.3em;
+  margin-top: 1.5em;
+}
+
+.page__title {
+  font-family: $cv-font-display;
+  color: $cv-body;
+}
+
+.page__lead {
+  color: $cv-muted;
+  font-style: italic;
+}
+
+.masthead {
+  border-bottom: 1px solid rgba($cv-section, 0.15);
+}
+
+.masthead .site-title {
+  font-family: $cv-font-display;
+}
+
+.masthead__menu-item a:hover {
+  color: $cv-accent;
+}
+
+/* ==========================================================================
+   Resume page intro
+   ========================================================================== */
+
+.resume-intro {
+  color: $cv-muted;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* ==========================================================================
+   Custom components
+   ========================================================================== */
+
+@property --rv-float {
+  syntax: "<float>";
+  inherits: false;
+  initial-value: left;
+}
 
 .responsive-video-container-custom {
-    position: relative;
-    display: block;
-    width: var(--rv-width, 240px);
-    // aspect-ratio: calc(var(--rv-width, 240px) / var(--rv-height, 27vw));
-    height: var(--rv-height, 27vw) !important;
-    max-width: 100%;
-    float: var(--rv-float, left);
-    margin: var(--rv-margin, 10px);
-    overflow: hidden;
-    background: #000;
-  }
-  
-.responsive-video-container-custom iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: relative;
+  display: block;
+  width: var(--rv-width, 240px);
+  height: var(--rv-height, 27vw) !important;
+  max-width: 100%;
+  float: var(--rv-float, left);
+  margin: var(--rv-margin, 10px);
+  overflow: hidden;
+  background: #000;
 }
-  
+
+.responsive-video-container-custom iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .resume-pdf {
-  display: flex; 
+  display: flex;
   max-width: fit-content;
   margin-inline: auto;
 }
 
 .btn--purple {
-    background-color: #501DAF;
-    color: #fff !important;
+  background-color: #501daf;
+  color: #fff !important;
 }
 
 .hero {
   position: relative;
-  width: 100vw;              /* 100% of viewport width */
+  width: 100vw;
   left: 50%;
   right: 50%;
-  margin-left: -50vw;        /* Cancel out any page container padding */
+  margin-left: -50vw;
   margin-right: -50vw;
   margin-top: -67px;
   background: url("/assets/images/AbdullahKhaled_Bkg_Img.jpg");
-  background-size: cover;    /* Ensures it fills the space */
+  background-size: cover;
   background-position: top;
-  height: 400px; 
+  height: 400px;
   overflow: hidden;
   color: #eee;
+}
+
+.layout--home .hero {
+  margin-top: 0;
 }
 
 .hero .overlay {
@@ -90,7 +171,7 @@ $header-font-family : $serif;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.45); /* 👈 darken amount — adjust alpha (0.3–0.6) */
+  background: rgba($cv-section, 0.55);
   z-index: 1;
 }
 
@@ -104,11 +185,15 @@ $header-font-family : $serif;
 }
 
 .hero-content h1 {
+  font-family: $cv-font-display;
   font-size: 50px;
 }
 
 .hero-content p {
+  font-family: $cv-font-body;
   font-size: 25px;
+  color: #fff;
+  font-weight: 400;
 }
 
 /* ==========================================================================
@@ -144,14 +229,14 @@ $header-font-family : $serif;
 }
 
 .btn--filter.active {
-  background-color: #004e8f;
+  background-color: $cv-section;
   color: #fff;
-  border-color: #004e8f;
+  border-color: $cv-section;
 }
 
 .btn--filter.active:hover {
-  background-color: #003d70;
-  border-color: #003d70;
+  background-color: darken($cv-section, 8%);
+  border-color: darken($cv-section, 8%);
 }
 
 .feature-filter-item {
@@ -170,30 +255,24 @@ $header-font-family : $serif;
   pointer-events: none;
 }
 
-.page__footer {
-  color: #fff !important; // override
-}
-
-.page__footer-follow .social-icons .svg-inline--fa {
-  color: inherit;
-}
-
 .btn--inverse {
   background-color: $background-color !important;
-  
+
   &:visited {
     background-color: $background-color !important;
   }
-  
+
   &:hover {
     background-color: mix(#000, $background-color, 20%) !important;
+    color: $cv-section !important;
+    border-color: $cv-section !important;
   }
 }
 
 .page__footer {
-  color: #fff !important; // override
-  
-  // Force dark/white icons in footer
+  color: #fff !important;
+  background-color: $cv-section !important;
+
   .page__footer-follow .social-icons {
     .fas,
     .fab,
@@ -206,10 +285,14 @@ $header-font-family : $serif;
     i[class*="fa-"] {
       color: #fff !important;
     }
-    
-    // Also target SVG icons if Font Awesome uses SVG mode
+
     .svg-inline--fa {
       color: #fff !important;
+    }
+
+    a:hover .svg-inline--fa,
+    a:hover i {
+      color: $cv-link !important;
     }
   }
 }
@@ -222,23 +305,22 @@ $header-font-family : $serif;
    Fix Home/Archive Layout Width
    ========================================================================== */
 
-   .layout--home .archive,
-   .layout--archive .archive {
-     @include breakpoint($large) {
-       width: 100% !important;
-       padding-inline-end: 0 !important;
-     }
-   
-     @include breakpoint($x-large) {
-       width: 100% !important;
-       padding-inline-end: 0 !important;
-     }
-   }
-   
-   /* Or if you want it to match the single page width exactly */
-   .layout--home #main,
-   .layout--archive #main {
-     @include breakpoint($x-large) {
-       max-width: $max-width;
-     }
-   }
+.layout--home .archive,
+.layout--archive .archive {
+  @include breakpoint($large) {
+    width: 100% !important;
+    padding-inline-end: 0 !important;
+  }
+
+  @include breakpoint($x-large) {
+    width: 100% !important;
+    padding-inline-end: 0 !important;
+  }
+}
+
+.layout--home #main,
+.layout--archive #main {
+  @include breakpoint($x-large) {
+    max-width: $max-width;
+  }
+}

@@ -1,4 +1,41 @@
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style id="critical-css">
+  html { background-color: #eeeeee; }
+  body {
+    margin: 0;
+    color: #313131;
+    font-family: "IBM Plex Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    line-height: 1.5;
+    background-color: #eeeeee;
+  }
+  .page__footer { background-color: #04416d; color: #fff; }
+  .layout--home .page__title { display: none !important; }
+  .initial-content { opacity: 0; }
+  html.css-loaded .initial-content { opacity: 1; }
+</style>
+
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" fetchpriority="high">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" fetchpriority="high" onload="document.documentElement.classList.add('css-loaded')">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  {% if site.enable_copy_code_button -%}
+    window.enable_copy_code_button = true;
+  {%- endif %}
+  (function () {
+    function markCssReady() {
+      document.documentElement.classList.add('css-loaded');
+    }
+    if (document.querySelector('link[href*="main.css"]')?.sheet) {
+      markCssReady();
+    } else {
+      window.addEventListener('load', markCssReady);
+      setTimeout(markCssReady, 3000);
+    }
+  })();
+</script>
 
 {% include seo.html %}
 
@@ -6,16 +43,11 @@
   <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 {% endunless %}
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<!-- DNS prefetch / preconnect for external resources (improves LCP, PageSpeed) -->
+<!-- DNS prefetch / preconnect for external resources -->
 <link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 <link rel="dns-prefetch" href="https://www.googletagmanager.com">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
-
-<!-- Preload critical CSS (improves LCP) -->
-<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style">
 
 <!-- Preload hero image if specified (improves LCP) -->
 {% if page.header.overlay_image %}
@@ -24,17 +56,7 @@
   <link rel="preload" href="{{ page.header.image | relative_url }}" as="image">
 {% endif %}
 
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-  {% if site.enable_copy_code_button -%}
-    window.enable_copy_code_button = true;
-  {%- endif %}
-</script>
-
-<!-- Critical CSS loaded synchronously -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
-<!-- Font Awesome loaded asynchronously (reduces render-blocking, improves LCP) -->
+<!-- Font Awesome loaded asynchronously (reduces render-blocking) -->
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" as="style" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" crossorigin="anonymous"></noscript>
 
