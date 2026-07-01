@@ -131,4 +131,26 @@ personal learning
 * understood try except finally blocks and how to handle exceptions gracefully
 * learned Python class structure (DataSubscriber)
 
-  
+# 07.01.26
+I talked with Zijian about his project and received confirmation from Dr. Li to work with Zijian on [SpecRLBench](https://github.com/BU-DEPEND-Lab/SpecRLBench), with the following instructions:
+- try out the current SpecRLBench, getting familiar with the Gym setup
+- come up with real-world scenario-inspired examples for the multi-agent setting,
+- create the corresponding environments or modify existing environments for the examples,
+- formalize the requirements in our multi-agent spec language
+- train and evaluate agents that use vision as inputs
+
+towards these goals, I started learning the foundational skills and frameworks that SpecRLBench is using, which I am tracking in [RISE Python Training](https://github.com/akhaled247/rise_python_training/tree/main) *Currently private, will release at end of internship*
+as part of this training, I have learned
+- Python syntax for control systems, classes, and overall how code is structured in Python
+- Gymnasium: Basic setup, hyperparameters, Q-Learning, REINFORCE algorithm with Mudoco
+*Note: There is more to the training, but at this point, I received the email from Dr. Li regarding what I should focus on, so I pivoted to directly working on the SpecRLBench stuff*
+
+## Setting up SpecRLBench
+Unlike in the tutorial, I didn't have to run `cd specbench` since the install file was in the main folder  
+I also had to run `pip install -e .` instead of `./install.bash` because a) the script was `install.sh` and b) I would get this error:  
+```bash
+(specbench) C:\GitHub\rise_project\SpecRLBench>./install.sh
+  '.' is not recognized as an internal or external command,
+  operable program or batch file.
+```
+`pybullet` was still giving me issues, so I ran `conda install -c conda-forge pybullet` and then re-ran `pip install -e .`
