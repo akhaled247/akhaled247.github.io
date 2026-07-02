@@ -1,5 +1,15 @@
 #rise-dcl-log
 
+## Sources
+[ROS Ubuntu Installation](https://wiki.ros.org/noetic/Installation/Ubuntu)
+[Information Slideshow](https://docs.google.com/presentation/d/1C7Mwcdt3m7QfknjxOcZXIfugGhLVEKumrAQWOlkqRtM/edit?pli=1&slide=id.p#slide=id.p)
+[tf tutorials](https://wiki.ros.org/tf/Tutorials)
+[geometry msgs wiki](https://docs.ros.org/en/noetic/api/geometry_msgs/html/index-msg.html)
+[pubsub with python](https://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber(python))
+[frames](/_pages/rise/frames.pdf)
+[SpecRLBench](https://github.com/BU-DEPEND-Lab/SpecRLBench)
+[RISE Python Training](https://github.com/akhaled247/rise_python_training/tree/main)
+[Gymnasium Documentation](https://gymnasium.farama.org/tutorials) 
 # 06.29.2026
 
 ### Old command
@@ -32,10 +42,9 @@ docker run -it \
 docker exec -it ros_noetic bash
 ```
 
-[https://wiki.ros.org/noetic/Installation/Ubuntu](https://wiki.ros.org/noetic/Installation/Ubuntu)
+
 *start from step 1.5*
 
-[Presentation for Setup](https://docs.google.com/presentation/d/1C7Mwcdt3m7QfknjxOcZXIfugGhLVEKumrAQWOlkqRtM/edit?pli=1&slide=id.p#slide=id.p)
 
 ```
 apt update
@@ -105,12 +114,6 @@ Python 3 errors: `ln -s /usr/bin/python3 /usr/bin/python`
 Syntax error in `/root/ros_ws/src/sawyer_simulator/sawyer_sim_examples/scripts/ik_pick_and_place_demo.py`
 - have to write `as e` instead `of , e` (three exceptions)
 
-###sources
-[tf tutorials](https://wiki.ros.org/tf/Tutorials)
-[geometry msgs wiki](https://docs.ros.org/en/noetic/api/geometry_msgs/html/index-msg.html)
-[pubsub with python](https://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber(python))
-[frames](/_pages/rise/frames.pdf)
-
 ###issues & solutions
 - we had an issue where the interpolation for the robotic arm to come down onto the block (_servo_to_pose) was linear, which didn't work for quaternions due to unit vector math that meant that linear interpolation would make the length of the vector !=1
   - solution: we reduced the step size to 1 so that we did not have to worry about intermediate steps. since we are only working with cartesian movements, this wasn't a huge worry
@@ -139,7 +142,7 @@ I talked with Zijian about his project and received confirmation from Dr. Li to 
 - formalize the requirements in our multi-agent spec language
 - train and evaluate agents that use vision as inputs
 
-towards these goals, I started learning the foundational skills and frameworks that SpecRLBench is using, which I am tracking in [RISE Python Training](https://github.com/akhaled247/rise_python_training/tree/main) *Currently private, will release at end of internship*
+towards these goals, I started learning the foundational skills and frameworks that SpecRLBench is using, which I am tracking in [RISE Python Training](https://github.com/akhaled247/rise_python_training/tree/main)
 as part of this training, I have learned
 - Python syntax for control systems, classes, and overall how code is structured in Python
 - Gymnasium: Basic setup, hyperparameters, Q-Learning, REINFORCE algorithm with Mudoco
@@ -147,10 +150,20 @@ as part of this training, I have learned
 
 ## Setting up SpecRLBench
 Unlike in the tutorial, I didn't have to run `cd specbench` since the install file was in the main folder  
-I also had to run `pip install -e .` instead of `./install.bash` because a) the script was `install.sh` and b) I would get this error:  
+I also had to run these commands
+```bash
+pip install -e .
+pip install -e specbench/envs/panda-gym
+pip install -e specbench/envs/zones/safety-gymnasium
+```
+instead of `./install.bash` because a) the script was `install.sh` and b) I would get this error:  
 ```bash
 (specbench) C:\GitHub\rise_project\SpecRLBench>./install.sh
   '.' is not recognized as an internal or external command,
   operable program or batch file.
 ```
-`pybullet` was still giving me issues, so I ran `conda install -c conda-forge pybullet` and then re-ran `pip install -e .`
+TODO: Learn how to make custom environments in gymnasium
+Create custom environment
+Lit review of current search-and-rescue operation environment definitions
+
+I then started exploring more into the `safety-gymnasium` and its environments, and found the [Building Button](https://safety-gymnasium.readthedocs.io/en/latest/environments/safe_vision/building_button.html) environment, which seems to be similar to the search-and-rescue operations I am interested in. This env also incorporates vision (optional), which is something I can look into.
