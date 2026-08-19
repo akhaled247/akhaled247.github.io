@@ -1,7 +1,7 @@
 ---
 title: "OARobotics - Accessible Robotics Education"
 description: "OARobotics by Abdullah Khaled (akhaled247): Open-source FIRST LEGO League curriculum for refugee students and learners with disabilities."
-permalink: /personal/oarobotics/
+permalink: /oarobotics/
 author_profile: false
 project_schema: true
 

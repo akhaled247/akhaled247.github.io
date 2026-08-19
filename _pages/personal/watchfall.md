@@ -1,7 +1,7 @@
 ---
 title: "WatchFall - Samsung Solve for Tomorrow"
 description: "WatchFall by Abdullah Khaled (akhaled247): An affordable fall-detection camera using TensorFlow for senior monitoring, designed for Samsung Solve for Tomorrow."
-permalink: /personal/watchfall/
+permalink: /watchfall/
 author_profile: false
 project_schema: true
 ---

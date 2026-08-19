@@ -42,6 +42,6 @@ Treat as the **template**, not an urgent rewrite—only minor edits or consisten
 
 ---
 
-**Practical order:** do **DECODE → WatchFall → Photo Lab → Majority Vote** first (visibility + gap vs REEFSCAPE + quick credibility fixes). Then batch **past robotics (INTO THE DEEP, CRESCENDO)** and **thin PLTW (machine control)** to match whatever template you settle on from REEFSCAPE/DECODE.
+**Practical order:** do **DECODE → WatchFall → Majority Vote** first (visibility + gap vs REEFSCAPE + quick credibility fixes). Then batch **past robotics (INTO THE DEEP, CRESCENDO)** and **thin PLTW (machine control)** to match whatever template you settle on from REEFSCAPE/DECODE.
 
 If you say whether your main audience is **college apps**, **internships**, or **both**, the order can shift (e.g. OralVision and Mantik move up for certain programs).

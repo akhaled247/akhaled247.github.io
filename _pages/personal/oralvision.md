@@ -1,7 +1,7 @@
 ---
 title: "OralVision - Conrad Challenge Entry"
 description: "OralVision by Abdullah Khaled (akhaled247): A low-cost oral disease detection device using federated learning and ESP32, achieving 87% accuracy in the Conrad Challenge."
-permalink: /personal/oralvision/
+permalink: /oralvision/
 author_profile: false
 project_schema: true
 header:
@@ -19,26 +19,50 @@ media:
     image_path: /assets/images/personal/oralvision/specifics.png
     alt: "Design Details"
     title: "Notated drawing of OralVision's handheld device."
+carousels:
+  - images:
+    - image: /assets/images/personal/oralvision/txhsic-poster-talk.jpg
+    - image: /assets/images/personal/oralvision/txhsic-poster-topdown.jpg
+    - image: /assets/images/personal/oralvision/txhsic-presentation-room.jpg
+    - image: /assets/images/personal/oralvision/specifics.png
+    - image: /assets/images/personal/oralvision/irlprototype.jpg
 ---
-{% include video id="lzHXL2q3vNI" provider="youtube" width="20.25vw" height="36vw"  float="left" margin="10px 10px 10px 15vw"%}
-
-<div style="margin:10px;">
-  <img style ="height:33vw;" src="/assets/images/personal/oralvision/technical.png" alt="CAD Drawing of OralVision's Imaging Device">
-  <figcaption>CAD drawing of OralVision's imaging device.</figcaption>
-</div>
+{% include carousel.html width="44" height="33" unit="%" duration="10" number="1" float="left"%}
+{% include video id="lzHXL2q3vNI" provider="youtube" width="18vw" height="32vw" margin="0px"%}
 {% include videotextbreak %}
-Oral cavity cancers are highly treatable when detected early, yet nearly 70% of cases are diagnosed too late due to clinical uncertainty and the lack of accessible screening tools. As a result, over 170,000 people die each year from a largely preventable disease. OralVision is an intraoral, deep-learning–powered diagnostic device designed to make early screening affordable, reliable, and widely accessible.
+<h2 style="margin-top:0px">The Problem</h2>
+OralVision began when we witnessed a jarring reality firsthand: while we live in a hub of economic prosperity and innovation, our neighbors in underprivileged areas like South Dallas were dying from preventable, late-stage oral cancers. 
 
-At the core of OralVision’s imaging system is a XIAO ESP32-C6 microcontroller, chosen for its low cost and strong processing capabilities. Images are captured using a 5-megapixel OV5642 camera, which supports high-bandwidth data transfer for clear intraoral imaging. To ensure reliable operation in the moist oral environment, the camera lens is protected with an anti-fog nano-coating, and the entire system is enclosed in a sterilization wrap to prevent bacterial contamination. The device is operated using a single medical-grade push button, reducing user error and simplifying the screening process.
+We realized that for millions worldwide, the barrier to survival isn't a lack of a cure, but a lack of proper diagnostics to lead to that cure. We developed OralVision to bridge this diagnostic gap, motivated by the challenge of integrating cutting-edge technologies such as federated learning and 3D printing to dismantle systemic healthcare inequities. 
 
-OralVision is designed for use in low-resource settings. Power is regulated through a 5V voltage regulator that supports multiple input methods, including USB-C, AA batteries, and solar power. Rechargeable nickel-metal hydride batteries are included to improve safety during transportation. The housing uses a snap-fit design, allowing easy access for battery replacement and software updates.
-
-{% include gallery id="media" caption="Various media related to the development of OralVision's imaging device." %}
-
-Captured images are transmitted wirelessly to the machine-learning interface using Wi-Fi, while SPI communication enables fast, low-latency image transfer within the device. Images are processed by a federated learning model, which generates diagnostic results displayed on a Raspberry Pi–based human-machine interface. Each device contributes to improving the global model by updating neural parameters locally, allowing users to periodically download improved versions without sharing sensitive patient data.
-
-In testing, OralVision significantly outperformed existing market solutions. Our model achieved an overall accuracy of 87.15%, with a ROC-AUC score of 0.9417 and an F1 score of 0.8655. By comparison, VELscope, a widely used competing technology, has demonstrated accuracy rates near 53% in experimental trials.
+Seeing the struggle of low-income families in our community transformed our technical curiosity into a mission: to ensure that everybody, no matter their age, gender, socioeconomic status, or income, has an equal chance of surviving cancer. In the end, our goal isn’t just to build a device, but to democratize early detection for the millions currently left behind.
+<h2 style="margin-top:0px">Architecture</h2>
 {% include figure popup=true image_path="/assets/images/personal/oralvision/architecture.png" alt="Architecture Overview of OralVision" caption="Architecture Overview of OralVision." width="100%" %}
 {% include videotextbreak %}
+OralVision is a potential intraoral diagnostic system made up of two main components: an imaging device and an image processing unit.
+
+The control center for OralVision’s imaging device would be a XIAO-ESP32-C6 microcontroller, a cheap, yet powerful solution to reduce production costs while maintaining the technical capabilities of larger, more expensive controllers. The image would be taken using an OV5642 5MP image sensor with SPI compatibility for high-bandwidth data transfer to the microcontroller. In addition, an anti-fog nano coating would be applied to the camera lens to prevent moisture in the mouth from harming the internal components. To minimize user error, the entire system would use a single medical-grade momentary push button to control image streaming and capturing.
+
+The power would be regulated using a 5V voltage regulator that accepts multiple power sources, including USB-C (with a port for easy charging access), AA batteries, and solar power (for extremely low-income areas with minimal electrical infrastructure). The device would also ship with rechargeable nickel-metal hydride batteries to prevent thermal runaway during transportation.
+
+The entire imaging system would ultimately be encased in a clinical sterilization wrap to prevent bacteria and microbes from entering the device, with the prototype’s housing being held together using a snap-fit mechanism for easy access to the electronics for battery replacements and software updates.
+
+For communication protocols between the imaging device and the machine learning interface, we plan to use SPI and Wi-Fi (see Figure 3). We chose SPI over UART and I2C because of its ability to transmit high-resolution intraoral images continuously with minimal latency.
+
+The device transfers images to our ML interface wirelessly via Wi-Fi 5, where our decentralized federated learning model processes the images through computer vision and transmits diagnostic results and Bayesian inferences to the screen on our Raspberry Pi 5 human-machine interface (HMI). When a device processes an image, it systematically alters neural parameters to prevent overfitting and improve the accuracy of our main model, which clients will be able to download from our website periodically for software updates.
+<h2 style="margin-top:0px">Evaluation</h2>
+Due to financial limitations and strict Institutional Review Board (IRB) regulations, it is currently not feasible to validate the OralVision prototype in a clinical trial with oral cavity cancer patients. However, our team was able to validate accuracy and other important reliability benchmarks for OralVision's federated neural network model through an in-silico experimental trial, finding that it outscored major competitors in many important metrics.
+
+For instance, our federated learning model was able to achieve an identification accuracy of 87.15%, a ROC-AUC Score of 0.9417, and an F1 score of 0.865. Meanwhile, VELScope, our main competitor, was only able to manage an accuracy of 53% in a separate experimental trial. Since we are one of the first companies in the intraoral cancer diagnostics market to implement AI, industry standard ROC-AUC and F1 scores aren’t publicly available, but both of the scores we found for OralVision are considered above average for a high-precision medical device.
+
+In addition, we are in the process of obtaining a patent for our device. Currently, we have transitioned from the provisional stage into the non-provisional patent.
+{% include videotextbreak %}
+<h2 style="margin-top:0px">Quick Links</h2>
 [Website](https://oral-vision.github.io/){: .btn .btn--info .btn--large}
-[Conrad Challenge Video](https://www.youtube.com/watch?v=MfCu4gWxRUY){: .btn .btn--danger .btn--large}
+[YouTube Channel](http://www.youtube.com/@Oral-Vision){: .btn .btn--danger .btn--large}
+
+{% include videotextbreak %}
+<h3 style="margin-top:0px">Pitch Videos</h3>
+{% include video id="MfCu4gWxRUY" provider="youtube" width="32%" height="18%" float="left" margin="5px"%}
+{% include video id="-GlsvQLBDAg" provider="youtube" width="32%" height="18%" float="left" margin="5px"%}
+{% include video id="y4hZeqwWo9g" provider="youtube" width="32%" height="18%" float="left" margin="5px"%}

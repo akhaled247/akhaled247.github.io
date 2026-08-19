@@ -1,5 +1,21 @@
 {% capture logo_path %}{{ site.logo }}{% endcapture %}
 
+<!-- <script>
+ /* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+  var lastScrollTop = 0;
+  var masthead = document.querySelector(".masthead");
+  if (masthead) {
+    window.addEventListener("scroll", function () {
+      var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollTop > lastScrollTop && scrollTop > 25) {
+        masthead.classList.add("is-hidden");
+      } else {
+        masthead.classList.remove("is-hidden");
+      }
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    }, { passive: true });
+  }
+</script> -->
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">

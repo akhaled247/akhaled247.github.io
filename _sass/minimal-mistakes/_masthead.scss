@@ -3,18 +3,25 @@
    ========================================================================== */
 
 .masthead {
-  position: relative;
+  position: -webkit-sticky; /* For Safari compatibility */
+  position: sticky;
+  top: 0;
+  background-color: $background-color;
   border-bottom: 1px solid $border-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
+  transition: 0.2s ease-in-out;
   z-index: 20;
+  &.is-hidden {
+      transform: translateY(-100%);
+    }
 
   &__inner-wrap {
     @include clearfix;
     margin-inline: auto;
-    padding: 1em;
+    padding: 0.5em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -40,6 +47,7 @@
 
 .site-logo img {
   max-height: 2rem;
+  max-width: 2rem;
 }
 
 .site-title {

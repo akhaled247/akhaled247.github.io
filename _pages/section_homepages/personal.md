@@ -1,18 +1,11 @@
 ---
-title: "Personal Projects"
-description: "Personal engineering projects by Abdullah Khaled (akhaled247)—OralVision, WatchFall, Photo Lab, Mantik, and OARobotics."
-permalink: /personal/
+title: "Additional Projects"
+description: "Additional engineering projects by Abdullah Khaled (akhaled247): OralVision, WatchFall, Mantik, and OARobotics."
+permalink: /additional/
 author_profile: false
 
 #Feature Row of Engineering Projects
 feature_row_projects:
-  - image_path: /assets/images/personal/photolab.png
-    title: "Photo Lab"
-    excerpt: "I created a website where users can create retro collages with custom filters."
-    url: "/personal/photo-lab/"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-
   - image_path: /assets/images/personal/oralvision/main.png
     title: "OralVision"
     excerpt: "For the Conrad Challenge, my team and I designed a low-cost oral disease detector that used federated learning to create HIPAA-compliant data sets."
