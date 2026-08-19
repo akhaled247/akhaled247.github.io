@@ -9,7 +9,7 @@ After learning about sequential and combinational logic, we were challenged to m
 
 Throughout this process, I learned a lot about the different components used in the circuit. For example, I learned how capacitors and capacitance worked, how 555 timers used resistors to vary their oscillation period, and how frequency dividers could serve as binary counters. I also gained knowledge on circuit design software (CDS) and utilized this knowledge to design the schematic in NI Multisim and make it easily followable at first glance.
 
-One of the most memorable parts of this project was figuring out how the counter worked with my friend, Ibrahim. At the beginning of the project, we did not know how DFFs worked—however, by painstakingly tracing the wires, we determined how the counter functioned and improved our understanding of the circuit as a whole.
+One of the most memorable parts of this project was figuring out how the counter worked with my friend, Ibrahim. At the beginning of the project, we did not know how DFFs worked. However, by painstakingly tracing the wires, we determined how the counter functioned and improved our understanding of the circuit as a whole.
 
 <div style="float:left;">
 {% include pdf path="/assets/images/PLTW/rng/rngreport.pdf" width="500px" height="500px"%}

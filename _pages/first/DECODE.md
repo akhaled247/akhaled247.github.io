@@ -1,6 +1,6 @@
 ---
 title: "2025-26 FTC Season"
-description: "DECODE 2025-26 FTC season by Abdullah Khaled (akhaled247): Programming Lead for ITKAN of ICF teams 26357 and 28391—Limelight vision, Bezier pathing, Kalman filter, UIL State 3rd."
+description: "DECODE 2025-26 FTC season by Abdullah Khaled (akhaled247): Programming Lead for ITKAN of ICF teams 26357 and 28391. Limelight vision, Bezier pathing, Kalman filter, UIL State 3rd."
 permalink: /first/decode/
 author_profile: false
 project_schema: true
@@ -8,19 +8,20 @@ project_schema: true
 
 In this season of the FIRST® Tech Challenge (FTC) game, robot were tasked with the deceptively simple task of shooting multicolored balls into a triangular goal as fast as possible. This year, I was the Programming Lead and Co-Founder of my school's team, coding all of the robot's functions, particularly the shooter, auto align, and autonomous routines. Through our efforts, our team won the Control Award (which "celebrates a team that uses sensors and software to increase the ROBOT’S functionality during gameplay") at two of our events, were the event winners at the Semi-Regional Tournament, and placed 3rd at the UIL State Championship!
 
-However, from the start, our team faced time constraints unlike what I had experienced during my previous FRC season ([REEFSCAPE](/first/reefscape/)); because of latent funding and approval from my school, we started from 0 with only 11 days before our first official competition. As such, we were in a time scramble to build and program the robot. Since the majority of our funding was through the school ($4,070 in total), we decided that hardware iteration would be too costly—meaning that software would have to cover the lost ground. Therefore, I built off of my previous experience and focused on three main aspects to maximize our robot's capabilities in that time frame: shooter consistency, autonomous alignment, and autonomous routines.
+However, from the start, our team faced time constraints unlike what I had experienced during my previous FRC season ([REEFSCAPE](/first/reefscape/)); because of latent funding and approval from my school, we started from 0 with only 11 days before our first official competition. As such, we were in a time scramble to build and program the robot. Since the majority of our funding was through the school ($4,070 in total), we decided that hardware iteration would be too costly, meaning that software would have to cover the lost ground. Therefore, I built off of my previous experience and focused on three main aspects to maximize our robot's capabilities in that time frame: shooter consistency, autonomous alignment, and autonomous routines.
 
 <div style="display: flex; align-items: flex-start; gap: 24px;">
   <div style="flex: 1;">
-    To score in DECODE, you had to be able to shoot. So, due to the incredibly short timeline I faced, I originally had two hard-coded shooter presets. While these worked in the short-term, the restrictions on where the driver could shoot limited the capabilities of our robot. I realized the importance of being able to shoot anywhere on the field. So, I implemented an interpolated lookup table. Using our camera data, I created an algorithm to calculate our distance from the target and find the optimal velocity for the shooter based on our location on the field. In turn, we reduced our cycle time from 6.5s to 3.8s, a 41.5% decrease.
+    To score in DECODE, you had to be able to shoot. So, due to the incredibly short timeline I faced, I originally had two hard-coded shooter presets. While these worked in the short-term, the restrictions on where the driver could shoot limited the capabilities of our robot. I realized the importance of being able to shoot anywhere on the field. So, I implemented an interpolated lookup table. Using our camera data, I created an algorithm to calculate our distance from the target and find the optimal velocity for the shooter based on our location on the field (graph pictured left). In turn, we reduced our cycle time from 6.5s to 3.8s, a 41.5% decrease.
   </div>
-  <img src="/assets/images/first/ftc-velocity-lut.png" alt="FTC Pose Estimation" style="height:25vw; flex-shrink: 0;">
 </div>
 <br>
+  <img src="/assets/images/first/ftc-velocity-lut.png" alt="FTC Pose Estimation" style="height:25vw; flex-shrink: 0;">  <img src="/assets/images/first/ftc-pose-estimation.png" alt="FTC Pose Estimation" style="height:25vw; flex-shrink: 0; float: right;">
+
+
 <div style="display: flex; align-items: flex-start; gap: 24px;">
-  <img src="/assets/images/first/ftc-pose-estimation.png" alt="FTC Pose Estimation" style="height:25vw; flex-shrink: 0;">
   <div style="flex: 1;">
-    I used our camera not only to automatically adjust our shooter, but also to align our robot's angle to the goal. After our first competition, where our driver struggled to manually align to the target, I applied techniques I learned in REEFSCAPE to support them. By fusing sensor data from the onboard camera with dead-reckoning wheel odometry, I built a custom pose estimation class—similar to what I used in FRC—that calculated the optimal angle for the robot to turn, ensuring precise alignment with the goal.
+    I used our camera not only to automatically adjust our shooter, but also to align our robot's angle to the goal. After our first competition, where our driver struggled to manually align to the target, I applied techniques I learned in REEFSCAPE to support them. By fusing sensor data from the onboard camera with dead-reckoning wheel odometry, I built a custom pose estimation class (similar to what I used in FRC) that calculated the optimal angle for the robot to turn, ensuring precise alignment with the goal (pictured right).
   </div>
 </div>
 <br>

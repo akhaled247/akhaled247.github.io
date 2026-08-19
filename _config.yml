@@ -25,7 +25,7 @@ title                    : "Abdullah Khaled"
 title_separator          : "|"
 subtitle                 : "Engineering Portfolio"
 name                     : "Abdullah Khaled"
-description              : "Engineering portfolio of Abdullah Khaled (akhaled247)—robotics, FRC/FTC competition work, and software projects. Contact me@aakhaled.com."
+description              : "Engineering portfolio of Abdullah Khaled (akhaled247): robotics, FRC/FTC competition work, and software projects. Contact me@aakhaled.com."
 url                      : "https://www.aakhaled.com"
 baseurl                  : "" # empty string for root domain deployment
 repository               : akhaled247/akhaled247.github.io
@@ -125,7 +125,7 @@ analytics:
 author:
   name             : "Abdullah Khaled"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Abdullah Khaled (akhaled247)—engineering portfolio at www.aakhaled.com. Robotics, vision, and on-device ML. Contact me@aakhaled.com or connect on GitHub and LinkedIn."
+  bio              : "Abdullah Khaled (akhaled247): engineering portfolio at www.aakhaled.com. Robotics, vision, and on-device ML. Contact me@aakhaled.com or connect on GitHub and LinkedIn."
   location         : "Frisco, Texas"
   email            : me@aakhaled.com
   links:

@@ -1,10 +1,29 @@
-{% assign pdf_path = include.path | relative_url %}
-{% assign pdf_width = include.width | default: "700px" %}
-{% assign pdf_height = include.height | default: "700px" %}
-
-<div class="resume-pdf" style="display: block;">
-    <iframe src="{{ pdf_path }}" width="{{ pdf_width }}" height="{{ pdf_height }}" style="border: none; display: block;"></iframe>
+{% assign w_raw = include.width | default: "100%" %}
+{% assign h_raw = include.height | default: "56.25%" %}
+{% assign pdf_float = include.float | default: "none" %}
+{% comment %} Calculate correct aspect ratio for nested percentage containers {% endcomment %}
+{% if w_raw contains "%" and h_raw contains "%" %}
+{% assign w_num = w_raw | replace: "%", "" | plus: 0.0 %}
+{% assign h_num = h_raw | replace: "%", "" | plus: 0.0 %}
+{% assign pdf_padding = h_num | divided_by: w_num | times: 100 %}
+{% assign pdf_padding_str = pdf_padding | append: "%" %}
+{% else %}
+{% assign pdf_padding_str = h_raw %}
+{% endif %}
+{% assign pdf_margin = "" %}
+{% if include.float %}
+{% if include.float == 'left' %}
+    {% assign pdf_margin = "margin-right: 1.5rem; margin-bottom: 1rem;" %}
+{% else %}
+    {% assign pdf_margin = "margin-left: 1.5rem; margin-bottom: 1rem;" %}
+{% endif %}
+{% endif %}
+<!-- Wrapper keeps float, width, and button aligned together -->
+<div class="pdf-wrapper" style="float: {{ pdf_float }}; {{ pdf_margin }} width: {{ w_raw }}; margin-top: 10px">
+    <div class="pdf-container" style="position: relative; width: 100%; height: 0; padding-bottom: {{ pdf_padding_str }};">
+        <iframe src="{{ include.path | relative_url }}" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+    </div>
+    <div style="margin-top: 10px; text-align: left;">
+        <a href="{{ include.path | relative_url }}" target="_blank" class="btn btn--primary">Open PDF in new tab</a>
+    </div>
 </div>
-<div style="margin-top: 10px;">
-    <a href="{{ pdf_path }}" target="_blank" class="btn btn--primary">Open PDF in new tab</a>
-</div> 

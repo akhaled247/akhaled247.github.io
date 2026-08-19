@@ -1,6 +1,6 @@
 ---
 title: "PLTW Engineering Coursework"
-description: "PLTW Engineering coursework by Abdullah Khaled (akhaled247)—circuit design, CAD, VEX robotics, and control systems."
+description: "PLTW Engineering coursework by Abdullah Khaled (akhaled247): circuit design, CAD, VEX robotics, and control systems."
 permalink: /pltw-engineering/
 author_profile: false
 
