@@ -1,0 +1,354 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+# python -m rendercv render --watch "Abdullah_Khaled_CV_Private.yaml"
+cv:
+  name: Abdullah Khaled 
+  headline:
+  location:
+  email: me@aakhaled.com
+  photo:
+  phone:
+  website: https://www.aakhaled.com/
+  social_networks:
+    - network: LinkedIn
+      username: akhaled247
+    - network: GitHub
+      username: akhaled247
+  custom_connections:
+  sections:
+    education:
+      - institution: Wakeland High School
+        area: ' '
+        degree: High School Diploma
+        date:
+        start_date: 2023-08
+        end_date: 2027-05
+        location: Frisco, TX
+        highlights:
+          - 'Unweighted GPA: 4.0; 18 AP classes completed/planned'
+          - 'Rank: Top 5% of class; Expected graduation: 2027'
+      - institution: Boston University
+        area: Research in Science & Engineering (BU RISE)
+        degree:
+        date:
+        start_date: 2026-06
+        end_date: 2026-08
+        location: Boston, MA
+        highlights:
+          - 'Matched with mentor Dr. Wenchao Li, Department of Electrical and Computer Engineering for summer internship program'
+      - institution: Frisco ISD Career and Technical Education Center
+        area: ''
+        degree: Project Lead The Way
+        date:
+        start_date: 2023-08
+        end_date: 2027-05
+        location: Frisco, TX
+        highlights:
+          - Frisco ISD Career and Technical Education Center PLTW Nationally Distinguished Engineering Program
+          - 'Courses: Introduction to Engineering Design (Gr. 9), Principles of Engineering Design (Gr. 10), Digital Electronics (Gr. 11), Engineering Design and Development (Gr. 12)'
+          - 'Engineering online portfolio: aakhaled.com/pltw-engineering'
+    Honors & Awards:
+      - bullet: 'OralVision: Conrad Challenge Innovator Award; Diamond Challenge Semifinalist (Gr. 11)'
+      - bullet: 'FIRST Robotics Competition (FRC) State Championship Winner (Gr. 11)'
+      - bullet: 'FIRST Tech Challenge (FTC) 5A UIL State Championship Bronze Medalist (Gr. 11)'
+      - bullet: 'FTC FIRST Leadership Award Semifinalist (Gr. 11)'
+      - bullet: 'FRC FIRST Leadership Award Semifinalist (Gr. 11)'
+      - bullet: 'CollegeBoard AP Scholar with Distinction (Gr. 10)'
+      - bullet: 'CollegeBoard National Recognition and School Recognition Awards (Gr. 10)'
+      - bullet: 'Member of National Honor Society (NHS), Wakeland High School (Gr. 11–12)'
+    Projects:
+      - name: OralVision (Oral Disease Detector) — Conrad Challenge Innovator Award; Diamond Challenge Semifinalist
+        date:
+        start_date: 2025-10
+        end_date: present
+        highlights:
+          - Designed oral disease detection system using HIPAA-compliant federated learning with TensorFlow Federated, enabling distributed model training without sharing patient data
+          - Patent application in progress with United States Patent and Trademark Office (USPTO)
+      - name: WatchFall (Senior Fall Monitor Device) — Samsung Solve for Tomorrow
+        date:
+        start_date: 2025-09
+        end_date: present
+        highlights:
+          - Selected as one of two teams to represent school district in Samsung Solve for Tomorrow competition
+          - Designed fall-detection device using Raspberry Pi Pico with on-device TensorFlow Lite inference
+          - Developed lightweight ML model for real-time motion tracking and fall detection with buzzer alert system
+    Community Service:
+      - company: Ma'ruf Dallas Refugee Organization
+        position: Tutoring Program Coordinator
+        date:
+        start_date: 2023-09
+        end_date: present
+        location: Dallas, TX
+        highlights:
+          - Lead Math and English tutoring for 30+ refugee elementary and middle school children over three years
+          - Developed differentiated curriculum for student groups based on their specific needs
+          - Created bespoke robotics curriculum for limited English proficiency students and hosted monthly robotics sessions for students
+      - company: Islamic Center of Frisco
+        position: Sunday School Teacher Assistant
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Taught 20+ elementary students in religious studies and helped keep them on task and engaged
+          - Assisted Primary Instructor with curriculum implementation, including grading and reviewing assignments
+      - company: Muhsen
+        position: Robotics Camp Volunteer
+        date:
+        start_date: 2025-07
+        end_date: 2025-08
+        location: Plano, TX
+        highlights:
+          - Acquired special needs sensitivity training to work with special needs students
+          - Taught 10+ students in robotics build and programming while providing support to other volunteers
+      - company: Frisco Family Services
+        position: Volunteer
+        date:
+        start_date: 2025-07
+        end_date: 2025-08
+        location: Frisco, TX
+        highlights:
+          - Sorted and shelved donations for Frisco Family Market, which raises funds for underserved local families
+          - Sorted and stocked Food Pantry, which also serves underserved local families
+    Extracurricular Activities:
+      - company: ITKAN Robotics (FIRST Robotics Team)
+        position: Technical Advisor
+        date:
+        start_date: 2025-08
+        end_date: present
+        location: Plano, TX
+        highlights:
+          - 'Led programming team to 1st place wins at Space City #1 (32 teams), Farmersville (31 teams), and State Championship (90 teams)'
+          - Undefeated 53-0 record during autonomous against Texas teams; ranked 1st in the World as of April 2026
+          - Ranked 5th in the World, 1st in Texas during first week of competition season
+          - 'Developed self-paced robotics programming curriculum and training website used by 30+ FRC and FTC students and over 2000 impressions across 7 countries (mantik.netlify.app)'
+      - company: ‎ 
+        position: Software Lead
+        date:
+        start_date: 2024-12
+        end_date: 2025-07
+        location:
+        highlights:
+          - Provided technical leadership on the organization of software team projects; educated and trained new programming team members; maintained the team's FRC and FTC codebases
+          - 'FRC robot GitHub codebase and documentation: aakhaled.com/first/reefscape'
+      - company: Wakeland Robotics Club, Wakeland High School
+        position: Co-Founder and President
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Founded the Wakeland Robotics Club, growing membership from 0 to 50+ students in the first year
+          - Bronze medalist at FTC UIL 5A State Championship in team's rookie year
+          - Developed mission statement, recruited teacher sponsor and members, and presented team vision, schedule, and activities to school administration
+          - Manage club operations including curriculum design, calendar management, and budget management
+      - company: Mu Alpha Theta Math Honor Society, Wakeland High School
+        position: Vice President
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Designed and implemented school Math Lab Program and coordinated peer tutoring, attaining over 20% member participation
+          - Organized annual middle school math competition with 100+ participants, 3 participating schools, and 35+ volunteers to promote STEM to middle school students
+      - company: Muslim Student Association, Wakeland High School
+        position: Co-Founder and President
+        date:
+        start_date: 2024-08
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Developed mission statement, recruited teacher sponsor and members, and presented activities to school administration
+          - Coordinated with school staff to establish a prayer room for weekly prayers
+          - Created various media for promoting the club and prayer room, including social media posts
+    Work Experience:
+      - company: Gideon Math and Reading Center
+        position: Math and Reading Instructor
+        date:
+        start_date: 2024-06
+        end_date: present
+        location: Frisco, TX
+        highlights:
+          - Teach students from kindergarten to 11th grade in math, reading, and grammar, including Algebra and Geometry
+          - Analyze student performance data to identify learning gaps and develop personalized plans
+      - company: ‎ 
+        position: Math and Reading Teaching Assistant
+        date:
+        start_date: 2022-01
+        end_date: 2024-05
+        location: Frisco, TX
+        highlights:
+          - Graded students' work from kindergarten to 11th grade, including Algebra and Geometry
+          - Aided students in completing their assignments appropriate to their age and skill level
+          - Increased grading efficiency by 50%
+    Skills:
+      - label: Engineering
+        details: 'Fusion 360 (Autodesk), Onshape; NI Multisim, KiCAD, EasyEDA; soldering'
+      - label: Software
+        details: Python, Java, JavaScript, HTML, Jekyll, CSS, Google Workspace, R, Google Sheets, MS Office
+
+design:
+  theme: engineeringclassic
+  page:
+    size: us-letter
+    top_margin: 0.55in
+    bottom_margin: 0.55in
+    left_margin: 0.58in
+    right_margin: 0.58in
+    show_footer: false
+    show_top_note: false
+  colors:
+    body: "#313131"
+    name: "#313131"
+    headline: "#616161"
+    connections: "#1082ac"
+    links: "#1aa7f7"
+    section_titles: "04416d"
+    footer: rgb(128, 128, 128)
+  typography:
+    line_spacing: 0.48em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+    font_family:
+      body: 'IBM Plex Sans'
+      name: 'Playfair Display'
+      headline: 'IBM Plex Sans'
+      connections: Georgia
+      section_titles: Georgia
+    font_size:
+      body: 9.25pt
+      name: 25pt
+      headline: 9pt
+      connections: 9pt
+  #     section_titles: 1.2em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+    bold:
+      name: false
+      headline: false
+      connections: false
+      section_titles: true
+  links:
+    underline: true
+    show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: false
+  #     display_urls_instead_of_usernames: true
+  #     separator: '|'
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_full_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  sections:
+    allow_page_break: true
+    space_between_regular_entries: 0.32cm
+    space_between_text_based_entries: 0.12cm
+    show_time_spans_in: []
+  entries:
+    date_and_location_width: 4.15cm
+    side_space: 0cm
+    space_between_columns: 0.1cm
+    allow_page_break: false
+    short_second_row: false
+    summary:
+      space_above: 0.06cm
+      space_left: 0cm
+    highlights:
+      bullet: ●
+      nested_bullet: ●
+      space_left: 0cm
+      space_above: 0.05cm
+      space_between_items: 0.05cm
+      space_between_bullet_and_text: 0.28em
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, DEGREE AREA -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
+      degree_column:
+      date_and_location_column: DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME** -- **LOCATION**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **POSITION**, COMPANY -- LOCATION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2026-03-05'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output\private\NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output\private\NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output\private\NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output\private\NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output\private\NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
