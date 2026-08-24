@@ -39,9 +39,3 @@ Below are some videos of our different autonomous routines (we are the black rob
 </div>
 <br>
 [GitHub Code](https://github.com/itkan-of-icf/ftc-26357-2526-v2){: .btn .btn--purple .btn--large}
-
-<div style="display: flex; justify-content: space-between; align-items: center; gap: 20px;">
-  <div>
-    {% include pdf path="/assets/images/first/33791-25-26-portfolio.pdf"%}
-  </div>
-</div>
