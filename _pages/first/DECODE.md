@@ -1,14 +1,14 @@
 ---
 title: "2025-26 FTC Season"
-description: "DECODE 2025-26 FTC season by Abdullah Khaled (akhaled247): Programming Lead for ITKAN of ICF teams 26357 and 28391. Limelight vision, Bezier pathing, Kalman filter, UIL State 3rd."
+description: "DECODE 2025-26 FTC season by Abdullah Khaled (akhaled247): Software Mentor for FTC 33791. Limelight vision, Bezier pathing, Kalman filter, UIL State 3rd."
 permalink: /first/decode/
 author_profile: false
 project_schema: true
 ---
 
-In this season of the FIRST® Tech Challenge (FTC) game, robot were tasked with the deceptively simple task of shooting multicolored balls into a triangular goal as fast as possible. This year, I was the Programming Lead and Co-Founder of my school's team, coding all of the robot's functions, particularly the shooter, auto align, and autonomous routines. Through our efforts, our team won the Control Award (which "celebrates a team that uses sensors and software to increase the ROBOT’S functionality during gameplay") at two of our events, were the event winners at the Semi-Regional Tournament, and placed 3rd at the UIL State Championship!
+In this season of the FIRST® Tech Challenge (FTC) game, robot were tasked with the deceptively simple task of shooting multicolored balls into a triangular goal as fast as possible. This year, I was the Co-Founder of my school's team, coding much of the robot's functions, particularly the shooter, auto align, and autonomous routines. Through our efforts, our team won the Control Award (which "celebrates a team that uses sensors and software to increase the ROBOT’S functionality during gameplay") at two of our events, won our Semi-Regional Tournament, and placed 3rd at the UIL State Championship!
 
-However, from the start, our team faced time constraints unlike what I had experienced during my previous FRC season ([REEFSCAPE](/first/reefscape/)); because of latent funding and approval from my school, we started from 0 with only 11 days before our first official competition. As such, we were in a time scramble to build and program the robot. Since the majority of our funding was through the school ($4,070 in total), we decided that hardware iteration would be too costly, meaning that software would have to cover the lost ground. Therefore, I built off of my previous experience and focused on three main aspects to maximize our robot's capabilities in that time frame: shooter consistency, autonomous alignment, and autonomous routines.
+However, from the start, our team faced time constraints unlike what I had experienced during my previous FRC season ([REEFSCAPE](/first/reefscape/)); because of latent funding and approval from my school, we started from 0 with only 11 days before our first official competition. As such, we were in a time scramble to build and program the robot. Since the majority of our funding was through the school (around $4,000, whilst the average team usually uses ~$10,000), we decided that hardware iteration would be too costly, meaning that software would have to cover the lost ground. Therefore, I built off of my previous experience and focused on three main aspects to maximize our robot's capabilities in that time frame: shooter consistency, autonomous alignment, and autonomous routines.
 
 <div style="display: flex; align-items: flex-start; gap: 24px;">
   <div style="flex: 1;">
@@ -37,5 +37,6 @@ Below are some videos of our different autonomous routines (we are the black rob
   {% include video id="8zg-Yr9Hc5I" provider="youtube" width="48vw" height="27vw" %}
   {% include video id="e51R_oLupJw" provider="youtube" width="48vw" height="27vw" %}
 </div>
-<br>
+{% include videotextbreak %}
+<h2 style="margin-top:0px">Quick Links</h2>
 [GitHub Code](https://github.com/itkan-of-icf/ftc-26357-2526-v2){: .btn .btn--purple .btn--large}
