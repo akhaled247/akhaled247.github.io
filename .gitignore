@@ -30,3 +30,8 @@ codekit-config.json
 .sass-cache
 _asset_bundler_cache
 _site
+
+# CV files
+Abdullah_Khaled_CV_*
+rendercv_output/ext/
+rendercv_output/private/
