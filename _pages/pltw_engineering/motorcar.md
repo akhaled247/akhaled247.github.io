@@ -1,7 +1,7 @@
 ---
 title: "Motor Car Project | PLTW Engineering"
 description: "Motorized toy car project teaching mechanical mechanisms through hands-on design, construction, and testing for PLTW Engineering coursework."
-permalink: /pltw-engineering/motor-car/
+permalink: /pltw/motor-car/
 author_profile: false
 ---
 

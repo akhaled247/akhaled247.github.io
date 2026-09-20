@@ -2,7 +2,11 @@
 main:
   - title: "Home"
     url: /
-  - title: "Projects"
-    url: /projects/
-  - title: "About"
+  - title: "PLTW Projects"
+    url: /pltw/
+  - title: "Robotics Projects"
+    url: /robotics/
+  # - title: "Projects"
+  #   url: /projects/
+  - title: "About Me"
     url: /about/

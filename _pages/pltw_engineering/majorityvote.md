@@ -1,7 +1,7 @@
 ---
 title: "Majority Vote Circuit Design | PLTW Engineering"
 description: "Majority vote circuit by Abdullah Khaled (akhaled247): boolean algebra, Karnaugh mapping, and logic gate design with presidential override in NI Multisim."
-permalink: /pltw-engineering/majority-vote/
+permalink: /pltw/majority-vote/
 author_profile: false
 project_schema: true
 ---

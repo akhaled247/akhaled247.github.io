@@ -1,7 +1,7 @@
 ---
 title: "Automata Design | PLTW Engineering"
 description: "Kobe Bryant-themed automata project using Fusion360 CAD with cam mechanisms, joint simulation, and parametric modeling for PLTW Engineering coursework."
-permalink: /pltw-engineering/automata/
+permalink: /pltw/automata/
 author_profile: false
 ---
 

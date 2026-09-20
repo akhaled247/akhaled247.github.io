@@ -1,7 +1,7 @@
 ---
 title: "Compound Machine Project | PLTW Engineering"
 description: "Compound machine design project lifting 1000g weight using five simple machines, CAD modeling in Onshape, and systems engineering for PLTW coursework."
-permalink: /pltw-engineering/compound-machine/
+permalink: /pltw/compound-machine/
 author_profile: false
 ---
 

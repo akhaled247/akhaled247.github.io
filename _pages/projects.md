@@ -1,10 +1,20 @@
 ---
 title: "Engineering Projects"
 description: "Browse Abdullah Khaled (akhaled247) engineering projects: FRC robotics, FTC, competition entries, PLTW coursework, and personal software."
-permalink: /projects/
+permalink: /projects
 author_profile: false
 
 feature_row_projects:
+  - image_path: /assets/images/personal/medrock/medtown-team-pic.jpg
+    title: "MedTown"
+    excerpt: "For the Labtech Innovation Internship, a collaboation between MedRock, MedDots AI, and Itkan, I was Team Lead of one of five teams selected to participate."
+    url: "/medrock/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+    tags:
+      - Competition
+      - Electrical
+
   - image_path: /assets/images/personal/watchfall/capstone-demo-video.gif
     title: "WatchFall"
     excerpt: "For the Samsung Solve for Tomorrow competition, my team and I designed a small, low-cost camera device to detect seniors falling and alert caretakers audially."
@@ -66,7 +76,7 @@ feature_row_projects:
   - image_path: /assets/images/PLTW/homepage/mvnand.png
     title: "Majority Vote"
     excerpt: "I implemented a majority vote using boolean algebra and logic circuits using multiple circiut design methods."
-    url: "/pltw-engineering/majority-vote/"
+    url: "/pltw/majority-vote/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     tags:
@@ -76,7 +86,7 @@ feature_row_projects:
   - image_path: /assets/images/PLTW/rng-demo.gif
     title: "Random Number Generator"
     excerpt: "I created a working number generator using capacitors, timers, and combinational logic design."
-    url: "/pltw-engineering/rng/"
+    url: "/pltw/rng/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     tags:
@@ -86,7 +96,7 @@ feature_row_projects:
   - image_path: /assets/images/PLTW/elevator-demo.gif
     title: "Machine Control Project"
     excerpt: "I worked with my team to CAD and program a full elevator prototype using feedback control systems."
-    url: "/pltw-engineering/machine-control/"
+    url: "/pltw/machine-control/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     tags:
@@ -95,7 +105,7 @@ feature_row_projects:
   - image_path: /assets/images/PLTW/cmdp-demo.gif
     title: "Compound Machine"
     excerpt: "I worked with my team to CAD a design using Onshape to elegantly meet the required mechanical advantage constraints."
-    url: "/pltw-engineering/compound-machine/"
+    url: "/pltw/compound-machine/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     tags:
@@ -105,7 +115,7 @@ feature_row_projects:
     alt: "image of motor car"
     title: "Motor Car"
     excerpt: "I worked with a partner to create a unique three-wheel solution to create a reliable motor car, while looking stylish at the same time!"
-    url: "/pltw-engineering/motor-car/"
+    url: "/pltw/motor-car/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     tags:
@@ -116,7 +126,7 @@ feature_row_projects:
     alt: "automata"
     title: "Automata"
     excerpt: "Using Fusion360, I designed an animated automata and customized it based on a Kobe Bryant theme."
-    url: "/pltw-engineering/automata/"
+    url: "/pltw/automata/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     tags:

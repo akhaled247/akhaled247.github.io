@@ -5,4 +5,7 @@ permalink: /resume/
 author_profile: false
 ---
 {% include videotextbreak %}
-{% include pdf path="/rendercv_output/public/Abdullah_Khaled_CV.pdf"%}
+<div style="float:left;">
+{% include pdf path="/rendercv_output/public/Abdullah_Khaled_CV.pdf" width="850px" height="1100px"%}
+Resume
+</div>

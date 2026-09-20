@@ -1,7 +1,7 @@
 ---
 title: "Random Number Generator | PLTW Engineering"
 description: "Digital dice circuit using 555 timers, D flip-flops, and combinational logic for random 1-6 generation, designed in NI Multisim for PLTW Engineering."
-permalink: /pltw-engineering/rng/
+permalink: /pltw/rng/
 author_profile: false
 ---
 {% include video id="VFdojpUZpH0" provider="youtube" width="100vw" height="38vw" float="left" margin="10px"%}
