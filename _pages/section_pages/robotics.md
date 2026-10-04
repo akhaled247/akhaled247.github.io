@@ -1,7 +1,7 @@
 ---
 title: "Robotics Projects"
 description: "Projects Abdullah Khaled created that relate to robotics, including his seasons competing with FIRST Robotics as well as additional robotics-related projects."
-permalink: /robotics
+permalink: /robotics/
 author_profile: false
 ---
 <h2 style="margin-top:10px">About FIRST</h2>

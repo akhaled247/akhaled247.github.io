@@ -1,7 +1,7 @@
 ---
 title: "PLTW Projects"
 description: "Projects Abdullah Khaled created as part of the Project Lead The Way (PLTW) classes he has taken; Introduction to Engineering Design, Engineering Design and Development, Digital Electronics, and Engineering Design and Development."
-permalink: /pltw
+permalink: /pltw/
 author_profile: false
 ---
 <h2 style="margin-top:10px">About PLTW</h2>

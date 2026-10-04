@@ -1,7 +1,7 @@
 ---
 title: "About Abdullah Khaled"
 description: "About Abdullah Khaled (akhaled247): robotics, software engineering, and community work. Engineering portfolio at www.aakhaled.com. Contact me@aakhaled.com."
-permalink: /about
+permalink: /about/
 author_profile: false
 ---
 <img src="/assets/images/about/LinkedInPFP.jpg" alt="Abdullah Khaled headshot" style="width: auto; height: 19vw; float:left; padding: 10px; border-radius: 0px">
