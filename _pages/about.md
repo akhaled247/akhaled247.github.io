@@ -47,14 +47,14 @@ author_profile: false
   <div class="about-photo-marquee__track">
     <div class="about-photo-marquee__set">
       <img src="/assets/images/personal/oralvision/txhsic-poster-talk.jpg" alt="Abdullah Khaled presenting OralVision at the Texas HSIC Ideas Challenge">
-      <img src="/assets/images/personal/oralvision/189741_64057644_06-26-2026_APP.FILE.REC_page-0001.jpg" alt="USPTO provisional patent filing receipt for OralVision">
+      <img src="/assets/images/about/uspto-64057644.jpg" alt="USPTO provisional patent filing receipt for OralVision">
       <img src="/assets/images/about/ProjectTaleem.jpg" alt="Project Taleem volunteers with students at Ma'ruf Dallas">
       <img src="/assets/images/about/itkansenatorsquare.jpg" alt="FIRST robotics demo for Senator Chris Van Hollen with ITKAN team">
       <img src="/assets/images/about/itkandriverstation.jpg" alt="ITKAN Robotics team at the FIRST driver station during competition">
     </div>
     <div class="about-photo-marquee__set" aria-hidden="true">
       <img src="/assets/images/personal/oralvision/txhsic-poster-talk.jpg" alt="">
-      <img src="/assets/images/personal/oralvision/189741_64057644_06-26-2026_APP.FILE.REC_page-0001.jpg" alt="">
+      <img src="/assets/images/about/uspto-64057644.jpg" alt="">
       <img src="/assets/images/about/ProjectTaleem.jpg" alt="">
       <img src="/assets/images/about/itkansenatorsquare.jpg" alt="">
       <img src="/assets/images/about/itkandriverstation.jpg" alt="">
