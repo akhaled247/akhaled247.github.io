@@ -14,7 +14,7 @@ carousels:
     - image: /assets/images/personal/mantik/pidsimulation.png
 ---
 {% include carousel.html width="48" height="27" unit="%" duration="10" number="1" float="left"%}
-{% include video id="JXoCSk-9al4" provider="youtube" width="48%" height="27%" float="right" margin="5px"%}
+{% include video id="JXoCSk-9al4" provider="youtube" width="48%" aspect_w="16" aspect_h="9" float="right" margin="5px"%}
 {% include videotextbreak %}
 <h2 style="margin-top:0px">Motivation</h2>
 In my second season as an FRC programmer ([2025](/first/reefscape/)), I was the only active programmer on my FRC team. While htis definitely spurred me to learn at a much quicker rate than I likely would have otherwise, it also made me highly susceptible to burnout. By the end of the season, I could feel my interest in robotics waning, yet I was still driven by the original reason I fell in love with FIRST: the feeling you get when your code finally works and everything comes together. 

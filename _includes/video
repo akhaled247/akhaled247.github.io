@@ -2,8 +2,19 @@
 {% assign video_provider = include.provider %}
 {% assign video_width = include.width | default: "300px" %}
 {% assign video_height = include.height | default: "200px" %}
-{% assign video_float = include.float | default: left %}
+{% assign video_float = include.float | default: "left" %}
 {% assign video_margin = include.margin | default: "10px" %}
+{% assign video_aspect_w = include.aspect_w | default: include.aspect_width %}
+{% assign video_aspect_h = include.aspect_h | default: include.aspect_height %}
+{% assign video_height_lc = video_height | downcase | strip %}
+{% assign video_use_aspect_ratio = false %}
+{% if video_aspect_w != blank and video_aspect_h != blank %}
+  {% assign video_use_aspect_ratio = true %}
+{% elsif video_height_lc == "auto" %}
+  {% assign video_use_aspect_ratio = true %}
+  {% assign video_aspect_w = video_aspect_w | default: "16" %}
+  {% assign video_aspect_h = video_aspect_h | default: "9" %}
+{% endif %}
 
 {% capture video_src %}
   {% case video_provider %}
@@ -20,14 +31,25 @@
 {% assign video_src = video_src | strip %}
 
 {% unless video_src == "" %}
-  <!-- Video container with explicit dimensions to prevent CLS -->
-  <div class="responsive-video-container-custom"
-       style="--rv-width: {{ video_width }}; --rv-height: {{ video_height }}; --rv-margin: {{ video_margin }}; width: {{ video_width }}; height: {{ video_height }}; aspect-ratio: 16/9; background: #000;">
-    <iframe src="{{ video_src }}" 
-            width="{{ video_width | remove: 'px' | remove: 'vw' }}{% if video_width contains 'vw' %}vw{% endif %}"
-            height="{{ video_height | remove: 'px' | remove: 'vw' }}{% if video_height contains 'vw' %}vw{% endif %}"
-            allowfullscreen 
+  {% if video_use_aspect_ratio %}
+  <!-- Video sized by width + aspect ratio (height derived from w/h) -->
+  <div class="responsive-video-container-custom responsive-video-container-custom--aspect"
+       style="--rv-width: {{ video_width }}; --rv-margin: {{ video_margin }}; --rv-float: {{ video_float }}; --rv-aspect-w: {{ video_aspect_w }}; --rv-aspect-h: {{ video_aspect_h }}; width: {{ video_width }}; background: #000;">
+    <iframe src="{{ video_src }}"
+            allowfullscreen
             loading="lazy"
             title="{% if video_provider == 'youtube' %}YouTube video player{% elsif video_provider == 'vimeo' %}Vimeo video player{% else %}Video player{% endif %}"></iframe>
   </div>
+  {% else %}
+  <!-- Video container with explicit dimensions to prevent CLS -->
+  <div class="responsive-video-container-custom"
+       style="--rv-width: {{ video_width }}; --rv-height: {{ video_height }}; --rv-margin: {{ video_margin }}; --rv-float: {{ video_float }}; width: {{ video_width }}; height: {{ video_height }}; background: #000;">
+    <iframe src="{{ video_src }}"
+            width="{{ video_width | remove: 'px' | remove: 'vw' | remove: '%' }}{% if video_width contains 'vw' %}vw{% elsif video_width contains '%' %}%{% endif %}"
+            height="{{ video_height | remove: 'px' | remove: 'vw' | remove: '%' }}{% if video_height contains 'vw' %}vw{% elsif video_height contains '%' %}%{% endif %}"
+            allowfullscreen
+            loading="lazy"
+            title="{% if video_provider == 'youtube' %}YouTube video player{% elsif video_provider == 'vimeo' %}Vimeo video player{% else %}Video player{% endif %}"></iframe>
+  </div>
+  {% endif %}
 {% endunless %}

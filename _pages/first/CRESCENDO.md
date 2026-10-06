@@ -5,9 +5,9 @@ permalink: /first/crescendo/
 author_profile: false
 project_schema: true
 ---
-{% include video id="dHAEvzB9j1I" provider="youtube" width="48vw" height="27vw" float="left" margin="10px"%}
+{% include video id="dHAEvzB9j1I" provider="youtube" width="48%" aspect_w="16" aspect_h="9" float="left" margin="10px"%}
 While I joined my First Robotics Competition (FRC) team late in the season, I was still able to gain valuable experience in programming and designing a robot for the 2024 FRC Game, CRESCENDO. In this game, robots were meant to shoot rings into a goal, which required a combination of precision and accuracy in order to shoot from distances as far as 13.5 feet away!
-{% include video id="4MyjWq60v2s" provider="youtube" width="48vw" height="27vw" float="left" margin="10px"%}
+{% include video id="4MyjWq60v2s" provider="youtube" width="48%" aspect_w="16" aspect_h="9" float="left" margin="10px"%}
 During this offseason time after the season, I programmed one of the competition robots from scratch with little help from mentors. I learned motion profiling, status LED control, command-based programming, AprilTag and vision alignment, and pathing algorithms to contol the robot autonomously during the match.
 {% include videotextbreak %}
 [GitHub Code](https://github.com/akhaled247/KHALED-9752-SWERVE){: .btn .btn--purple .btn--large}

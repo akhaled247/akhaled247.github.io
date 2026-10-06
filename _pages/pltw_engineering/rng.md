@@ -4,7 +4,7 @@ description: "Digital dice circuit using 555 timers, D flip-flops, and combinati
 permalink: /pltw/rng/
 author_profile: false
 ---
-{% include video id="VFdojpUZpH0" provider="youtube" width="100vw" height="38vw" float="left" margin="10px"%}
+{% include video id="VFdojpUZpH0" provider="youtube" width="100%" aspect_w="100" aspect_h="38" float="left" margin="10px"%}
 After learning about sequential and combinational logic, we were challenged to make a random number generator (RNG) that “rolls” a die and outputs a number from 1-6 based on the roll. This project combined our knowledge of capacitors, 555 timers, D flip-flops worked, boolean logic, and simple electrical components to complete our final project.
 
 Throughout this process, I learned a lot about the different components used in the circuit. For example, I learned how capacitors and capacitance worked, how 555 timers used resistors to vary their oscillation period, and how frequency dividers could serve as binary counters. I also gained knowledge on circuit design software (CDS) and utilized this knowledge to design the schematic in NI Multisim and make it easily followable at first glance.

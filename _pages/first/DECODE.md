@@ -16,7 +16,7 @@ However, from the start, our team faced time constraints unlike what I had exper
   </div>
 </div>
 <br>
-  <img src="/assets/images/first/ftc-velocity-lut.png" alt="FTC Pose Estimation" style="height:25vw; flex-shrink: 0;">  <img src="/assets/images/first/ftc-pose-estimation.png" alt="FTC Pose Estimation" style="height:25vw; flex-shrink: 0; float: right;">
+  <img src="/assets/images/first/ftc-velocity-lut.png" alt="FTC Pose Estimation" style="height:25vw; width: auto; flex-shrink: 0;">  <img src="/assets/images/first/ftc-pose-estimation.png" alt="FTC Pose Estimation" style="height:25vw; flex-shrink: 0; float: right;">
 
 
 <div style="display: flex; align-items: flex-start; gap: 24px;">
@@ -34,8 +34,8 @@ using auto alignment, and pose estimation, I worked on improving our autonomous 
 Below are some videos of our different autonomous routines (we are the black robot with the number 33791):
 
 <div style="display: flex; gap: 24px; justify-content: center; align-items: flex-start;">
-  {% include video id="8zg-Yr9Hc5I" provider="youtube" width="48vw" height="27vw" %}
-  {% include video id="e51R_oLupJw" provider="youtube" width="48vw" height="27vw" %}
+  {% include video id="8zg-Yr9Hc5I" provider="youtube" width="48%" aspect_w="16" aspect_h="9"  %}
+  {% include video id="e51R_oLupJw" provider="youtube" width="48%" aspect_w="16" aspect_h="9"  %}
 </div>
 {% include videotextbreak %}
 <h2 style="margin-top:0px">Quick Links</h2>

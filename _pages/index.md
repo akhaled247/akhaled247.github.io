@@ -16,7 +16,7 @@ header:
 </section>
 <h2>Background</h2>
 My name is Abdullah Khaled, and I am an aspiring robotics engineer in the Dallas area. I have been working with robots since I was in kindergarten when I participated in a local LEGO BattleBots using EV3s. While I don't play with LEGOs as much as I used to (though I still find myself drawn to them at times), I now indulge in big LEGOs: actual robots made using real-world manufacturing and assembly techniques!
-Through my background in engineering both through academic courses and extracurricular activites, I have developed my skills in design, software, and electronics to become a (hopefully) well-rounded student. For more information about me, see my [about me](/about/) or my featured projects below!
+Through my background in engineering both through academic courses and extracurricular activites, I have developed my skills in design, software, and electronics to become a (hopefully) well-rounded student. For more information about my personal life, see my [about me](/about/) or my featured projects below!
 <h2>Featured Projects</h2>
 <div style="display: flex; align-items: flex-start; gap: 24px;">
   <a href="/rise/"><img src="/assets/images/rise/ak-symposium.jpg" alt="Picture of me at the RISE Poster Symposium, with my poster present on the left." style="height:25vw; flex-shrink: 0;"></a>

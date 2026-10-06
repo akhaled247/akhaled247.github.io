@@ -134,6 +134,11 @@ $header-font-family: $serif;
   height: 100%;
 }
 
+.responsive-video-container-custom--aspect {
+  height: auto !important;
+  aspect-ratio: var(--rv-aspect-w, 16) / var(--rv-aspect-h, 9);
+}
+
 .resume-pdf {
   display: flex;
   max-width: fit-content;
@@ -155,7 +160,7 @@ $header-font-family: $serif;
   margin-top: -67px;
   background: url("/assets/images/bkg-img-v2.jpg");
   background-size: cover;
-  background-position: 0px -75px;
+  background-position: 0px 0px;
   height: 250px;
   overflow: hidden;
   color: #eee;

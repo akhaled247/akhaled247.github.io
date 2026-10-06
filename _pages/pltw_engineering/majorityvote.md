@@ -5,8 +5,8 @@ permalink: /pltw/majority-vote/
 author_profile: false
 project_schema: true
 ---
-{% include video id="Vcxdboo5JB0" provider="youtube" width="45vw" height="27vw" float="left" margin="0px"%}
-{% include video id="hPqy3gH22aA" provider="youtube" width="45vw" height="27vw" float="right" margin="0px"%}
+{% include video id="Vcxdboo5JB0" provider="youtube" width="45%" aspect_w="16" aspect_h="9" float="left" margin="0px"%}
+{% include video id="hPqy3gH22aA" provider="youtube" width="45%" aspect_w="16" aspect_h="9" float="right" margin="0px"%}
 {% include videotextbreak %}
 As stated in the design brief, the majority vote is meant to accomplish the task of mitigating potential counting errors in voting systems. In this project, I was meant to create a circuit that incorporated both a majority voting system and a presidential overrule in the event of a tied vote. In a real-world context, this circuit could be used in legislative branches such as the Senate. Since the Senate has 100 members, a tied vote would force the Vice President to vote on the issue as well, mimicking the designed circuit (albeit at a much larger scale). In practice, however, the circuit could be easily expanded to accommodate the larger voting body, highlighting one benefit of the design.
 

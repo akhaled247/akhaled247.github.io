@@ -10,8 +10,8 @@ carousels:
     - image: /assets/images/personal/medrock/medrock-example-device.jpg
     - image: /assets/images/personal/medrock/medtown-wiring-diagram.png
 ---
-{% include video id="s5PjXrNfZYA" provider="youtube" width="45vw" height="27vw" float="left" margin="10px 10px 0px 0px"%}
-{% include carousel.html width="40.5" height="27" unit="vw" duration="5" number="1" float="right" %}
+{% include video id="s5PjXrNfZYA" provider="youtube" width="49%" aspect_w="16" aspect_h="9" float="left" margin="10px 10px 0px 0px"%}
+{% include carousel.html width="40.5" height="27" unit="%" duration="5" number="1" float="right" %}
 {% include videotextbreak %}
 > It started with a problem that sounds small until you multiply it. At many pharmacies, compounds are still measured by hand. One dose, one powder, one scale at a time. It works, and it has worked for a long time. But do it thousands of times a day and it becomes a bottleneck that no amount of care can speed up...This summer ITKAN formed a partnership with FIRST in Texas and Medrock Pharmacy, and announced a program in which teams from across the state competed over three months for the best design to automate compound mixing. Five teams took on the same brief, three of them ITKAN's, and each had to find its own way through it. - <a href="https://www.itkan.one/news/meddots-medrock-internship" target="_blank">Itkan News</a>
 

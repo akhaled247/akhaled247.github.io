@@ -5,7 +5,7 @@ permalink: /pltw/motor-car/
 author_profile: false
 ---
 
-{% include video id="cKfBEh8HjYo" provider="youtube" width="27vw" height="48vw" float="left" margin="10px"%}
+{% include video id="cKfBEh8HjYo" provider="youtube" width="27%" aspect_w="9" aspect_h="16" float="left" margin="10px"%}
 <b>Objective</b>: Our design statement was to brainstorm, research, design, construct, and test a motorized toy car that teaches students different mechanisms in an engaging manner.
 
 <b>Learned Skills</b>: I learned how to work past struggles I faced while designing a product, collaborate with team members to generate effective solutions and seek help from others when needed.

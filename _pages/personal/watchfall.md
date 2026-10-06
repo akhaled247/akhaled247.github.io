@@ -15,5 +15,5 @@ One important thing that we learned was to control our scope. At the start of th
 
 {% include videotextbreak %}
 <h2 style="margin-top:0px">Watchfall Media</h2>
-{% include video id="ApubsGm-hd8" provider="youtube" width="27vw" height="48vw" float="left" margin="10px"%}
-{% include pdf path="/assets/images/personal/watchfall/watchfall-final-presentation.pdf" width="47%" height="34%" float="right" %}
+{% include video id="ApubsGm-hd8" provider="youtube" width="18%" aspect_w="9" aspect_h="16" float="left" margin="10px"%}
+{% include pdf path="/assets/images/personal/watchfall/watchfall-final-presentation.pdf" width="47%" height="32%" float="right" %}

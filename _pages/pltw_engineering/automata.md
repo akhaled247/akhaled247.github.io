@@ -5,7 +5,7 @@ permalink: /pltw/automata/
 author_profile: false
 ---
 
-{% include video id="JkfAjVTowDI" provider="youtube" width="48vw" height="27vw" float="left" margin="10px"%}
+{% include video id="JkfAjVTowDI" provider="youtube" width="48%" aspect_w="16" aspect_h="9" float="left" margin="10px"%}
 <b>Objective</b>: Our design statement was to design a toy that includes a mechanical system that will produce realistic motion of a figure(s) or object(s) resulting from the rotation of an axle. The motion results in the interaction or coordinated movement of at least two separate displayed objects.
 
 <b>Learned Skills</b>: I learned how to use tangent, parallel, coincident, and colinear constraints, how to use parameters to make variable models, use sketches in tandem with modification tools to create parts based on drawing files, create accurate screw models using the thread tool, change the location of balloons on a drawing file for greater visibility, use joints, tangent relationships, and joint relationships to simulate the real-life movement of a product, add descriptions to components for further details, create a product based on a theme, create custom colors to complement my theme and use rigid groups to maintain contact between different components within a larger assembly.

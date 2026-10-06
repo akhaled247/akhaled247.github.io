@@ -49,7 +49,7 @@ After I had set up all of the environments, I began testing different models: fi
 
 Once I solidified the effectiveness of these algorithms in simpler tasks, I transitioned to `MultiGoalSAR` tasks. Now that the tasks were actually long-horizon (before they were not since the agent always had the same goal, either entrapped or surface casaulties), I started to incorporated specification-guided RL in the form of GenZ-LTL, the model created by Zijian. Moreover, I chose not to include TRPO and TRPO-Lagrangian in my `MultiGoalSAR` comparison as GenZ-LTL itself is built on a modified PPO with Hamilton-Jacobi reachability constraints, so I wanted a more similar model as comparison. 
 
-{% include video id="IkegtaiXWZY" provider="youtube" width="30vh" height="30vh" float="left" margin="10px"%}
+{% include video id="IkegtaiXWZY" provider="youtube" width="30%" aspect_w="1" aspect_h="1" float="left" margin="10px"%}
 
 After evaluation, I found that GenZ-LTL significantly outperforms traditional models in both environments, though all models struggle in Level 1. GenZ-LTL also had higher successful mean episode length than PPO and, although GenZ-LTL has lower violation rate on Level 0, it had the highest violation rate on Level 1. I concluded that violation rate and mean episode success length are likely skewed for Level 1 due to highly infrequent successful episodes (especially from PPO and PPO Lagrangian).
 

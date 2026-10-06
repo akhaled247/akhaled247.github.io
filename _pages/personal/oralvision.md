@@ -28,7 +28,8 @@ carousels:
     - image: /assets/images/personal/oralvision/irlprototype.jpg
 ---
 {% include carousel.html width="44" height="33" unit="%" duration="10" number="1" float="left"%}
-{% include video id="lzHXL2q3vNI" provider="youtube" width="18vw" height="32vw" margin="0px"%}
+<img src="/assets/images/personal/oralvision/189741_64057644_06-26-2026_APP.FILE.REC_page-0001.jpg" style="width: 25.5%; height: auto; float:left; margin: 0px 20px 0px 10px;">
+{% include video id="lzHXL2q3vNI" provider="youtube" width="18.5625%" aspect_w="9" aspect_h="16" margin="0px" float="none"%}
 {% include videotextbreak %}
 <h2 style="margin-top:0px">The Problem</h2>
 OralVision began when we witnessed a jarring reality firsthand: while we live in a hub of economic prosperity and innovation, our neighbors in underprivileged areas like South Dallas were dying from preventable, late-stage oral cancers. 
@@ -63,6 +64,6 @@ In addition, we are in the process of obtaining a patent for our device. Current
 
 {% include videotextbreak %}
 <h3 style="margin-top:0px">Pitch Videos</h3>
-{% include video id="MfCu4gWxRUY" provider="youtube" width="32%" height="18%" float="left" margin="5px"%}
-{% include video id="-GlsvQLBDAg" provider="youtube" width="32%" height="18%" float="left" margin="5px"%}
-{% include video id="y4hZeqwWo9g" provider="youtube" width="32%" height="18%" float="left" margin="5px"%}
+{% include video id="MfCu4gWxRUY" provider="youtube" width="32%" aspect_w="16" aspect_h="9" float="left" margin="5px"%}
+{% include video id="-GlsvQLBDAg" provider="youtube" width="32%" aspect_w="16" aspect_h="9" float="left" margin="5px"%}
+{% include video id="y4hZeqwWo9g" provider="youtube" width="32%" aspect_w="16" aspect_h="9" float="left" margin="5px"%}
