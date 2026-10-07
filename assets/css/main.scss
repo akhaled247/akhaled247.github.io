@@ -329,3 +329,26 @@ $header-font-family: $serif;
     max-width: $max-width;
   }
 }
+
+/* ==========================================================================
+   Breadcrumbs on default-layout project pages
+   ========================================================================== */
+
+.page-breadcrumbs {
+  margin: 0 auto;
+  max-width: 100%;
+  padding-inline: 0;
+  width: 100%;
+
+  .breadcrumbs {
+    margin-inline: 0;
+    padding-inline: 0;
+
+    ol {
+      @include breakpoint($large) {
+        float: inline-start;
+        width: auto;
+      }
+    }
+  }
+}

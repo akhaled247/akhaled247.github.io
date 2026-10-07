@@ -153,11 +153,11 @@
         "position": 1,
         "name": "Home",
         "item": {{ '/' | absolute_url | jsonify }}
-      }{% assign position = 2 %}{% assign path = "" %}{% for crumb in crumbs offset: 1 %}{% unless crumb == "" %}{% assign path = path | append: "/" | append: crumb %}{% unless forloop.last %},
+      }{% assign position = 2 %}{% assign path = "" %}{% for crumb in crumbs offset: 1 %}{% unless crumb == "" %}{% assign path = path | append: "/" | append: crumb %}{% unless forloop.last %}{% assign crumb_url = path | append: "/" %}{% assign crumb_fallback = crumb | url_decode | replace: '-', ' ' | capitalize %}{% capture crumb_label %}{% include breadcrumb-crumb-label.html url=crumb_url fallback=crumb_fallback %}{% endcapture %}{% assign crumb_label = crumb_label | strip %},
       {
         "@type": "ListItem",
         "position": {{ position }},
-        "name": {{ crumb | url_decode | replace: '-', ' ' | capitalize | jsonify }},
+        "name": {{ crumb_label | jsonify }},
         "item": {{ path | absolute_url | append: "/" | jsonify }}
       }{% assign position = position | plus: 1 %}{% endunless %}      {% if forloop.last %},
       {

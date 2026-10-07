@@ -1,5 +1,5 @@
 ---
-title: "RISE - Benchmarking Reinforcement Learning Algorithms with Search and Rescue Tasks"
+title: "RISE - Benchmarking RL Algorithms with Search and Rescue Tasks"
 description: "Boston University electrical engineering research internship. Studied search and rescue, reinforcement learning, and specification-guided RL under Dr. Wenchao Li."
 permalink: /rise/
 author_profile: false

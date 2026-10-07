@@ -1,0 +1,14 @@
+{% comment %}
+  Resolve a breadcrumb segment label from site.pages (permalink match), else fallback.
+  Parameters:
+    url — page URL to match (e.g. /pltw/), must match page.url
+    fallback — label when no page is found
+{% endcomment %}
+{% assign breadcrumb_crumb_label = include.fallback %}
+{% for site_page in site.pages %}
+  {% if site_page.url == include.url %}
+    {% assign breadcrumb_crumb_label = site_page.title %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+{{ breadcrumb_crumb_label }}

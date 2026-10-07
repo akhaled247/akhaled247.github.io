@@ -16,6 +16,7 @@
   <ol itemscope itemtype="https://schema.org/BreadcrumbList">
     {% assign crumbs = page.url | split: '/' %}
     {% assign i = 1 %}
+    {% assign path_acc = '' %}
     {% for crumb in crumbs offset: 1 %}
       {% if forloop.first %}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
@@ -25,12 +26,23 @@
         </li>
         <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>
       {% endif %}
+      {% if crumb != '' %}
+        {% assign path_acc = path_acc | append: '/' | append: crumb %}
+      {% endif %}
       {% if forloop.last %}
         <li class="current"{% if page.locale %} lang="{{ page.locale }}"{% endif %}>{{ page.title }}</li>
-      {% else %}
+      {% elsif crumb != '' %}
         {% assign i = i | plus: 1 %}
+        {% assign crumb_url = path_acc | append: '/' %}
+        {% assign crumb_fallback = crumb | url_decode | replace: '-', ' ' | capitalize %}
+        {% capture crumb_label %}{% include breadcrumb-crumb-label.html url=crumb_url fallback=crumb_fallback %}{% endcapture %}
+        {% assign crumb_label = crumb_label | strip %}
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="{{ crumb | downcase | replace: '%20', '-' | prepend: path_type | prepend: crumb_path | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb | url_decode | replace: '-', ' ' | capitalize }}</span></a>
+          {% if page.collection != 'posts' %}
+            <a href="{{ crumb_url | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb_label }}</span></a>
+          {% else %}
+            <a href="{{ crumb | downcase | replace: '%20', '-' | prepend: path_type | prepend: crumb_path | relative_url }}" itemprop="item"><span itemprop="name">{{ crumb_label }}</span></a>
+          {% endif %}
           <meta itemprop="position" content="{{ i }}" />
         </li>
         <span class="sep">{{ site.data.ui-text[site.locale].breadcrumb_separator | default: "/" }}</span>

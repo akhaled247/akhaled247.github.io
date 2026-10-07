@@ -36,7 +36,7 @@ feature_row_projects:
   - image_path: /assets/images/first/33791-cycle.gif
     title: "DECODE - 2025-2026 FTC"
     excerpt: "The 2025-26 FTC Season, during which I competed with team 33791 Wolverine Robotics."
-    url: "/first/decode/"
+    url: "/robotics/decode/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     tags:
@@ -46,7 +46,7 @@ feature_row_projects:
   - image_path: /assets/images/first/9128-2025-cycle.gif
     title: "REEFSCAPE - 2025 FRC"
     excerpt: "The 2025 FRC Season, during which I competed with team 9128 ITKAN Robotics."
-    url: "/first/reefscape/"
+    url: "/robotics/reefscape/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     tags:
@@ -56,7 +56,7 @@ feature_row_projects:
   - image_path: /assets/images/first/21330-2025-cycle.gif
     title: "INTO THE DEEP - 2024-2025 FTC"
     excerpt: "The 2024-25 FTC Season, during which I competed with team 21330 ITKAN of Tomorrow."
-    url: "/first/into-the-deep/"
+    url: "/robotics/into-the-deep/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     tags:
@@ -66,7 +66,7 @@ feature_row_projects:
   - image_path: /assets/images/first/9752-2024-cycle.gif
     title: "CRESCENDO - 2024 FRC"
     excerpt: "The 2024 FRC Season, during which I competed with team 9752 ITKAN Robotics Jr."
-    url: "/first/crescendo/"
+    url: "/robotics/crescendo/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
     tags:

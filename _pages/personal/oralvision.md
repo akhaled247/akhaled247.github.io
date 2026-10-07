@@ -28,11 +28,11 @@ carousels:
     - image: /assets/images/personal/oralvision/irlprototype.jpg
 ---
 {% include carousel.html width="44" height="33" unit="%" duration="10" number="1" float="left"%}
-<img src="/assets/images/personal/oralvision/189741_64057644_06-26-2026_APP.FILE.REC_page-0001.jpg" style="width: 25.5%; height: auto; float:left; margin: 0px 20px 0px 10px;">
+{% include pdf path="/assets/images/personal/oralvision/CombinedPatentsSubmission.pdf" width="24%" height="33%" float="left" %}
 {% include video id="lzHXL2q3vNI" provider="youtube" width="18.5625%" aspect_w="9" aspect_h="16" margin="0px" float="none"%}
 {% include videotextbreak %}
 <h2 style="margin-top:0px">The Problem</h2>
-OralVision began when we witnessed a jarring reality firsthand: while we live in a hub of economic prosperity and innovation, our neighbors in underprivileged areas like South Dallas were dying from preventable, late-stage oral cancers. 
+OralVision (Patent Pending 19/783,525; Provisional Granted 64/057,644) began when we witnessed a jarring reality firsthand: while we live in a hub of economic prosperity and innovation, our neighbors in underprivileged areas like South Dallas were dying from preventable, late-stage oral cancers. 
 
 We realized that for millions worldwide, the barrier to survival isn't a lack of a cure, but a lack of proper diagnostics to lead to that cure. We developed OralVision to bridge this diagnostic gap, motivated by the challenge of integrating cutting-edge technologies such as federated learning and 3D printing to dismantle systemic healthcare inequities. 
 

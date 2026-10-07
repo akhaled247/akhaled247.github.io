@@ -1,7 +1,7 @@
 ---
-title: "2025 FRC Season"
+title: "REEFSCAPE 2025 FRC Season"
 description: "REEFSCAPE 2025 FRC season by Abdullah Khaled (akhaled247), Programming Lead for ITKAN Robotics Team 9128: motion profiling, triple-PID auto alignment, Texas State Playoffs."
-permalink: /first/reefscape/
+permalink: /robotics/reefscape/
 author_profile: false
 project_schema: true
 header:

@@ -29,12 +29,12 @@ Through my background in engineering both through academic courses and extracurr
 </div>
 <hr style="border: none; border-top: 1px solid #1082ac;">
 <div style="display: flex; align-items: flex-start; gap: 24px;">
-  <a href="/first/rebuilt/"><img src="/assets/images/first/itkan-frc-9128-cycle-4-3-crop.gif" alt="GIF of my team completing a cycle at the FIRST in Texas FRC State Championship" style="height:25vw; flex-shrink: 0;"></a>
+  <a href="/robotics/rebuilt/"><img src="/assets/images/first/itkan-frc-9128-cycle-4-3-crop.gif" alt="GIF of my team completing a cycle at the FIRST in Texas FRC State Championship" style="height:25vw; flex-shrink: 0;"></a>
   <div style="flex: 1;">
     <h3 style="margin: 0; padding; 0;">FIRST Robotics Competition: 2026 Season</h3>
     <br>
     The 2026 Season of FRC, REBUILT, consisted of three robots on one alliance scoring FUEL into a HUB during their respective shifts. During this season, my team had (in my opinion) the most impressive year in our history, ending as the Winner of both district events we competed in, Impact Award Winner of our second district event, Winner of the Texas State Championship, Semi-Finalist of World Championship Newton Division playoffs, and Division Engineering Inspiration Award winner! As Technical Advisor, I oversaw our software development on the robot. I guided other software members through creating and refining our subsystems while developing more complex functions including pose estimation, auto-align, and autonomous routines. By the end of the season, we (statistically) reached 19th in the world rankings and 4th most improved team since last year!
-    <br><a href="/first/rebuilt/" class="btn btn--inverse">Read More</a>
+    <br><a href="/robotics/rebuilt/" class="btn btn--inverse">Read More</a>
   </div>
 </div>
 <hr style="border: none; border-top: 1px solid #1082ac;">
@@ -43,6 +43,7 @@ Through my background in engineering both through academic courses and extracurr
   <div style="flex: 1;">
     <h3 style="margin: 0; padding; 0;">OralVision: Federated Machine Learning Intraoral Screening System</h3>
     <br>
+    <b>Patent Pending (USPTO 19/783,525; Provisional Granted 64/057,644)</b><br>
     Oral cavity cancers are highly treatable when caught early, but almost 70% of cases are diagnosed too late due to clinical uncertainty and a lack of accessible screening tools, leading to over 170,000 deaths annually. OralVision is an intraoral, deep-learning-based diagnostic device designed to change this unfortunate reality. By integrating noninvasive imaging with advanced artificial intelligence, OralVision could provide physicians with highly accurate diagnostic insights, allowing for earlier clinical referrals and therapeutic intervention. Moreover, with its use of inexpensive yet powerful components, we can mass produce and distribute OralVision at a much lower marginal cost than existing solutions, contributing to improved 5-year survival rates, especially in marginalized low-income communities. OralVision has received multiple awards, including <a href="https://mcferrin.tamu.edu/program/texas-high-school-ideas-challenge/#finalists" target="_blank">Texas High School Ideas Finalist</a>!
     <br><a href="/oralvision/" class="btn btn--inverse">Read More</a>
   </div>

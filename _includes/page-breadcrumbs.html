@@ -1,0 +1,9 @@
+{% comment %}
+  Breadcrumbs for pages that use the default layout (raw content, no single/archive wrapper).
+  Set `breadcrumbs: true` in page front matter (see _config.yml defaults for _pages/personal).
+{% endcomment %}
+{% unless page.url == "/" or page.breadcrumbs != true %}
+  <div class="page-breadcrumbs">
+    {% include breadcrumbs.html %}
+  </div>
+{% endunless %}
