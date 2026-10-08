@@ -4,6 +4,9 @@ description: "WatchFall by Abdullah Khaled (akhaled247): An affordable fall-dete
 permalink: /pltw/watchfall/
 author_profile: false
 project_schema: true
+redirect_from:
+    - /watchfall/
+    - /watchfall
 ---
 {% include pdf path="/assets/images/personal/watchfall/watchfall-tech-drawing.pdf" width="47%" height="34%" float="left" %}
 

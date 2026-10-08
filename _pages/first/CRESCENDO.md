@@ -2,6 +2,9 @@
 title: "CRESCENDO 2024 FRC Season"
 description: "CRESCENDO 2024 FRC season by Abdullah Khaled (akhaled247): swerve drive programming, motion profiling, AprilTag vision, and autonomous pathing for Team 9752."
 permalink: /robotics/crescendo/
+redirect_from:
+    - /first/crescendo
+    - /first/crescendo/
 author_profile: false
 project_schema: true
 ---

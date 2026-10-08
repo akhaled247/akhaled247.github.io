@@ -2,6 +2,9 @@
 title: "DECODE 2025-26 FTC Season"
 description: "DECODE 2025-26 FTC season by Abdullah Khaled (akhaled247): Software Mentor for FTC 33791. Limelight vision, Bezier pathing, Kalman filter, UIL State 3rd."
 permalink: /robotics/decode/
+redirect_from:
+    - /first/decode
+    - /first/decode/
 author_profile: false
 project_schema: true
 ---

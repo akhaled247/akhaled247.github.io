@@ -2,6 +2,9 @@
 title: "REBUILT 2026 FRC Season"
 description: "REBUILT 2026 FRC season by Abdullah Khaled (akhaled247): autonomous pathing, auto-align, automated driver-controls for Team 9128."
 permalink: /robotics/rebuilt/
+redirect_from:
+    - /first/rebuilt
+    - /first/rebuilt/
 author_profile: false
 project_schema: true
 carousels:
